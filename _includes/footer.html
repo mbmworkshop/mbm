@@ -43,7 +43,9 @@ $(document).ready(function () {
         data: $form.serializeArray()
       })
       .done(function() {
-        alert("Success!");
+        $('#submit-form').attr("disabled", true);
+        $('#reg-output').text("Registration successfully submitted");
+        $('#reg-output').addClass("text-success")
       })
       .fail(function(jqXHR, textStatus, errorThrown) {
         alert("Error: " + textStatus);

@@ -2,27 +2,44 @@
   <div class="col">
     <h1 id="registration">Registration</h1>
     <form id="reg-form">
-      <div class="form-group">
-        <label for="regInputName">Name</label>
-        <input type="text" class="form-control" name="regInputName" placeholder="First name + last name">
+      <div class="form-row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="regInputName">Name</label>
+            <input type="text" class="form-control" name="regInputName" placeholder="First name + last name">
+          </div>
+          <div class="form-group">
+            <label for="regInputEmail">E-mail</label>
+            <input type="email" class="form-control" name="regInputEmail" placeholder="E-mail address">
+          </div>
+          <div class="form-group">
+            <label for="regInputUniversity">University/Institution</label>
+            <input type="text" class="form-control" name="regInputUniversity" placeholder="Name and city">
+          </div>
+          <div class="form-group">
+            <label for="regInputAllergies">Food allergies or dietary restrictions</label>
+            <input type="text" class="form-control" name="regInputAllergies" placeholder="Possible allergies or dietary restrictions">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="regInputAbstract">Abstract (max. 250 words)</label>
+            <textarea class="form-control" name="regInputAbstract" rows="15" placeholder="Write abstract here."></textarea>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="regInputGPDR">
+                <label class="form-check-label" for="regInputGPDR">I hereby give my consent that the information provided above is stored for the purposes of organizing this workshop.</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2" id="submit-form">Submit</button>
+            <p id="reg-output"></p>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="regInputEmail">E-mail</label>
-        <input type="email" class="form-control" name="regInputEmail" placeholder="E-mail address">
-      </div>
-      <div class="form-group">
-        <label for="regInputUniversity">University/Institution</label>
-        <input type="text" class="form-control" name="regInputUniversity" placeholder="Name and city">
-      </div>
-      <div class="form-group">
-        <label for="regInputAllergies">Food allergies or dietary restrictions</label>
-        <input type="text" class="form-control" name="regInputAllergies" placeholder="Possible allergies or dietary restrictions">
-      </div>
-      <div class="form-group">
-        <label for="regInputAbstract">Abstract (max. 250 words)</label>
-        <textarea class="form-control" name="regInputAbstract" rows="10" placeholder="Write abstract here."></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary mb-2" id="submit-form">Submit</button>
     </form>
   </div>
 </div>
