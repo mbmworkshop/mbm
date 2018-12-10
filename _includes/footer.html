@@ -31,11 +31,19 @@
 <!-- Code for script submission -->
 <script>
 $(document).ready(function () {
+  // Deal with sending the form
   var $form = $('form#reg-form');
   var url = 'https://script.google.com/macros/s/AKfycbyHUwVx6sVfU3esvoYhjEvYXXL33LeqFOL17QcRBx3ps2S5zSA/exec';
   
   $('#submit-form').on('click', function(e) {
     e.preventDefault();
+
+    // Do input checking before sending
+    if ($form.checkValidity() === false) {
+      e.stopPropagation();
+    }
+    $form.addClass("was-validated");
+
     var jqxhr = $.ajax({
         url: url,
         method: "GET",
