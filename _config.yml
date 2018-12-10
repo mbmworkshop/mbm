@@ -17,7 +17,7 @@ title:
 email:
 author:
 description:
-baseurl: https://cyianor.github.com/mbm
+url: https://cyianor.github.io/mbm
 
 # Build settings
 markdown: kramdown
