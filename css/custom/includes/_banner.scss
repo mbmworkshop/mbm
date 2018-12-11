@@ -1,6 +1,8 @@
 #banner {
 	position: relative;
-	background: url('../img/banner.jpeg');
+	background: url('../img/banner.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 	min-height: 200px;
 
 	.primary-overlay {
