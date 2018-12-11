@@ -21,14 +21,22 @@
             <input type="text" class="form-control" name="regInputAllergies" id="regInputAllergies" placeholder="Possible allergies or dietary restrictions">
           </div>
           <div class="form-group">
-            <label for="regInputComment">Other comment</label>
+            <label for="regInputComment">Other comment (optional)</label>
             <input type="text" class="form-control" name="regInputComment" id="regInputComment" placeholder="Comment, remark, ...">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
+            <label for="regInputPresentationForm">Type of participation</label>
+            <select class="form-control" name="regInputPresentationForm" id="regInputPresentationForm">
+              <option>Talk</option>
+              <option>Poster</option>
+              <option>Observer</option>
+            </select>
+          </div>
+          <div class="form-group">
             <label for="regInputAbstract">Abstract (max. 250 words)</label>
-            <textarea class="form-control" name="regInputAbstract" id="regInputAbstract" rows="16" placeholder="Write abstract here."></textarea>
+            <textarea class="form-control" name="regInputAbstract" id="regInputAbstract" rows="14" placeholder="Write abstract here."></textarea>
           </div>
         </div>
         <div class="form-row">
