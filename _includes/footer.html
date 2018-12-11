@@ -35,11 +35,11 @@ $(document).ready(function () {
   $('#submit-form').on('click', function(e) {
     e.preventDefault();
 
-    // Do input checking before sending
-    if ($form.checkValidity() === false) {
-      e.stopPropagation();
-    }
-    $form.addClass("was-validated");
+    // // Do input checking before sending
+    // if ($form.checkValidity() === false) {
+    //   e.stopPropagation();
+    // }
+    // $form.addClass("was-validated");
 
     var jqxhr = $.ajax({
         url: url,
