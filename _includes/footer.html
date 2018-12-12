@@ -32,29 +32,81 @@ $(document).ready(function () {
   var $form = $('form#reg-form');
   var url = 'https://script.google.com/macros/s/AKfycbyHUwVx6sVfU3esvoYhjEvYXXL33LeqFOL17QcRBx3ps2S5zSA/exec';
   
+  // Observers should not submit an abstract
+  $('input[type=radio][name=regInputPresentationForm]').change(function() {
+    if (this.value == 'Observer') {
+      $('#regInputAbstract').attr('disabled', true);
+    } else {
+      $('#regInputAbstract').attr('disabled', false);
+    }
+  });
+
+  $('#regInputAbstract').bind('input propertychange', function() {
+    var word_count = 0;
+    if (this.value.length) {
+      var word_count = $('#regInputAbstract').val().split(/\s+/).length;
+    }
+    $('#regInputAbstractWordCount').text("Word count: " + word_count);
+
+    if (word_count > 0 && word_count < 251) {
+      this.setCustomValidity('');
+      $form[0].checkValidity();
+    } else {
+      if (word_count == 0) {
+        this.setCustomValidity('Abstract needs to be provided');
+        $form[0].checkValidity();
+      } else {
+        this.setCustomValidity('Abstract is too long');
+        $form[0].checkValidity();
+      }
+    }
+  });
+
   $('#submit-form').on('click', function(e) {
     e.preventDefault();
 
-    // // Do input checking before sending
-    // if ($form.checkValidity() === false) {
-    //   e.stopPropagation();
-    // }
-    // $form.addClass("was-validated");
+    $form.addClass("was-validated");
+    // Special checking for field abstract
+    if ($('#regInputTalk').is(':checked') || 
+        $('#regInputPoster').is(':checked')) {
+      $('#regInputAbstract').attr("required", true);
 
-    var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: $form.serializeArray()
-      })
-      .done(function() {
-        $('#submit-form').attr("disabled", true);
-        $('#reg-output').text("Registration successfully submitted");
-        $('#reg-output').addClass("text-success")
-      })
-      .fail(function(jqXHR, textStatus, errorThrown) {
-        alert("Error: " + textStatus);
-      });
+      var word_count = $('#regInputAbstract').val().split(/\s+/).length;
+      if (word_count == 0) {
+        // Empy abstract
+        $('#regInputAbstract')[0].setCustomValidity('Abstract needs to be provided.');
+        $('#regInputAbstractInvalidFeedback').text('Abstract needs to be provided.');
+      }
+      if (word_count <= 300) {
+        $('#regInputAbstract')[0].setCustomValidity('');
+      } else {
+        $('#regInputAbstract')[0].setCustomValidity(
+          'Abstract too long');
+        $('#regInputAbstractInvalidFeedback').text(
+          'Abstract too long');
+      }
+    } else {
+      $('#regInputAbstract').attr('required', false);
+    }
+    // Do input checking before sending
+    if ($form[0].checkValidity() === false) {
+      e.stopPropagation();
+    } else {
+      var jqxhr = $.ajax({
+          url: url,
+          method: 'GET',
+          dataType: 'json',
+          data: $form.serializeArray()
+        })
+        .done(function() {
+          $('#submit-form').attr('disabled', true);
+          $('#reg-output').text('Registration successfully submitted');
+          $('#reg-output').addClass('text-success')
+        })
+        .fail(function(jqXHR, textStatus, errorThrown) {
+          alert('Error: ' + textStatus);
+        });
+    }
   });
 });
 </script>
