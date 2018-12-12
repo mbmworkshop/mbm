@@ -71,7 +71,10 @@ $(document).ready(function () {
         $('#regInputPoster').is(':checked')) {
       $('#regInputAbstract').attr("required", true);
 
-      var word_count = $('#regInputAbstract').val().split(/\s+/).length;
+      var word_count = 0;
+      if ($('#regInputAbstract')[0].value.length) {
+        $('#regInputAbstract').val().split(/\s+/).length;
+      }
       if (word_count == 0) {
         // Empy abstract
         $('#regInputAbstract')[0].setCustomValidity('Abstract needs to be provided.');
