@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title:
-email: felix.held@chalmers.se
+email: mbmworkshop2018@gmail.com
 author:
 description:
 url: https://mbmworkshop.github.io/mbm
