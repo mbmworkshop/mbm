@@ -23,8 +23,9 @@
       <dt>Additional information</dt>
       <dd>
         <ul>
-          <li>PhD students will be able to receive 1.5 credits from the University of Gothenburg when presenting a poster or holding a talk.</li>
+          <li>PhD students will be able to receive <strong>1.5 credits</strong> from the University of Gothenburg when presenting a poster or holding a talk.</li>
           <li>Shortly after the deadline all participants get a confirmation of registration, including a notification if selected for a talk or poster.</li>
+          <li>Depending on the number of registered participants, we want to reserve the right to limit dinner participation to presenters, observing PhD students and PostDocs as well as fee-paying participants. <strong>However</strong>, feel free to sign up for the dinner even if you are not part of this group. We will let you know if there is enough space.</li>
         </ul>   
       </dd>
     </dl>
@@ -56,7 +57,20 @@
               <option value="postdoc">PostDoc</option>
               <option value="senior-academic">Senior Academic</option>
               <option value="non-academic">Non-academic</option>
+              <option value="other">Other...</option>
             </select>
+            <input type="text" class="form-control" name="regInputParticipantTypeOther" id="regInputParticipantTypeOther" placeholder="Specify" style="display: none;">
+          </div>
+          <legend class="col-form-label pt-0">I want to participate at the dinner</legend>
+          <div class="form-group">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="regInputDinner" id="regInputYes" value="Yes" required checked>
+              <label class="form-check-label" for="regInputYes">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="regInputDinner" id="regInputNo" value="No" required>
+              <label class="form-check-label" for="regInputNo">No</label>
+            </div>
           </div>
           <div class="form-group">
             <label for="regInputAllergies">Food allergies or dietary restrictions (optional)</label>

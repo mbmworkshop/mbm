@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col">
         <div class="float-sm-left">
-          Copyright by The Organizers &copy; {{ site.time | date: '%Y' }}<br>
+          Copyright by The Organizers &copy; 2018&ndash;{{ site.time | date: '%Y' }}<br>
           Gothenburg, Sweden
         </div>
         <div class="float-sm-right text-center">
@@ -62,6 +62,16 @@ $(document).ready(function () {
     }
   });
 
+  // If participant type is 'other' then they should specify
+  // what they do
+  $('select[name=regInputParticipantType]').change(function() {
+    if (this.value == 'other') {
+      $('#regInputParticipantTypeOther')[0].style.display = 'block';
+    } else {
+      $('#regInputParticipantTypeOther')[0].style.display = 'none';
+    }
+  })
+
   $('#submit-form').on('click', function(e) {
     e.preventDefault();
 
@@ -91,6 +101,15 @@ $(document).ready(function () {
     } else {
       $('#regInputAbstract').attr('required', false);
     }
+
+    // Activate checking of participant type 'other' text field
+    // if participant type is 'other'
+    if ($('#regInputParticipantType')[0].value == 'other') {
+      $('#regInputParticipantTypeOther').attr('required', true);
+    } else {
+      $('#regInputParticipantTypeOther').attr('required', false);
+    }
+
     // Do input checking before sending
     if ($form[0].checkValidity() === false) {
       e.stopPropagation();
