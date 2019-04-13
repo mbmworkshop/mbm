@@ -31,7 +31,7 @@ $(document).ready(function () {
   // Deal with sending the form
   var $form = $('form#reg-form');
   var url = 'https://script.google.com/macros/s/AKfycbyHUwVx6sVfU3esvoYhjEvYXXL33LeqFOL17QcRBx3ps2S5zSA/exec';
-  
+
   // Observers should not submit an abstract
   $('input[type=radio][name=regInputPresentationForm]').change(function() {
     if (this.value == 'Observer') {
@@ -77,7 +77,7 @@ $(document).ready(function () {
 
     $form.addClass("was-validated");
     // Special checking for field abstract
-    if ($('#regInputTalk').is(':checked') || 
+    if ($('#regInputTalk').is(':checked') ||
         $('#regInputPoster').is(':checked')) {
       $('#regInputAbstract').attr("required", true);
 
