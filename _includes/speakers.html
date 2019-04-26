@@ -456,6 +456,26 @@
         </table>
       </div>
     </div>
+    <div class="row py-3">
+      <div class="col">
+        <h3>Iván Domenzain</h3>
+        <p class="text-muted">
+          Chalmers University of Technology
+        </p>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th scope="row" style="border: none;">Abstract</th>
+              <td style="border: none;">
+                Recently, a constraint-based method for modelling metabolism that incorporates genome-scale protein abundance measurements and kinetic parameters, as maximum capacity constraints, (GECKO) has been developed. It has been successfully applied for predicting overflow metabolism and stress responses on Saccharomyces cerevisiae cells. Although the method was conceived in a general way, its main limitations are the heterogeneity on the availability of kinetic data for different organisms and the intrinsic high variability on absolute proteomics datasets.
+                Here I present an extended and generalized version of the GECKO toolbox. The algorithm is able to generate enzyme constrained models (ecModels) with high parameters coverage, even for poorly studied organisms, based on phylogenetic distance criteria. For improving the predictive power of the models, an iterative and data-based parameter curation procedure has been integrated into the model construction algorithm. The toolbox requires minimal human interaction and provides high-quality models, calibrated with experimental data and ready for simulations.
+                As case studies, the pipeline has been tested on 4 different microbial organisms (3 yeast species and E. coli), yielding feasible models with high flux variability reduction due to the incorporated additional constraints. Moreover, the pipeline has been extended and adapted for the generation of ecModels for specific human cell-lines or tissues, this has allowed a detailed exploration of the metabolic network of 11 different cancer cell-lines, yielding numerical predictions that reasonably agree with experimentally measured growth rates and metabolites exchange fluxes, all of this with a minimal amount of constraints compared to classical genome-scale metabolic modeling.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </div>
 <hr>
@@ -607,7 +627,7 @@
               <th scope="row" style="border: none;">Abstract</th>
               <td style="border: none;">
                 Over the last 5 years our group have developed a detailed mechanistic model, which can explain the core mechanisms involved in insulin signaling from insulin stimuli to glucose uptake. However, the model in its current state is only able to explain 10 proteins, with up to a maximum of 2 phosphorylations per protein.
-                We are developing a new method where small-scale mechanistic models, such as the described insulin model, can be scaled to omics-sized models without losing the mechanistic properties. This scaling can be achieved by using high-throughput data in combination with established prior knowledge in order to expand the “core model” in an iterative fashion. In detail, the core-model is expanded in an iterative fashion by using the core-model as input and attempting to add as many proteins as possible (with constrains on how well the model must explain the data) using a list of possible interactions from prior knowledge. These newly added proteins are then used as new potential inputs for the next iteration. This process is repeated until no more proteins can be added.
+                We are developing a new method where small-scale mechanistic models, such as the described insulin model, can be scaled to omics-sized models without losing the mechanistic properties. This scaling can be achieved by using high-throughput data in combination with established prior knowledge in order to expand the "core model" in an iterative fashion. In detail, the core-model is expanded in an iterative fashion by using the core-model as input and attempting to add as many proteins as possible (with constrains on how well the model must explain the data) using a list of possible interactions from prior knowledge. These newly added proteins are then used as new potential inputs for the next iteration. This process is repeated until no more proteins can be added.
                 In the end we have an omics-scale mechanistic model, which is in agreement with data and prior-knowledge. This model can then e.g. be used for finding new drug targets or to study the behavior of phosphoprotein levels in high-resolution.
               </td>
             </tr>
