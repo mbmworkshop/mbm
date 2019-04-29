@@ -11,7 +11,9 @@
     <dl>
       <dt>Registration deadline</dt>
       <dd>
-        <strong>Prolonged:</strong> Until <del>5th April 2019</del> <strong>25th April 2019</strong>.
+        Registration is still possible for additional observers.<br>
+        <del>
+        <strong>Prolonged:</strong> Until <del>5th April 2019</del> <strong>25th April 2019</strong>.</del>
         <br>
         Participants/presenters will be continuously contacted as soon as
         possible after registration.
@@ -90,21 +92,21 @@
           <legend class="col-form-label pt-0">Type of participation</legend>
           <div class="form-group">
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="regInputPresentationForm" id="regInputTalk" value="Talk" required checked>
+              <input class="form-check-input" type="radio" name="regInputPresentationForm" id="regInputTalk" value="Talk" required disabled>
               <label class="form-check-label" for="regInputTalk">Talk</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="regInputPresentationForm" id="regInputPoster" value="Poster" required>
+              <input class="form-check-input" type="radio" name="regInputPresentationForm" id="regInputPoster" value="Poster" required disabled>
               <label class="form-check-label" for="regInputPoster">Poster</label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="regInputPresentationForm" id="regInputObserver" value="Observer" required>
+              <input class="form-check-input" type="radio" name="regInputPresentationForm" id="regInputObserver" value="Observer" required checked>
               <label class="form-check-label" for="regInputObserver">Observer</label>
             </div>
           </div>
           <div class="form-group">
             <label for="regInputAbstract">Abstract (max. 250 words; fill in for talk or poster)</label>
-            <textarea class="form-control" name="regInputAbstract" id="regInputAbstract" rows="14" placeholder="Write abstract here."></textarea>
+            <textarea class="form-control" name="regInputAbstract" id="regInputAbstract" rows="14" placeholder="Write abstract here." disabled></textarea>
             <small id="regInputAbstractWordCount" class="form-text text-muted">Word count: 0</small>
             <div class="invalid-feedback" id="regInputAbstractInvalidFeedback"></div>
           </div>
