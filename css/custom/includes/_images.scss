@@ -11,3 +11,17 @@
 		width: 100%;
 	}
 }
+
+.img-sponsor {
+	max-width: 220px;
+	max-height: 1000px;
+	padding: 50px 0;
+}
+
+@include media-breakpoint-up(sm) {
+	.img-sponsor {
+		max-height: 200px;
+		max-width: 1000px;
+		padding: 0 0;
+	}
+}
