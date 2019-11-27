@@ -8,7 +8,41 @@ permalink: /
       <title>{{ site.data.properties.title }}</title>
       <link rel="stylesheet" href="{{ site.data.manifest['mbm.css'] }}">
   </head>
-  <body>
-      <h1 style=""></h1>
+  <body class="bg-gray-100 font-sans">
+    <nav class="bg-mbm-green p-6 fixed w-full z-10 top-0">
+      <div class="container mx-auto flex items-center justify-between flex-wrap ">
+        <div class="flex items-center flex-shrink-0 text-white font-extrabold mr-6">
+          <a class="text-white no-underline hover:text-white  
+                    hover:no-underline" 
+            href="{{ site.url }}/">
+            <span class="text-3xl pl-2 tracking-tight">MBM 2020</h3>
+          </a>
+        </div>
+        <div class="block md:hidden">
+            <button class="flex items-center px-3 py-2 border rounded text-mbm-green-light border-mbm-green-light hover:text-white hover:border-white">
+              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow md:flex md:items-center md:w-auto">
+          <div class="text-md md:flex-grow">
+              <a href="{{ site.url }}/#" class="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white mr-4">Workshop</a>
+              <a href="{{ site.url }}/#" class="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white mr-4">Presenters</a>
+              <a href="{{ site.url }}/#" class="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white mr-4">Location</a>
+              <a href="{{ site.url }}/#" class="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white mr-4">Program</a>
+              <a href="{{ site.url }}/#" class="block mt-4 md:inline-block md:mt-0 text-gray-300 hover:text-white">Registration</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mx-auto mt-32 md:mt-32 h-screen flex flex-wrap items-center">
+      <div class="w-full md:w-1/2">
+        <p class="font-bold text-4xl my-5">Workshop on Modelling in Biology and Medicine</p>
+        <p class="text-lg font-light">Bringing together young researchers in Sweden working on the border of mathematics, biology and medicine.</p>
+      </div>
+      <div class="w-1/2 hidden md:inline-flex">
+        <img src="{{ '/img/logo.png' | relative_url }}" alt="MBM Workshop Logo">
+      </div>
+    </div>
   </body>
 </html>
