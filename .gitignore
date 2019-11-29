@@ -4,3 +4,5 @@ _site
 fontawesome.txt
 Gemfile.lock
 .DS_Store
+node_modules
+presentations

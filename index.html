@@ -1,18 +1,23 @@
 ---
-layout: default
+permalink: /
+layout: mbm2020
 ---
 
-<div class="container" style="max-width: 970px">
-  <div class="row pt-4">
-    <div class="col">
-      <p class="lead">
-        We want to bring together young researchers in Sweden working on the border of math, biology, and medicine.
-      </p>
+<div class="container mx-auto mt-32 flex flex-wrap items-center px-4">
+  <div class="flex w-full mb-16">
+    <div class="flex flex-col w-full text-center lg:text-left lg:w-1/2">
+      <p class="font-bold text-4xl md:text-5xl mb-5">Workshop on Modelling in Biology and Medicine</p>
+      <p class="text-lg md:text-xl font-light">Bringing together young researchers in Sweden working on the border of mathematics, biology and medicine.</p>
     </div>
   </div>
-  {% include workshop.html %}
-  {% include speakers.html %}
-  {% include program.html %}
-  {% include location.html %}
-  {% include registration.html %}
+  <div class="flex w-full mb-24 justify-end">
+    <div class="flex flex-col w-full text-center lg:text-left lg:w-3/5 xl:w-1/2 lg:pl-16 xl:pl-24">
+      <p class="text-4xl md:text-5xl font-bold mb-5">Next workshop:</p>
+      <p class="text-4xl md:text-5xl font-bold">14 and 15th May 2020</p>
+      <p class="text-4xl md:text-5xl font-bold">in Gothenburg</p>
+    </div>
+  </div>
+  <div class="flex w-full">
+    <p class="text-lg md:text-xl font-light">See the website of <a href="{{ site.url }}/mbm2019" class="font-bold text-mbm-green hover:text-mbm-green-light">MBM 2019</a> for an impression of what to expect. More information coming soon.</p>
+  </div>
 </div>

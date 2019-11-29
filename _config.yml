@@ -21,23 +21,21 @@ url: https://mbmworkshop.github.io/mbm
 
 # Build settings
 markdown: kramdown
+theme:
 
 permalink: :title/
 sass:
   sass_dir: css
 
-show_social_icons: true
-github_username: someGithubUser
-twitter_username: someTwitterUser
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - "*.config.js"
+   - "package*.json"
+   - "_assets"
+   - "presentations"
+   - "README.md"
