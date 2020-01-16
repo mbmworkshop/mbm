@@ -1,4 +1,4 @@
-<nav class="bg-mbm-green p-6 fixed w-full z-10 top-0">
+<nav class="bg-mbm-green p-6 fixed w-full z-10 top-0" id="nav-overall">
   <div class="container mx-auto flex items-center justify-between flex-wrap ">
     <div class="flex items-center flex-shrink-0 mr-6">
       <a class="text-white no-underline hover:text-white
@@ -21,15 +21,18 @@
         </svg>
       </button>
     </div>
-    <div class="w-full hidden flex-grow md:flex md:items-center md:w-auto"
+    <div class="w-full flex-grow overflow-hidden h-0
+                md:h-auto md:overflow-auto md:flex md:items-center md:w-auto"
          id="nav-collapsable">
       <div class="text-lg md:flex-grow">
-        <a href="{{ site.url }}/#" class="nav-item mr-4">Workshop</a>
-        <a href="{{ site.url }}/#" class="nav-item mr-4">Presenters</a>
-        <a href="{{ site.url }}/#" class="nav-item mr-4">Location</a>
-        <a href="{{ site.url }}/#" class="nav-item mr-4">Program</a>
-        <a href="{{ site.url }}/#" class="nav-item">Registration</a>
+        <a href="{{ site.url }}/#news" class="nav-item mr-4">News</a>
+        <a href="{{ site.url }}/#presenters" class="nav-item mr-4">Presenters</a>
+        <a href="{{ site.url }}/#program" class="nav-item mr-4">Program</a>
+        <a href="{{ site.url }}/#location" class="nav-item mr-4">Location</a>
+        <a href="{{ site.url }}/#registration" class="nav-item">Registration</a>
       </div>
     </div>
   </div>
 </nav>
+
+<!-- <div id="nav-filler"></div> -->

@@ -11,20 +11,18 @@ ready(() => {
 
 	md_media.addEventListener('change', (e) => {
 		var nav_items = document.querySelector('#nav-collapsable');
-		if (nav_items.classList.contains('block')) {
-			nav_items.classList.remove('block');
+		if (nav_items.classList.contains('h-auto')) {
+			nav_items.classList.remove('h-auto');
 		}
-		nav_items.classList.add('hidden');
+		nav_items.classList.add('h-0');
 	});
+
+	// var nav = document.querySelector('#nav-overall');
+	// nav.getBoundingClientRect().height
 })
 
 function toggleNav() {
 	var nav_items = document.querySelector('#nav-collapsable');
-	if (nav_items.classList.contains('hidden')) {
-		nav_items.classList.remove('hidden');
-		nav_items.classList.add('block');
-	} else {
-		nav_items.classList.remove('block');
-		nav_items.classList.add('hidden');
-	}
+	nav_items.classList.toggle('h-0');
+	nav_items.classList.toggle('h-auto');
 }
