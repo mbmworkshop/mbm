@@ -1,0 +1,113 @@
+---
+permalink: /registration
+layout: mbm2020
+---
+
+<div class="container mx-auto mt-32 flex flex-wrap items-center px-4">
+  <section class="flex flex-col w-full mb-12">
+    <h1 class="text-4xl md:text-5xl font-bold mb-5">
+      Registration
+    </h1>
+
+    <div class="flex flex-col w-full items-center">
+      <form id="reg-form" class="flex" novalidate>
+        <div class="flex flex-col max-w-screen-md rounded text-gray-900 py-4 justify-center">
+          <div class="form-group" id="regInputFirstNameGroup">
+            <label for="regInputFirstName" class="form-label">First Name</label>
+            <input type="text" class="form-input" name="regInputFirstName" id="regInputFirstName" placeholder="First name" required>
+          </div>
+          <div class="form-group">
+            <label for="regInputLastName" class="form-label">Last Name</label>
+            <input type="text" class="form-input" name="regInputLastName" id="regInputLastName" placeholder="Last name" required>
+          </div>
+          <div class="form-group">
+            <label for="regInputEmail" class="form-label">E-mail</label>
+            <input type="email" class="form-input" name="regInputEmail" id="regInputEmail" placeholder="E-mail address" required>
+          </div>
+          <div class="form-group">
+            <label for="regInputUniversity" class="form-label">University/Institution</label>
+            <input type="text" class="form-input" name="regInputUniversity" id="regInputUniversity" placeholder="Name + city" required>
+          </div>
+          <div class="form-group">
+            <label for="regInputParticipantType" class="form-label">I am a...</label>
+            <select class="form-select w-56" name="regInputParticipantType" id="regInputParticipantType" required>
+              <option disabled selected value> -- Select an option -- </option>
+              <option value="phd-student">PhD Student</option>
+              <option value="postdoc">PostDoc</option>
+              <option value="senior-academic">Senior Academic</option>
+              <option value="non-academic">Non-academic</option>
+              <option value="other">Other...</option>
+            </select>
+            <input type="text" class="hidden form-input mt-1" name="regInputParticipantTypeOther" id="regInputParticipantTypeOther" placeholder="Specify">
+          </div>
+          <div class="form-group">
+            <legend for="regInputDinner" class="form-label">I want to participate at the dinner <span class="font-bold" style="color: red;">(300 SEK)</span></legend>
+            <div class="flex flex-row justify-center px-4 mb-2">
+              <div class="flex flex-row items-center px-8">
+                <input class="mr-2 leading-tight" type="radio" name="regInputDinner" id="regInputYes" value="Yes" required checked>
+                <label for="regInputYes">Yes</label>
+              </div>
+              <div class="flex flex-row items-center px-8">
+                <input class="mr-2 leading-tight" type="radio" name="regInputDinner" id="regInputNo" value="No" required>
+                <label for="regInputNo">No</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="regInputAllergies" class="form-label">Food allergies or dietary restrictions (optional)</label>
+            <input type="text" class="placeholder-gray-500 form-input" name="regInputAllergies" id="regInputAllergies" placeholder="Possible allergies or dietary restrictions">
+          </div>
+          <div class="form-group">
+            <label for="regInputComment" class="form-label">Other comment (optional)</label>
+            <input type="text" class="placeholder-gray-500 form-input" name="regInputComment" id="regInputComment" placeholder="Comment, remark, ...">
+          </div>
+          <div class="form-group">
+            <legend class="form-label">Type of participation</legend>
+            <div class="mb-2">
+              <div class="flex flex-row items-center px-8">
+                <input class="mr-2 leading-tight" type="radio" name="regInputPresentationForm" id="regInputTalk" value="Talk" required checked>
+                <label for="regInputTalk">Talk</label>
+              </div>
+              <div class="flex flex-row items-center px-8">
+                <input class="mr-2 leading-tight" type="radio" name="regInputPresentationForm" id="regInputPoster" value="Poster" required>
+                <label for="regInputPoster">Poster</label>
+              </div>
+              <div class="flex flex-row items-center px-8">
+                <input class="mr-2 leading-tight" type="radio" name="regInputPresentationForm" id="regInputObserver" value="Observer" required>
+                <label for="regInputObserver">Observer</label>
+              </div>
+            </div>
+          </div>
+          <div id="regInputTitleGroup" class="form-group">
+            <label for="regInputTitle" class="form-label">Title</label>
+            <input type="text" class="placeholder-gray-500 form-input" name="regInputTitle" id="regInputTitle" placeholder="Title" required>
+          </div>
+          <div id="regInputAuthorsGroup" class="form-group">
+            <label for="regInputAuthors" class="form-label">Author(s)</label>
+            <input type="text" class="placeholder-gray-500 form-input" name="regInputAuthors" id="regInputAuthors" placeholder="Author(s)" required>
+          </div>
+          <div id="regInputAffiliationsGroup" class="form-group">
+            <label for="regInputAffiliations" class="form-label">Affiliation(s)</label>
+            <input type="text" class="placeholder-gray-500 form-input" name="regInputAffiliations" id="regInputAffiliations" placeholder="Affiliation(s)" required>
+          </div>
+          <div id="regInputAbstractGroup" class="form-group">
+            <label for="regInputAbstract" class="form-label">Abstract (max. 250 words; fill in for talk or poster)</label>
+            <textarea class="placeholder-gray-500 form-input" name="regInputAbstract" id="regInputAbstract" rows="14" placeholder="Write abstract here."></textarea>
+            <small id="regInputAbstractWordCount" class="text-sm">Word count: 0</small>
+            <div class="text-red-500" id="regInputAbstractInvalidFeedback"></div>
+          </div>
+          <div class="form-group">
+            <div class="mx-4 mt-2">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="regInputGPDR" id="regInputGPDR" required>
+                <label class="form-label" for="regInputGPDR">I hereby give my consent that the information provided above is stored for the purposes of organizing this workshop.</label>
+              </div>
+            </div>
+            <button type="submit" class="bg-mbm-green hover:bg-mbm-green-light text-white hover:text-black font-bold py-2 mt-8 mb-2 px-4 rounded w-32 mx-auto" id="submitForm">Submit</button>
+            <p id="reg-output"></p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+</div>

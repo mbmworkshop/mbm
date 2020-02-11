@@ -5,7 +5,7 @@ MBM 2020 workshop (under construction).
 
 The MBM 2019 website is built relying on [Bootstrap](https://getbootstrap.com/).
 Due to Bootstrap's opinionated designs this was sometimes annoying and
-required a lot of fine-tuning. For the MBM 2020 website I therefore decided to
+required a lot of hacking. For the MBM 2020 website I therefore decided to
 use [TailwindCSS](https://tailwindcss.com/). This requires a little bit of 
 setup.
 
@@ -17,11 +17,12 @@ necessary packages are listed in `package.json` all that is need is a simple
 
 The setup was originally taken from [here](https://blog.frankdejonge.nl/setting-up-docs-with-tailwind-css-and-github-pages/).
 
-[Webpack](https://webpack.js.org/) and a bunch of other tools are used
-to minimize the size of the website. During development one should run
-`npm run dev` in this directory before starting Jekyll. When pushing
-a production version of the website, run `npm run prod` first to minimize
-the assets (css code etc.).
+A bunch of other tools are used to minimize the size of the website and ease
+development. During development one should run `npm run dev` in this directory
+before starting Jekyll. When pushing a production version of the website, run
+`npm run prod` first to minimize the assets (css code etc.).
+`npm run watch` can be used for interactive regeneration of `css` and `js`
+files during development.
 
 ## Jekyll
 

@@ -1,28 +1,29 @@
-function ready(fn) {
-	if (document.readyState != 'loading'){
-		fn();
-	} else {
-		document.addEventListener('DOMContentLoaded', fn);
-	}
+function toggleNav() {
+	var nav_container = select('#nav-collapsable');
+	nav_container.classList.toggle('h-0');
+	nav_container.classList.toggle('h-auto');
 }
 
 ready(() => {
-	var md_media = window.matchMedia('(min-width: 768px)');
+	var lg_media = window.matchMedia('(min-width: 1024px)');
 
-	md_media.addEventListener('change', (e) => {
-		var nav_items = document.querySelector('#nav-collapsable');
-		if (nav_items.classList.contains('h-auto')) {
-			nav_items.classList.remove('h-auto');
+	addEvent(lg_media, 'change', (e) => {
+		var nav_container = select('#nav-collapsable');
+		if (nav_container.classList.contains('h-auto')) {
+			nav_container.classList.remove('h-auto');
 		}
-		nav_items.classList.add('h-0');
+		nav_container.classList.add('h-0');
 	});
 
-	// var nav = document.querySelector('#nav-overall');
+	// var nav = select('#nav-overall');
 	// nav.getBoundingClientRect().height
-})
 
-function toggleNav() {
-	var nav_items = document.querySelector('#nav-collapsable');
-	nav_items.classList.toggle('h-0');
-	nav_items.classList.toggle('h-auto');
-}
+	var nav_items = selectAll('.nav-item');
+	nav_items.forEach((nav_item) => {
+		addEvent(nav_item, 'click', (e) => {
+			if (select('#nav-collapsable').classList.contains('h-auto')) {
+				toggleNav();
+			}
+		})
+	});
+})
