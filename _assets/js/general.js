@@ -90,3 +90,14 @@ function ready(fn) {
 		document.addEventListener('DOMContentLoaded', fn);
 	}
 }
+
+ready(() => {
+  var external_boxes = selectAll('.external');
+  external_boxes.forEach((box) => {
+    var links = box.querySelectorAll('a');
+    links.forEach((link) => {
+      link.setAttribute('rel', 'noreferrer noopener');
+      link.setAttribute('target', '_blank');
+    });
+  });
+});

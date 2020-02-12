@@ -1,0 +1,36 @@
+- name: Gunnar Cedersund
+  invited: true
+  image: headshot-cedersund.png
+  bio: >
+     Gunnar Cedersund heads the Integrative Systems Biology group at Linköping University
+     ([isbgroup.eu](http://isbgroup.eu)). The ~15 people working in this group collaborate
+     with a large number of clinical, experimental, and psychological research groups, 
+     to do modelling of all of the main organs in the human body: the brain, heart, 
+     fat and muscle, liver, pancreas, vasculature, etc. Together these organ models are 
+     combined into a multi-level and multi-timescale digital twin technology, which was 
+     launched at Almedalen last year, and which has since been presented at keynote 
+     presentations at conferences such as NIH, IT i vården, ModProd, etc. Cedersund has 
+     also started a new spin-off company, SUND, to help bring the digital twin technology
+     into end-usage in pharma, healthcare, research, and in the life of ordinary people.
+     Apart from this, Cedersund is also a concert pianist, a yoga and dance teacher, and
+     an ironman. He is now working on bringing all of these aspects together into joint
+     lectures/performances, where digital twins are both presented from a technological
+     and medical point-of-view, and then dancing together with professional dancers to
+     illustrate the music that is being played by Cedersund.
+- name: Andreas Hellander
+  invited: true
+  image: andreas.jpg
+  bio: >
+    Andreas Hellander is Associate Professor in Scientific Computing at Uppsala University
+    where he leads a research group that studys how to design highly scalable, robust and
+    intelligent computational tools for digital experiments. A core focus area has been
+    discrete stochastic simulation of gene regulatory networks, where he has contributed
+    with both theory for mesoscopic chemical kinetics, new multiscale methods, and software,
+    for example as co-PI in the StochSS project. A central motivation for current activities
+    in the lab is how traditional model analysis approaches fail when models are stochastic
+    and high-dimensional and when they involve processes at widely disparate temporal and
+    spatial scales. Systems biology is an area where all these challenges become apparent,
+    and many of the current projects in the lab revolve around machine learning assisted
+    approaches for black-box model exploration and model inference. A central aim there is
+    development of intelligent, interactive systems capable of automating model analysis
+    tasks.
