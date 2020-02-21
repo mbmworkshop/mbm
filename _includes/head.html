@@ -4,22 +4,22 @@
 <title>{{ site.data.properties.sitetitle }}</title>
 
 <!-- LinkedIn sharing -->
-<meta property="og:title" 
+<meta property="og:title"
       content="{{ site.data.properties.title }}" />
 <meta property="og:image" content="{{ '/img/logo.png' | absolute_url }}" />
-<meta property="og:description" 
+<meta property="og:description"
      content="{{ site.data.properties.advertisement }}" />
 <meta property="og:url" content="//mbm.systemsbiology.se" />
 
 <!-- Twitter sharing -->
 <meta property="twitter:card" content="summary" />
-<meta name="twitter:title" 
+<meta name="twitter:title"
       content="{{ site.data.properties.title }}" />
-<meta name="twitter:description" 
+<meta name="twitter:description"
       content="{{ site.data.properties.advertisement }}" />
 <meta name="twitter:image" content="{{ '/img/logo.png' | absolute_url }}" />
 
-<script type="text/javascript" 
-        src="{{ 'assets/js/index.js' | relative_url }}"></script>
+<script type="text/javascript"
+        src="{{ 'assets/js/' | append: site.data.assets['index.js'] | relative_url }}"></script>
 <link rel="stylesheet"
-      href="{{ 'assets/css/index.css' | relative_url }}">
+      href="{{ 'assets/css/' | append: site.data.assets['index.css'] | relative_url }}">
