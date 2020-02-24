@@ -56,9 +56,11 @@ layout: mbm2020
           <img src="{{ site.baseurl }}/img/{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-image">
         </div>
         <div class="speaker-description">
-          <p>
-           {{ speaker.bio | markdownify }}
+          {% for para in speaker.bio %}
+          <p class="py-2">
+           {{ para | markdownify }}
           </p>
+          {% endfor %}
         </div>
       </div>
     </section>
@@ -110,7 +112,7 @@ layout: mbm2020
         <li>1250 SEK for participants employed in industry</li>
       </ul>
       <p class="mt-4 mb-2">
-        In combination with the workshop we are offering a social dinner on Thursday (14th May) evening. We encourage all participants to sign up for the dinner. We are taking a fee of 375 SEK (including VAT) for participation in the dinner which will include food and at least one beverage.
+        In combination with the workshop we are offering a social dinner on Thursday (14th May) evening. We encourage all participants to sign up for the dinner. We are taking a fee of 375 SEK (including VAT) for participation at the dinner which will include food and at least one beverage.
       </p>
       <p class="my-2">
         In case you are required to make a payment you will receive an email concerning payment after successful registration.
