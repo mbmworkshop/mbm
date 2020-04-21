@@ -43,7 +43,7 @@ function cssHash() {
 		.pipe(hash.manifest('_data/assets.json', {
 			append: true,
 			deleteOld: true,
-			sourceDir: __dirname + 'assets/css'
+			sourceDir: __dirname + '/assets/css'
 		}))
 		.pipe(dest('.')) // Write the manifest file
 }
@@ -56,7 +56,7 @@ function jsHash() {
 		.pipe(hash.manifest('_data/assets.json', {
 			append: true,
 			deleteOld: true,
-			sourceDir: __dirname + 'assets/js'
+			sourceDir: __dirname + '/assets/js'
 		}))
 		.pipe(dest('.')) // Write the manifest file
 }
