@@ -60,8 +60,11 @@ layout: mbm2020
       </div>
       <div class="speaker-content">
         <div class="speaker-image-box">
+          {% if speaker.image %}
           <img src="{{ site.baseurl }}/img/{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-image">
+          {% endif %}
         </div>
+        {% if speaker.bio %}
         <div class="speaker-description">
           {% for para in speaker.bio %}
           <p class="py-2">
@@ -69,6 +72,7 @@ layout: mbm2020
           </p>
           {% endfor %}
         </div>
+        {% endif %}
       </div>
     </section>
     {% endfor %}

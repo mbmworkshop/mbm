@@ -1,0 +1,8 @@
+- name: Andreas Hellander
+  invited: false
+  image: andreas.jpg
+  bio: 
+    - >
+        Andreas Hellander is Associate Professor in Scientific Computing at Uppsala University where he leads a research group that studys how to design highly scalable, robust and intelligent computational tools for digital experiments.
+    - >
+        A core focus area has been discrete stochastic simulation of gene regulatory networks, where he has contributed with both theory for mesoscopic chemical kinetics, new multiscale methods, and software, for example as co-PI in the StochSS project. A central motivation for current activities in the lab is how traditional model analysis approaches fail when models are stochastic and high-dimensional and when they involve processes at widely disparate temporal and spatial scales. Systems biology is an area where all these challenges become apparent, and many of the current projects in the lab revolve around machine learning assisted approaches for black-box model exploration and model inference. A central aim there is development of intelligent, interactive systems capable of automating model analysis tasks.
