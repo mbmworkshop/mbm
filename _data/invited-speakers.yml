@@ -20,9 +20,14 @@
         He is a Beijer Researcher at SLU since 2019 and coordinator of research projects investigating social interactions of dairy cattle together with collaborators from SLU, RISE, Dalarna University and University of Copenhagen. A primary component of this research is the use of a real time location system to study the indoor movement and social interactions of dairy cattle. The possibility to select for increased milk yield considering effects of social interactions are investigated by developing theory on indirect genetic effects. The aim is to increase both production and welfare.
 - name: Jeanette Hellgren Kotaleski
   invited: true
+  image: jeanette.png
   bio:
     - >
-        [Jeanette Hellgren Kotaleski](http://www.csc.kth.se/~jeanette/) is a Professor at the School of Computer Science and Communication at KTH Royal Institute of Technology in Stockholm and is also affiliated with the Department of Neuroscience at Karolinska Institute (KI).
+      Jeanette Hellgren Kotaleski is professor in Neuroinformatics at Dept. Computational Science and Technology (CST) at the School of Electrical Engineering and Computer Science, KTH, Sweden.
+    - >
+      The main focus of her research is to use computational modeling to understand the neural mechanisms underlying information processing and learning in motor systems. Of specific interest are the basal ganglia, a structure in the forebrain that is important for the selection and initiation of motor (and cognitive) actions, and which constitutes the biological substrate for reward dependent learning.
+    - >
+      The levels of investigation range from simulations of large-scale neural networks, using both biophysically detailed as well as abstract systems level models, down to kinetic models of subcellular processes (e.g. dopamine receptor induced cascades). The latter approach is important for understanding mechanisms involved in e.g. synaptic plasticity and learning.
 - name: Jan Hasenauer
   invited: true
   bio:
