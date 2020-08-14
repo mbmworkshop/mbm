@@ -30,9 +30,12 @@
       The levels of investigation range from simulations of large-scale neural networks, using both biophysically detailed as well as abstract systems level models, down to kinetic models of subcellular processes (e.g. dopamine receptor induced cascades). The latter approach is important for understanding mechanisms involved in e.g. synaptic plasticity and learning.
 - name: Jan Hasenauer
   invited: true
+  image: jan.jpeg
   bio:
     - >
-        [Jan Hasenauer](https://www.limes-institut-bonn.de/en/research/research-departments/unit-2/hasenauer-lab/hasenauer-lab-home/) is a Professor in Computational Life Sciences at the Limes Life & Medical Sciences Institute which is an internationally oriented center for biomedical research and higher education at the University of Bonn, Germany.
+      Jan Hasenauer is a professor for computational biomedicine and leads the Interdisciplinary Research Unit Mathematics and Life Sciences at the University of Bonn and the Research Group for Data-driven Computational Modelling at the Helmholtz Zentrum München.
+    - >
+      The group of Jan Hasenauer consists of ten PhD students and four PostDocs, and his research focuses on the development of methods for data-driven modelling of biological processes. These methods enable model-based integration of different data sets, critical evaluation of available information, comparison of different biological hypotheses and tailor-made selection of future experiments. In various national and international collaborations these methods are currently employed to address research questions in molecular biology, immunology, neurobiology and epidemiology.
 - name: Falko Schmidt
   invited: true
   image: falko.jpg
