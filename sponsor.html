@@ -1,0 +1,13 @@
+<section class="page-section">
+    <div id="sponsors" class="h-0" style="bottom: 100px; position: relative;"></div>
+    <h1 class="section-header">Sponsors</h1>
+
+    {% for sponsor in site.data.sponsors %}
+    <div class="content-box items-center justify-center external">
+        <img src="{{ site.baseurl }}/img/sponsors2020/AZ_RGB_H_COL.png" alt="{{ sponsor.name }}" class="sponsor-image">
+      <p>
+        {{ sponsor.description | markdownify }}
+      </p>
+    </div>
+    {% endfor %}
+</section>

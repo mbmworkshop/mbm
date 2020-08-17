@@ -40,3 +40,4 @@ exclude:
    - "_assets"
    - "presentations"
    - "README.md"
+   - sponsor.html
