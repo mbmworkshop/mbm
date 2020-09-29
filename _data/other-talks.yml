@@ -1,0 +1,138 @@
+- name: Irina Petterson
+  affiliation: Chalmers University of Technology and University of Gothenburg
+  talk:
+    title: Multiscale modeling of myelinated axons
+    authors: Carlos Jerez-Hanckes (1), Irina Pettersson (2), and Volodymyr Rybalko (3)
+    affiliations: 
+      - >
+        (1) Universidad Adolfo Ibanez, Santiago, Chile
+      - >
+        (2) Department of Mathematics, Chalmers University of Technology and University of Gothenburg, Gothenburg, Sweden
+      - >
+        (3) B. Verkin Institute for Low Temperature Physics and Engineering, Kharkiv, Ukraine
+    abstract: 
+      - >
+        We focus on the multiscale modeling of a myelinated axon. Taking into account the microstructure with alternating myelinated parts and nodes Ranvier,  we derive a nonlinear cable equation describing the potential propagation along the axon. We assume that the myelin is not a perfect insulator, and assign a low (asymptotically vanishing when the thickness of the axon goes to zero) conductivity in the myelin. Compared with the case when myelin is assumed to have zero conductivity, an additional potential arises in the limit equation. The coefficient in front of the effective potential contain information about the geometry of the myelinated parts.
+- name: Jan Zrimec
+  affiliation: Chalmers University of Technology
+  talk:
+    title: Learning the regulatory grammar of DNA for gene expression engineering
+    authors: Jan Zrimec (1), Aleksej Zelezniak (1)
+    affiliations:
+      - >
+        (1) Department of Biology and Biological Engineering, Chalmers University of Technology
+    abstract: 
+      - >
+        The DNA regulatory code that governs gene expression is present in the gene regulatory structure that spans the coding and adjacent non-coding regulatory DNA regions, including promoters, terminators and untranslated regions. Deciphering this regulatory code, as well as how the whole gene regulatory structure interacts to produce mRNA transcripts and regulate mRNA abundance, can greatly improve our capabilities for controlling gene expression and solving problems related to both medicine and biotechnology. 
+      - >
+        Here, we consider that natural systems offer the most accurate information on gene expression regulation and apply deep learning on over 20,000 mRNA datasets to learn the DNA-encoded regulatory code across a variety of model organisms from bacteria to Human ([https://doi.org/10.1101/792531](https://doi.org/10.1101/792531)). Since up to 82% of the regulatory code is encoded in the gene regulatory structure, mRNA abundance can be predicted directly from DNA with high accuracy in all model organisms. Coding and regulatory regions in fact carry both overlapping and orthogonal information and additively contribute to gene expression levels. By mining the gene expression models for the relevant DNA regulatory motifs, we uncover motif interactions across the whole gene regulatory structure that define over 3 orders of magnitude of gene expression levels. Based on these findings we develop a novel AI-guided approach protein expression engineering and experimentally verify its usefulness.
+      - >
+        Our results challenge the current paradigm that single motifs or regulatory regions are solely responsible for gene expression levels. Instead, we demonstrate that the whole gene regulatory structure, comprising the DNA regulatory grammar of interacting DNA motifs across protein coding and adjacent regulatory regions, forms a coevolved transcriptional regulatory unit and provides a mechanism by which whole gene systems with pre-specified expression patterns can be designed. 
+- name: Erik Bülow
+  affiliation: University of Gothenburg
+  talk:
+    title: >
+      Predicting mortality by comorbidity for patients with hip arthroplasty: Prospective observational register studies of a nationwide Swedish cohort
+    authors: Erk Bülow (1)
+    affiliations:
+      - >
+        (1) Department of Orthopaedics, Institute of Clinical Sciences, the Sahlgrenska Academy, University of Gothenburg
+    abstract: 
+      - >
+        INTRODUCTION: Patients with total hip arthroplasty (THA) due to osteoarthritis (OA) are usually healthy, some with a remaining lifetime of several decades after surgery. Patients with hip arthroplasty due to a femoral neck fracture (FNF) are often old and frail with 13 % mortality within 90 days of surgery. To predict all-cause mortality for those groups has been considered but no prediction model has so far been widely accepted. 
+      - >
+        PATIENTS AND METHODS: We developed an R package to estimate comorbidity from large data sets. We used data from the Swedish Hip Arthroplasty Register (SHAR), other nationwide Swedish registers and the National Joint Registry for England, Wales, Northern Ireland, the Isle of Man and the States of Guernsey (NJR). We evaluated the discriminatory abilities of the Charlson and Elixhauser comorbidity indices to predict mortality for patients with hip arthroplasty due to OA and FNF. We also developed a new statistical prediction model for 90-day mortality after cemented THA due to OA using a bootstrap ranking procedure with logistic least absolute shrinkage and selection operator (LASSO) regression. The model was validated internally, as well as externally with patients from England and Wales. We built a web calculator for clinical usage. Finally, association between the Elixhauser comorbidity index and the restricted mean survival time (RMST) after surgery was assessed for patients with THA due to OA. 
+      - >
+        RESULTS: The coder R-package provides a dynamic solution for patient classification. Existing comorbidity indices did not accurately predicted mortality after hip arthroplasty due to OA or FNF. The new model did predict 90-day mortality with good discriminatory ability (AUC > 0.7) and was well calibrated. Shortening of the RMST for 10 years after surgery ranged from 315 days for patients with no comorbidity, to 1,193 days for patients with at least 3 comorbidities. 
+- name: Linnea Österberg
+  affiliation: Chalmers University of Technology
+  talk:
+    title: A novel yeast hybrid modeling framework integrating Boolean and enzyme-constrained networks enables exploration of the interplay between signaling and metabolism
+    authors: Linnea Österberg (1,2,3), Iván Domenzain Cerecer (3,4), Julia Münch (1,2), Jens Nielsen (3,4,5), Stefan Hohmann (3), Marija Cvijovic (1,2)
+    affiliations:
+      - >
+        (1) Department of Mathematical Sciences, University of Gothenburg, Gothenburg, Sweden
+      - >
+        (2) Department of Mathematical Sciences, Chalmers University of Technology, Gothenburg, Sweden
+      - >
+        (3) Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden
+      - >
+        (4) Novo Nordisk Foundation Center for Biosustainability, Chalmers University of Technology, SE41296 Gothenburg, Sweden
+      - >
+        (5) BioInnovation Institute, Ole Maaløes Vej 3, DK-2200 Copenhagen, Denmark
+    abstract: 
+      - >
+        The interplay between nutrient-induced signaling and metabolism plays an important role in maintaining homeostasis and failiour to do so has ben implicated in human decieases and conditions such as obesity, type 2 diabetes, cancer and ageing. Therefore, unravelling the role of nutrients as signaling molecules and metabolites as well as their interconnectivity may provide a deeper understanding of how these conditions occur. Both the signalling and metabolism have been extensively studied using various systems biology approaches. However, they are mainly studied individualy and in addition current models lack both the complexity of the dynamics and the effects of the crosstalk in the signaling system. To gain a better understanding of the interconnectivity between nutrient signaling and metabolism, we have developed a hybrid model by combining the Boolean and the enzyme constraint models using a regulatory network as a link. The model is capable of reproducing the regulatory effects that are associated with the Crabtree effect and glucose repression. We show that using this methodology one can investigat intrinsically different systems, such as signaling and metabolism, in the same model and gain insight into how the interplay between them can have non-trivial effects by showing a connection between Snf1 signaling and chronological lifespan by the regulation of NDE and NDI usage in respiring conditions. In addition, the model showed that during fermentation, enzyme utilization is the more important factor governing the protein allocation, while in low glucose conditions robustness and control is prioritized.
+- name: Carl-Joar Karlsson
+  affiliation: Chalmers University of Technology and University of Gothenburg
+  talk:
+    title: >
+      Decisions and disease: a mechanism for the evolution of cooperation
+    authors: Julie Rowlett (1), Carl-Joar Karlsson (1)
+    affiliations: 
+      - >
+        (1) Department of Mathematics, Chalmers University of Technology and University of Gothenburg, Gothenburg, Sweden
+    abstract: 
+      - >
+        In numerous contexts, individuals may decide whether they take actions to mitigate the spread of disease, or not. Mitigating the spread of disease requires an individual to change their routine behaviours to benefit others, resulting in a ‘disease dilemma’ similar to the seminal prisoner’s dilemma. In the classical prisoner’s dilemma, evolutionary game dynamics predict that all individuals evolve to ‘defect.’ We have discovered that when the rate of cooperation within a population is directly linked to the rate of spread of the disease, cooperation evolves under certain conditions. For diseases which do not confer immunity to recovered individuals, if the time scale at which individuals receive accurate information regarding the disease is sufficiently rapid compared to the time scale at which the disease spreads, then cooperation emerges. Moreover, in the limit as mitigation measures become increasingly effective, the disease can be controlled; the number of infections tends to zero. It has been suggested that disease spreading models may also describe social and group dynamics, indicating that this mechanism for the evolution of cooperation may also apply in those contexts. 
+- name: Sebastian Persson
+  affiliation: University of Gothenburg
+  talk:
+    title: Fine-tuning of energy levels regulates SUC2 via a SNF1-dependent feedback loop.
+    authors: Persson Sebastian (1, 2), Welkenhuysen Niek (1, 2), Shashkova Sviatlana (3), Cvijovic Marija (1, 2)
+    affiliations:
+      - >
+        (1) Department of Mathematical Sciences, University of Gothenburg, Gothenburg, Sweden
+      - >
+        (2) Department of Mathematical Sciences, Chalmers University of Technology, Gothenburg, Sweden
+      - >
+        (3) Department of Microbiology and Immunology, Institute of Biomedicine, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden
+    abstract: 
+      - >
+        Nutrient sensing pathways are playing an important role in cellular response to different energy levels. In budding yeast, Saccharomyces cerevisiae, the sucrose non-fermenting protein kinase complex SNF1 is a master regulator of energy homeostasis. It is affected by multiple inputs, among which energy levels is the most prominent. Largely due to SNF1, cells which are exposed to a switch in carbon source availability display a change in the gene expression machinery. In a glucose rich environment Snf1/Mig1 pathway represses the expression of its downstream target, such as SUC2. However, upon glucose depletion SNF1 is activated which leads to an increase in SUC2 expression. Our single cell experiments indicate that this increase in SUC2 expression upon starvation only is temporary, as the gene expression pattern of SUC2 shows rapid increase followed by a decrease to the initial state with high cell-to-cell variability. The mechanism behind this behavior is currently unknown. In this work we study the long-term behavior of the Snf1/Mig1 pathway upon glucose starvation with a microfluidics and non-linear mixed effect modelling approach. Overall, our systems biology approach proposes a negative feedback mechanism that works through the SNF1 complex and is controlled by energy levels. We further show that Reg1 likely is involved in the negative feedback mechanism.
+- name: Ida Larsson
+  affiliation: Uppsala University
+  talk:
+    title: Reconstruction of plasticity and cell state dependent growth of glioblastoma
+    authors: Ida Larsson (1), Erika Dalmo (1), Ramy Elgendy (1), Rebecka Jörnsten (2), Bengt Westermark (1), Sven Nelander (1)
+    affiliations: 
+      - >
+        (1) Department of Immunology, Genetics and Pathology, Uppsala University, Sweden 
+      - >
+        (2) Department of Mathematical Sciences, University of Gothenburg, Sweden
+    abstract:
+      - >
+        The malignant brain tumor glioblastoma (GBM) is characterized by a complex cellular composition, shaped not only by tumor evolution but also plastic and stochastic processes in the cells. To understand the underlying dynamics of GBM cell behavior, we have developed a method that integrates single-cell RNA sequencing (scRNA-seq) time series data from DNA-barcoded cells with a mathematical model of single cell dynamics. The model clarifies how cellular states relate to each other, it accounts for phenotypic switching and state-dependent cell growth.
+      - >
+        In our model, cells in a given state can either die, grow or transition to another state, and GBM dynamics is thus captured by a system with k(1+k) first-order reactions, for k states. As a continuum approximation, the system is described by a set of linear differential equations dx/dt=A*x where x is a vector defining the number of cells in each state and A holds the reaction rates we want to estimate. A is estimated from data by convex optimization, minimising the sum-of-square disagreement with barcode counts. 
+      - >
+        We use the model to analyse how cells derived from a GBM patient transition between transcriptionally defined states over time and we are in addition able to quantify growth rates for each state, which show a high variation between states. A key finding is that under baseline conditions, the cells transition according to a clear hierarchy, along an axis from a state of slow-cycling stem-like cells via a state of rapidly cycling cells to finally end up in the more differentiated slow- or non-cycling states. Under genotoxic or differentiation therapy, we can show that there is an increased flow of cells from the majority of all states to one specific state for each therapeutic intervention.
+- name: Fredrik Ohlsson
+  affiliation: Umeå University
+  talk:
+    title: Symmetries and structural model selection for the Hill model
+    authors: Fredrik Ohlsson (1), Johannes Borgqvist (2), Marija Cvijovic (2)
+    affiliations:
+      - >
+        (1) Department of Mathematics and Mathematical Statistics, Umeå University, Umeå, Sweden
+      - >
+        (2) Department of Mathematical Sciences, Chalmers University of Technology and the University of Gothenburg, Gothenburg, Sweden
+    abstract:
+      - >
+        A symmetry of an ordinary differential equation (ODE) is a point transformation that preserves the space of solutions of the ODE. We are concerned with 1-parameter Lie groups of transformations generated by differential operators, interpreted as elements of the corresponding Lie algebra. Analysis of the symmetries of a model provides a way to understand manifestly nonlinear properties of its solutions and hence the underlying structure of the system modelled. Conversely, describing the structure observed in experimental data in terms of symmetries can guide the development of mechanistic models that are informed by global properties of their solutions rather than local residual analysis.
+      - >
+        We consider the nonlinear Hill models of order n appearing in the description of enzymatically catalysed conversion reactions in the limit where the substrate concentration is large. We derive a class of symmetries which are unique to each order Hill model and investigate their action on its solutions. For each value of n, there is consequently a 1-parameter family of transformations that preserve the space of solutions of the corresponding Hill model, but not Hill models of any other order.
+      - >
+        We apply the derived symmetries to the problem of accounting for structural properties in model selection. By performing symmetry transformations corresponding to different candidate Hill models to measurement data before model fitting, we obtain a procedure in which the fit is approximately invariant under the variation of the transformation parameter for the true underlying model in the limit of vanishing measurement error. Models for which the symmetry structure is not realized in the data, on the other hand, are expected to exhibit decreasing quality-of-fit as the transformation parameter increases from zero, corresponding to the identity transformation. We evaluate the proposed method on simulated Hill model data and demonstrate performance superior to ordinary least-square fitting.
+- name: Peter Jagers
+  affiliation: Chalmers University and University of Gothenburg
+  talk:
+    title: >
+      Galton was right: (almost) all populations die out.
+    authors: Peter Jagers (1), Sergei Zuyev (1)
+    affiliations: 
+      - >
+        (1) Department of Mathematical Sciences, Chalmers University of Technology and University of Gothenburg
+    abstract:
+      - >
+        Consider a population whose size changes stepwise by its members reproducing or dying (disappearing), but is otherwise quite general. Denote the initial (non-random) size by Z_0 and the size of the nth change by C_n, n = 1,2,.... Population sizes hence develop successively as Z_1= Z_0+ C_1,  Z_2= Z_1 + C_2, and so on, indefinitely or until there are no further size changes, due to extinction. Extinction is thus assumed final, so that Z_n= 0 implies that Z_{n+1}= 0, without there being any other finite absorbing class of population sizes. We make no assumptions about the time durations between the successive changes. In the real world, or more specific models, those may be of varying length, depending upon individual life span distributions and their interdependencies, the age-distribution at hand and intervening circumstances. We could consider toy models of Galton–Watson type generation counting or of the birth-and-death type, with one individual acting per change, until extinction, or the most general multi- type CMJ branching processes with, say, population size dependence of reproduction. Changes may have quite varying distributions. The basic assumption is that there is a carrying capacity, i.e. a non-negative number K such that the conditional expectation of the change, given the complete past history, is non-positive whenever the population exceeds K, the carrying capacity. Further, we assume that the change In a non-extinct population is negative (an individual dying) with a conditional (given the past) positive probability. The straightforward, but in contents and implications far-reaching, consequence is that all such populations must die out. Mathematically, it follows by a supermartingale convergence property and positive probability of reaching the absorbing extinction state.

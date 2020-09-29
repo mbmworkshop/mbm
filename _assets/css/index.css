@@ -114,6 +114,17 @@
     }
 }
 
+.talk-box {
+    @apply w-full;
+}
+
+@screen lg {
+    .talk-box {
+        @apply mx-2;
+        width: calc(50% - 1rem);
+    }
+}
+
 .form-group {
     @apply flex flex-col my-2 mx-4 p-1 border border-2 rounded 
             shadow-inner bg-gray-100 w-full max-w-screen-md;

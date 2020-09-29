@@ -36,7 +36,7 @@ layout: mbm2020
     </div>
   </section>
   <section class="page-section">
-    <div id="presenters" class="h-0" style="bottom: 100px; position: relative;"></div>
+    <div id="invited" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h1 class="section-header">Invited speakers</h1>
 
     {% for speaker in site.data.invited-speakers %}
@@ -64,6 +64,39 @@ layout: mbm2020
     {% endfor %}
   </section>
   <section class="page-section">
+    <div id="talks" class="h-0" style="bottom: 100px; position: relative;"></div>
+    <h1 class="section-header">Talks</h1>
+
+    <div class="flex flex-col lg:flex-row lg:flex-wrap">
+      {% for speaker in site.data.other-talks %}
+      <section class="talk-box content-box external">
+        <div class="text-lg md:text-xl mb-4">
+          <h1>
+            <span class="font-semibold">{{ speaker.name }}</span>,
+            <span class="italic">{{ speaker.talk.title }}
+          </h1>
+        </div>
+        <div class="font-light mb-8">
+          {% for para in speaker.talk.abstract %}
+          <p class="py-2">
+           {{ para | markdownify }}
+          </p>
+          {% endfor %}
+        </div>
+        <div class="font-thin text-sm md:text-base">
+          <p class="mb-4"><span class="font-semibold">Authors:</span> {{ speaker.talk.authors }}</p>
+          <p class="font-semibold">Affiliations:</p>
+          <ul class="mb-2">
+          {% for affiliation in speaker.talk.affiliations %}
+            <li>{{ affiliation }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="page-section">
     <div id="format" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h1 class="section-header">
       Format
@@ -84,7 +117,7 @@ layout: mbm2020
       <div class="flex flex-col lg:flex-row pt-2 pb-4">
         <div class="px-4 w-full lg:w-1/2 flex flex-col">
           <h1 class="content-header">Day 1</h1>
-          <table class="table-fixed">
+          <table class="table-fixed w-full">
             <thead>
               <tr>
                 <th class="w-1/6 text-center">Time</th>
@@ -102,22 +135,22 @@ layout: mbm2020
               </tr>
               <tr>
                 <td class="border py-2 text-center">13:40</td>
-                <td class="border py-2 px-4">Other talk (20 min x 1)</td>
+                <td class="border py-2 px-4">Other talk (20 min x 2)</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">14:00</td>
+                <td class="border py-2 text-center">14:20</td>
                 <td class="border py-2 px-4">Break</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">14:10</td>
+                <td class="border py-2 text-center">14:30</td>
                 <td class="border py-2 px-4">Other talks (20 min x 2)</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">14:50</td>
+                <td class="border py-2 text-center">15:10</td>
                 <td class="border py-2 px-4">Break</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">15:00</td>
+                <td class="border py-2 text-center">15:20</td>
                 <td class="border py-2 px-4">Poster Session</td>
               </tr>
               <tr>
@@ -142,7 +175,7 @@ layout: mbm2020
 
         <div class="px-4 w-full lg:w-1/2 flex flex-col">
           <h1 class="content-header pt-4 lg:pt-0">Day 2</h1>
-          <table class="table-fixed">
+          <table class="table-fixed w-full">
             <thead>
               <tr>
                 <th class="w-1/6 text-center">Time</th>
@@ -160,34 +193,34 @@ layout: mbm2020
               </tr>
               <tr>
                 <td class="border py-2 text-center">09:30</td>
+                <td class="border py-2 px-4">Other talk (20 min x 1)</td>
+              </tr>
+              <tr>
+                <td class="border py-2 text-center">09:50</td>
                 <td class="border py-2 px-4">Break</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">09:40</td>
-                <td class="border py-2 px-4">Other talks (20 min x 2)</td>
+                <td class="border py-2 text-center">10:00</td>
+                <td class="border py-2 px-4">Other talks (20 min x 3)</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">10:20</td>
+                <td class="border py-2 text-center">11:00</td>
                 <td class="border py-2 px-4">Break</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">10:30</td>
-                <td class="border py-2 px-4">Other talks (20 min x 2)</td>
               </tr>
               <tr>
                 <td class="border py-2 text-center">11:10</td>
-                <td class="border py-2 px-4">Break</td>
+                <td class="border py-2 px-4">Other talk (20 min x 1)</td>
               </tr>
               <tr class="bg-mbm-green-light">
-                <td class="border py-2 text-center">11:20</td>
+                <td class="border py-2 text-center">11:30</td>
                 <td class="border py-2 px-4">Talk: Invited Speaker</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">11:50</td>
+                <td class="border py-2 text-center">12:00</td>
                 <td class="border py-2 px-4">Session closing</td>
               </tr>
               <tr>
-                <td class="border py-2 text-center">12:00</td>
+                <td class="border py-2 text-center">12:10</td>
                 <td class="border py-2 px-4">Lunch break</td>
               </tr>
               <tr>
