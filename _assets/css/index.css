@@ -17,7 +17,7 @@
 }
 
 .nav-item {
-    @apply block text-gray-100;
+    @apply block text-gray-100 px-4 py-2;
 }
 
 .nav-item:hover {
@@ -26,7 +26,7 @@
 
 @screen lg {
     .nav-item {
-        @apply inline-block mt-0;
+        @apply inline-flex mt-0 py-0 items-center h-16;
     }
 }
 

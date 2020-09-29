@@ -1,10 +1,11 @@
-<nav class="bg-mbm-green p-6 lg:p-0 fixed w-full z-10 top-0" id="nav-overall">
-  <div class="container mx-auto flex items-center justify-between flex-wrap ">
+<nav class="bg-mbm-green p-0 fixed w-full z-10 top-0" id="nav-overall">
+  <div class="container mx-auto my-0 flex items-center justify-between flex-wrap">
     <div class="flex items-center flex-shrink-0">
-      <a class="p-4 text-white no-underline hover:text-white
+      <a class="inline-flex items-center h-12 lg:h-16 px-4 text-white
+                no-underline hover:text-white
                 hover:no-underline hover:bg-mbm-green-dark"
           href="{{ site.url }}/#top">
-        <span class="font-extrabold text-3xl pl-2 tracking-tight">
+        <span class="my-auto font-extrabold text-3xl tracking-tight">
           MBM 2020
         </span>
       </a>
@@ -12,9 +13,10 @@
     <div class="block lg:hidden">
       <button class="flex items-center px-3 py-2 border
                      rounded text-gray-300 border-gray-300
+                     hover:bg-mbm-green-dark
                      hover:text-white hover:border-white
                      focus:outline-none" onClick="toggleNav()">
-        <svg class="fill-current h-5 w-5" viewBox="0 0 20 20"
+        <svg class="fill-current h-4 w-4" viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg">
               <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
@@ -24,13 +26,13 @@
     <div class="w-full flex-grow overflow-hidden h-0
                 lg:h-auto lg:overflow-auto lg:flex lg:items-center lg:w-auto"
          id="nav-collapsable">
-      <div class="text-lg lg:flex-grow">
-        <a href="{{ site.url }}/#invited" class="nav-item px-4 py-2 lg:py-6">Invited Speakers</a>
-        <a href="{{ site.url }}/#talks" class="nav-item px-4 py-2 lg:py-6">Talks</a>
-        <a href="{{ site.url }}/#format" class="nav-item px-4 py-2 lg:py-6">Format</a>
-        <a href="{{ site.url }}/#program" class="nav-item px-4 py-2 lg:py-6">Program</a>
-        <a href="{{ site.url }}/#registration" class="nav-item px-4 py-2 lg:py-6">Registration</a>
-        <a href="{{ site.url }}/#contact" class="nav-item px-4 py-2 lg:py-6">Contact</a>
+      <div class="text-lg lg:flew-row lg:flex-grow">
+        <a href="{{ site.url }}/#invited" class="nav-item">Invited Speakers</a>
+        <a href="{{ site.url }}/#talks" class="nav-item">Talks</a>
+        <a href="{{ site.url }}/#format" class="nav-item">Format</a>
+        <a href="{{ site.url }}/#program" class="nav-item">Program</a>
+        <a href="{{ site.url }}/#registration" class="nav-item">Registration</a>
+        <a href="{{ site.url }}/#contact" class="nav-item">Contact</a>
       </div>
     </div>
   </div>
