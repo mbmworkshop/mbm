@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .overall {
-    @apply bg-gray-900 text-gray-100 font-sans text-base font-light;
+    @apply bg-gray-800 text-gray-100 font-sans text-base font-light;
 }
 
 @screen md {
@@ -17,11 +17,11 @@
 }
 
 .nav-item {
-    @apply block mt-4 text-gray-100;
+    @apply block text-gray-100;
 }
 
 .nav-item:hover {
-    @apply text-white;
+    @apply bg-mbm-green-dark text-white;
 }
 
 @screen lg {
