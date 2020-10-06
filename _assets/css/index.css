@@ -4,29 +4,23 @@
 
 .overall {
     @apply bg-gray-800 text-gray-100 font-sans text-base font-light;
-}
 
-@screen md {
-    .overall {
+    @screen md {
         @apply text-lg;
     }
 }
 
-#nav-collapsable {
-    transition: height 1s;
-}
+#nav-collapsable {}
 
 .nav-item {
     @apply block text-gray-100 px-4 py-2;
-}
 
-.nav-item:hover {
-    @apply bg-mbm-green-dark text-white;
-}
-
-@screen lg {
-    .nav-item {
+    @screen lg {
         @apply inline-flex mt-0 py-0 items-center h-16;
+    }
+
+    &:hover {
+        @apply bg-mbm-green-dark text-white;
     }
 }
 
@@ -36,16 +30,14 @@
 
 .section-header {
     @apply text-4xl font-bold mb-5;
-}
 
-@screen md {
-    .section-header {
+    @screen md {
         @apply text-5xl;
     }
 }
 
 .content-box {
-    @apply flex flex-col bg-gray-100 text-gray-900 rounded-lg p-4 my-2;
+    @apply flex flex-col bg-gray-100 text-gray-900 p-4 my-2;
 
     & a {
         @apply text-mbm-green;
@@ -58,68 +50,55 @@
 
 .content-header {
     @apply text-3xl font-bold mb-5;
-}
 
-@screen md {
-    .content-header {
+    @screen md {
         @apply text-4xl;
     }
 }
 
-.sponsor-image {
-    @apply pb-4;
-}
-
 .speaker-description {
     @apply w-full;
+
+    @screen md {
+        @apply w-8/12;
+    }
+
+    @screen lg {
+        @apply w-3/4;
+    }
 }
 
 .speaker-content {
     @apply flex flex-col justify-center items-center;
+
+    @screen md {
+         @apply flex-row;
+    }
 }
 
 .speaker-image-box {
+    @screen md {
+        @apply w-4/12;
+    }
+
+    @screen lg {
+        @apply w-1/4;
+    }
 }
 
 .speaker-image {
     @apply pb-4 mx-auto;
     max-width: 240px;
-}
 
-@screen md {
-    .speaker-description {
-        @apply w-8/12;
-    }
-
-    .speaker-content {
-        @apply flex-row;
-    }
-
-    .speaker-image-box {
-        @apply w-4/12;
-    }
-
-    .speaker-image {
+    @screen md {
         @apply pb-0 pr-4;
-    }
-}
-
-@screen lg {
-    .speaker-description {
-        @apply w-3/4;
-    }
-
-    .speaker-image-box {
-        @apply w-1/4;
     }
 }
 
 .talk-box {
     @apply w-full;
-}
 
-@screen lg {
-    .talk-box {
+    @screen lg {
         @apply mx-2;
         width: calc(50% - 1rem);
     }

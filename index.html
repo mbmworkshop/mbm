@@ -96,12 +96,45 @@ layout: mbm2020
       {% endfor %}
     </div>
   </section>
+    <section class="page-section">
+    <div id="posters" class="h-0" style="bottom: 100px; position: relative;"></div>
+    <h1 class="section-header">Posters</h1>
+
+    <div class="flex flex-col lg:flex-row lg:flex-wrap">
+      {% for speaker in site.data.posters %}
+      <section class="talk-box content-box external">
+        <div class="text-lg md:text-xl mb-4">
+          <h1>
+            <span class="font-semibold">{{ speaker.name.first }} {{ speaker.name.last }}</span>,
+            <span class="italic">{{ speaker.poster.title }}</span>
+          </h1>
+        </div>
+        <div class="font-light mb-8">
+          {% for para in speaker.poster.abstract %}
+          <p class="py-2">
+           {{ para | markdownify }}
+          </p>
+          {% endfor %}
+        </div>
+        <div class="font-thin text-sm md:text-base">
+          <p class="mb-4"><span class="font-semibold">Authors:</span> {{ speaker.poster.authors }}</p>
+          <p class="font-semibold">Affiliations:</p>
+          <ul class="mb-2">
+          {% for affiliation in speaker.poster.affiliations %}
+            <li>{{ affiliation }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </section>
   <section class="page-section">
     <div id="format" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h1 class="section-header">
       Format
     </h1>
-    <div class="content-box">
+    <div class="content-box rounded-sm shadow-xl">
       <p class="py-2">
         The workshop will be held in both plenary presentation sessions for larger talks as well as in smaller sessions for e.g. poster presentations and discussions.
       </p>
