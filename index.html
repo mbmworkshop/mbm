@@ -3,65 +3,109 @@ permalink: /
 layout: mbm2020
 ---
 
-<div class="container mx-auto mt-32 flex flex-wrap items-center px-4">
-  <div class="flex w-full mb-16">
-    <div id="top" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <div class="flex flex-col w-full text-center lg:text-left lg:w-1/2">
-      <h1 class="font-bold text-4xl md:text-5xl mb-5">
-        Workshop on Modelling in Biology and Medicine
-      </h1>
+<div class="container mx-auto mt-16 lg:mt-24 flex flex-wrap items-center px-4">
+  <div id="top" class="h-0" style="bottom: 100px; position: relative;"></div>
+  <div class="flex justify-center lg:justify-start lg:block text-center lg:text-left">
+    <h1 class="section-header sm:w-3/4 md:w-10/12 lg:w-3/4 xl:w-7/12">
+      Workshop on Modelling in Biology and Medicine
+    </h1>
+  </div>
+  <div class="lg:flex lg:flex-row lg:space-x-8">
+    <div class="text-center lg:text-left w-full lg:w-1/2 lg:pb-8">
+
       <p class="text-2xl md:text-3xl">Bringing together young researchers in Sweden working on the border of mathematics, biology and medicine.</p>
     </div>
-  </div>
-  <div class="flex w-full mb-24 justify-end">
-    <div class="flex flex-col w-full text-left lg:w-3/5 xl:w-1/2 lg:pl-12 xl:pl-16">
-      <div class="text-center section-header">
-        <span class="text-mbm-red-light">Update:</span><br/>
-        New date and format!
+    <div class="pt-8 lg:pt-0 text-center lg:text-left w-full lg:w-1/2">
+      <div class="mx-2 sm:mx-16 lg:mx-0 text-2xl md:text-3xl pb-8 md:pb-16">
+        The workshop will be held in a digital format on
+        <span class="font-bold">15<sup>th</sup> and 16<sup>th</sup> of
+        October 2020</span>.
       </div>
-      <div class="text-center mx-2 sm:mx-24 lg:mx-0 text-2xl md:text-3xl mb-4">
-        The workshop will be held in a digital format on 15<sup>th</sup>
-        and 16<sup>th</sup> of October 2020.</div>
     </div>
+  </div>
+  <div class="lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-2 lg:gap-4">
+    <section class="page-section">
+      <h1 class="section-header">The Workshop</h1>
+        <p class="py-2">
+          We are pleased to invite you to our <span class="font-bold">second Workshop on Modelling in Biology and Medicine (MBM 2020)</span>.
+        </p>
+        <p class="py-2">
+          We aim to gather all young researchers in Sweden working on modelling of biological systems. Our ambition is to give all participating PhD students and PostDocs the opportunity to present their work through an oral presentation or a poster. Further, we wish to provide an insight on how modelling in biology and medicine is practiced in academia and industry.
+        </p>
+    </section>
+    <section class="page-section">
+      <div id="format" class="h-0" style="bottom: 100px; position: relative;"></div>
+      <h1 class="section-header">
+        Format
+      </h1>
+        <p class="py-2">
+          The workshop will be held in both plenary presentation sessions for larger talks as well as in smaller sessions for e.g. poster presentations and discussions.
+        </p>
+        <p class="py-2">
+          The exact technicalities will be made available for <span class="font-bold">registered participants</span> closer to the date of the workshop. The main software for presentations and discussions will most likely be Zoom.
+        </p>
+    </section>
   </div>
   <section class="page-section">
-    <h1 class="section-header">The Workshop</h1>
-    <div class="content-box">
-      <p class="mb-4">
-        We are pleased to invite you to our <span class="font-bold">second Workshop on Modelling in Biology and Medicine (MBM 2020)</span>.
-      </p>
-      <p>
-        We aim to gather all young researchers in Sweden working on modelling of biological systems. Our ambition is to give all participating PhD students and PostDocs the opportunity to present their work through an oral presentation or a poster. Further, we wish to provide an insight on how modelling in biology and medicine is practiced in academia and industry.
-      </p>
-    </div>
+    <div id="program" class="h-0" style="bottom: 100px; position: relative;"></div>
+    <h1 class="section-header">Program</h1>
+      <div class="flex flex-col lg:flex-row pt-2 pb-4">
+        {% for day in site.data.program %}
+        <div class="px-4 w-full lg:w-1/2 flex flex-col">
+          <h1 class="content-header">Day {{ day.day }}</h1>
+          <table class="table-fixed w-full">
+            <thead>
+              <tr>
+                <th class="w-1/6 text-center">Time</th>
+                <th class="w-5/6 px-4 text-left">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for event in day.program %}
+              <tr class="{% if event.highlight %}bg-mbm-green-light{% endif %}
+              border-t-2 border-b-2 border-gray-300">
+                <td class="py-2 text-center">{{ event.time }}</td>
+                <td class="py-2 px-4">{{ event.activity }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endfor %}
+      </div>
   </section>
   <section class="page-section">
     <div id="invited" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h1 class="section-header">Invited speakers</h1>
 
-    {% for speaker in site.data.invited-speakers %}
-    <section class="content-box items-center justify-center external">
-      <div class="w-full">
-        <h1 class="content-header">{{ speaker.name }}</h1>
-      </div>
-      <div class="speaker-content">
-        <div class="speaker-image-box">
-          {% if speaker.image %}
-          <img src="{{ site.baseurl }}/img/{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-image">
+    <div class="flex flex-col xl:flex-row xl:flex-wrap">
+      {% for speaker in site.data.invited-speakers %}
+      <section class="invited-talk-box content-box external shadow-lg rounded-lg">
+        <div class="flex flex-row justify-center md:justify-center items-center">
+          <div class="rounded-full h-32 w-32 md:h-48 md:w-48 overflow-hidden mx-8">
+              <img src="{{ site.baseurl }}/img/{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-image w-full h-full object-cover object-top">
+          </div>
+          <div class="w-1/2">
+            <h1 class="content-header">{{ speaker.name }}</h1>
+            <div class="text-gray-600 text-sm md:text-base">
+              {{ speaker.description | markdownify }}
+            </div>
+          </div>
+        </div>
+        <div class="speaker-content">
+          {% if speaker.bio %}
+          <div class="speaker-description">
+            {% for para in speaker.bio %}
+            <p class="py-2">
+             {{ para | markdownify }}
+            </p>
+            {% endfor %}
+          </div>
           {% endif %}
         </div>
-        {% if speaker.bio %}
-        <div class="speaker-description">
-          {% for para in speaker.bio %}
-          <p class="py-2">
-           {{ para | markdownify }}
-          </p>
-          {% endfor %}
-        </div>
-        {% endif %}
-      </div>
-    </section>
-    {% endfor %}
+      </section>
+      {% endfor %}
+    </div>
   </section>
   <section class="page-section">
     <div id="talks" class="h-0" style="bottom: 100px; position: relative;"></div>
@@ -69,7 +113,7 @@ layout: mbm2020
 
     <div class="flex flex-col lg:flex-row lg:flex-wrap">
       {% for speaker in site.data.other-talks %}
-      <section class="talk-box content-box external">
+      <section class="talk-box content-box external shadow-lg rounded-lg">
         <div class="text-lg md:text-xl mb-4">
           <h1>
             <span class="font-semibold">{{ speaker.name.first }} {{ speaker.name.last }}</span>,
@@ -102,7 +146,7 @@ layout: mbm2020
 
     <div class="flex flex-col lg:flex-row lg:flex-wrap">
       {% for speaker in site.data.posters %}
-      <section class="talk-box content-box external">
+      <section class="talk-box content-box external shadow-lg rounded-lg">
         <div class="text-lg md:text-xl mb-4">
           <h1>
             <span class="font-semibold">{{ speaker.name.first }} {{ speaker.name.last }}</span>,
@@ -130,148 +174,11 @@ layout: mbm2020
     </div>
   </section>
   <section class="page-section">
-    <div id="format" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">
-      Format
-    </h1>
-    <div class="content-box rounded-sm shadow-xl">
-      <p class="py-2">
-        The workshop will be held in both plenary presentation sessions for larger talks as well as in smaller sessions for e.g. poster presentations and discussions.
-      </p>
-      <p class="py-2">
-        The exact technicalities will be made available for <span class="font-bold">registered participants</span> closer to the date of the workshop. The main software for presentations and discussions will most likely be Zoom.
-      </p>
-    </div>
-  </section>
-  <section class="page-section">
-    <div id="program" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">Program</h1>
-    <div class="content-box">
-      <div class="flex flex-col lg:flex-row pt-2 pb-4">
-        <div class="px-4 w-full lg:w-1/2 flex flex-col">
-          <h1 class="content-header">Day 1</h1>
-          <table class="table-fixed w-full">
-            <thead>
-              <tr>
-                <th class="w-1/6 text-center">Time</th>
-                <th class="w-5/6 px-4 text-left">Activity</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="border py-2 text-center">13:00</td>
-                <td class="border py-2 px-4">Startup</td>
-              </tr>
-              <tr class="bg-mbm-green-light">
-                <td class="border py-2 text-center">13:10</td>
-                <td class="border py-2 px-4">Talk: Invited Speaker</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">13:40</td>
-                <td class="border py-2 px-4">Other talk (20 min x 2)</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">14:20</td>
-                <td class="border py-2 px-4">Break</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">14:30</td>
-                <td class="border py-2 px-4">Other talks (20 min x 2)</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">15:10</td>
-                <td class="border py-2 px-4">Break</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">15:20</td>
-                <td class="border py-2 px-4">Poster Session</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">16:20</td>
-                <td class="border py-2 px-4">Break</td>
-              </tr>
-              <tr class="bg-mbm-green-light">
-                <td class="border py-2 text-center">16:30</td>
-                <td class="border py-2 px-4">Talk: Invited Speaker</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">17:00</td>
-                <td class="border py-2 px-4">Official program for day 1 ends</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">18:30</td>
-                <td class="border py-2 px-4">Social Activity</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="px-4 w-full lg:w-1/2 flex flex-col">
-          <h1 class="content-header pt-4 lg:pt-0">Day 2</h1>
-          <table class="table-fixed w-full">
-            <thead>
-              <tr>
-                <th class="w-1/6 text-center">Time</th>
-                <th class="w-5/6 px-4 text-left">Activity</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="bg-mbm-green-light">
-                <td class="border py-2 text-center">08:30</td>
-                <td class="border py-2 px-4">Talk: Invited Speaker</td>
-              </tr>
-              <tr class="bg-mbm-green-light">
-                <td class="border py-2 text-center">09:00</td>
-                <td class="border py-2 px-4">Talk: Invited Speaker</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">09:30</td>
-                <td class="border py-2 px-4">Other talk (20 min x 1)</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">09:50</td>
-                <td class="border py-2 px-4">Break</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">10:00</td>
-                <td class="border py-2 px-4">Other talks (20 min x 3)</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">11:00</td>
-                <td class="border py-2 px-4">Break</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">11:10</td>
-                <td class="border py-2 px-4">Other talk (20 min x 1)</td>
-              </tr>
-              <tr class="bg-mbm-green-light">
-                <td class="border py-2 text-center">11:30</td>
-                <td class="border py-2 px-4">Talk: Invited Speaker</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">12:00</td>
-                <td class="border py-2 px-4">Session closing</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">12:10</td>
-                <td class="border py-2 px-4">Lunch break</td>
-              </tr>
-              <tr>
-                <td class="border py-2 text-center">13:00</td>
-                <td class="border py-2 px-4">Extended discussion / speaker rooms (open ended)</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="page-section">
     <div id="registration" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h1 class="section-header">
       Registration
     </h1>
-    <div class="content-box">
+    <!-- <div class="content-box"> -->
       <p class="mt-4 mb-4">
         You can participate at MBM 2020 by
       </p>
@@ -313,17 +220,17 @@ layout: mbm2020
       <form class="mt-4 flex flex-row justify-center items-center" action="https://docs.google.com/forms/d/e/1FAIpQLSdJ46IknhSQdsHDNXNC_kOMwJ6-9t1JLqPy9FBlRtMCeAWU3w/viewform?usp=sf_link" target="_blank">
         <input type="submit" class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded hover:bg-mbm-green-dark hover:text-white cursor-pointer" value="Register here" />
       </form>
-    </div>
+    <!-- </div> -->
   </section>
   <section class="page-section">
     <div id="contact" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h1 class="section-header">
       Contact
     </h1>
-    <div class="content-box">
+    <!-- <div class="content-box"> -->
       <p><span class="font-bold">Organising team (alphabetic order):</span>
       Filip Buric, Felix Held, Barbara Schnitzer</p>
       <p><span class="font-bold">Contact:</span> {filip.buric, hefelix, barsch} (at) chalmers.se</p>
     </div>
-  </section>
+  <!-- </section> -->
 </div>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .overall {
-    @apply bg-gray-800 text-gray-100 font-sans text-base font-light;
+    @apply bg-gray-200 text-gray-800 font-sans text-base font-light;
 
     @screen md {
         @apply text-lg;
@@ -25,11 +25,11 @@
 }
 
 .page-section {
-    @apply flex flex-col w-full mb-12;
+    @apply flex flex-col w-full mb-12 border-2 p-4 shadow-lg rounded-lg;
 }
 
 .section-header {
-    @apply text-4xl font-bold mb-5;
+    @apply text-4xl font-bold pb-2;
 
     @screen md {
         @apply text-5xl;
@@ -49,10 +49,10 @@
 }
 
 .content-header {
-    @apply text-3xl font-bold mb-5;
+    @apply text-2xl font-bold mb-5;
 
     @screen md {
-        @apply text-4xl;
+        @apply text-3xl;
     }
 }
 
@@ -76,22 +76,16 @@
     }
 }
 
-.speaker-image-box {
-    @screen md {
-        @apply w-4/12;
-    }
-
-    @screen lg {
-        @apply w-1/4;
-    }
+.speaker-image {
+    max-width: 240px;
 }
 
-.speaker-image {
-    @apply pb-4 mx-auto;
-    max-width: 240px;
+.invited-talk-box {
+    @apply w-full;
 
-    @screen md {
-        @apply pb-0 pr-4;
+    @screen xl {
+        @apply mx-2;
+        width: calc(50% - 1rem);
     }
 }
 

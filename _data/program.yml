@@ -1,0 +1,53 @@
+- day: 1
+  program: 
+    - time: "13:00"
+      activity: Start-up
+    - time: "13:10"
+      activity: "Talk: Invited Speaker"
+      highlight: true
+    - time: "13:40"
+      activity: Other talks (20 min x 2)
+    - time: "14:20"
+      activity: Break
+    - time: "14:30"
+      activity: Other talks (20 min x 2)
+    - time: "15:10"
+      activity: Break
+    - time: "15:20"
+      activity: Poster session
+    - time: "16:20"
+      activity: Break
+    - time: "16:30"
+      activity: "Talk: Invited Speaker"
+      highlight: true
+    - time: "17:00"
+      activity: Official program for day 1 ends
+    - time: "18:30"
+      activity: Social activity
+- day: 2
+  program:
+    - time: "08:30"
+      activity: "Talk: Invited Speaker"
+      highlight: true
+    - time: "09:00"
+      activity: "Talk: Invited Speaker"
+      highlight: true
+    - time: "09:30"
+      activity: Other talk (20 min x 1)
+    - time: "09:50"
+      activity: Break
+    - time: "10:00"
+      activity: Other talks (20 min x 3)
+    - time: "11:00"
+      activity: Break
+    - time: "11:10"
+      activity: Other talk (20 min x 1)
+    - time: "11:30"
+      activity: "Talk: Invited Speaker"
+      highlight: true
+    - time: "12:00"
+      activity: Session closing
+    - time: "12:10"
+      activity: Lunch break
+    - time: "13:00"
+      activity: Extended discussion / speaker rooms (open ended)
