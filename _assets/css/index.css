@@ -29,10 +29,10 @@
 }
 
 .section-header {
-    @apply text-4xl font-bold pb-2;
+    @apply text-3xl font-bold pb-2;
 
     @screen md {
-        @apply text-5xl;
+        @apply text-4xl;
     }
 }
 
@@ -57,14 +57,8 @@
 }
 
 .speaker-description {
-    @apply w-full;
-
-    @screen md {
-        @apply w-8/12;
-    }
-
-    @screen lg {
-        @apply w-3/4;
+    & p {
+        @apply py-2;
     }
 }
 

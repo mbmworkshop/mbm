@@ -6,7 +6,7 @@ layout: mbm2020
 <div class="container mx-auto mt-16 lg:mt-24 flex flex-wrap items-center px-4">
   <div id="top" class="h-0" style="bottom: 100px; position: relative;"></div>
   <div class="flex justify-center lg:justify-start lg:block text-center lg:text-left">
-    <h1 class="section-header sm:w-3/4 md:w-10/12 lg:w-3/4 xl:w-7/12">
+    <h1 class="text-4xl font-bold pb-2 md:text-5xl sm:w-3/4 md:w-10/12 lg:w-3/4 xl:w-7/12">
       Workshop on Modelling in Biology and Medicine
     </h1>
   </div>
@@ -25,7 +25,7 @@ layout: mbm2020
   </div>
   <div class="lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-2 lg:gap-4">
     <section class="page-section">
-      <h1 class="section-header">The Workshop</h1>
+      <h2 class="section-header">The Workshop</h2>
         <p class="py-2">
           We are pleased to invite you to our <span class="font-bold">second Workshop on Modelling in Biology and Medicine (MBM 2020)</span>.
         </p>
@@ -35,7 +35,7 @@ layout: mbm2020
     </section>
     <section class="page-section">
       <div id="format" class="h-0" style="bottom: 100px; position: relative;"></div>
-      <h1 class="section-header">
+      <h2 class="section-header">
         Format
       </h1>
         <p class="py-2">
@@ -48,7 +48,7 @@ layout: mbm2020
   </div>
   <section class="page-section">
     <div id="program" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">Program</h1>
+    <h2 class="section-header">Program</h2>
       <div class="flex flex-col lg:flex-row pt-2 pb-4">
         {% for day in site.data.program %}
         <div class="px-4 w-full lg:w-1/2 flex flex-col">
@@ -76,7 +76,7 @@ layout: mbm2020
   </section>
   <section class="page-section">
     <div id="invited" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">Invited speakers</h1>
+    <h2 class="section-header">Invited speakers</h2>
 
     <div class="flex flex-col xl:flex-row xl:flex-wrap">
       {% for speaker in site.data.invited-speakers %}
@@ -86,7 +86,7 @@ layout: mbm2020
               <img src="{{ site.baseurl }}/img/{{ speaker.image }}" alt="{{ speaker.name }}" class="speaker-image w-full h-full object-cover object-top">
           </div>
           <div class="w-1/2">
-            <h1 class="content-header">{{ speaker.name }}</h1>
+            <h3 class="content-header">{{ speaker.name }}</h3>
             <div class="text-gray-600 text-sm md:text-base">
               {{ speaker.description | markdownify }}
             </div>
@@ -96,9 +96,7 @@ layout: mbm2020
           {% if speaker.bio %}
           <div class="speaker-description">
             {% for para in speaker.bio %}
-            <p class="py-2">
-             {{ para | markdownify }}
-            </p>
+              {{ para | markdownify }}
             {% endfor %}
           </div>
           {% endif %}
@@ -109,22 +107,20 @@ layout: mbm2020
   </section>
   <section class="page-section">
     <div id="talks" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">Talks</h1>
+    <h2 class="section-header">Talks</h2>
 
     <div class="flex flex-col lg:flex-row lg:flex-wrap">
       {% for speaker in site.data.other-talks %}
       <section class="talk-box content-box external shadow-lg rounded-lg">
         <div class="text-lg md:text-xl mb-4">
-          <h1>
+          <h3>
             <span class="font-semibold">{{ speaker.name.first }} {{ speaker.name.last }}</span>,
             <span class="italic">{{ speaker.talk.title }}</span>
-          </h1>
+          </h3>
         </div>
-        <div class="font-light mb-8">
+        <div class="speaker-description mb-8">
           {% for para in speaker.talk.abstract %}
-          <p class="py-2">
-           {{ para | markdownify }}
-          </p>
+            {{ para | markdownify }}
           {% endfor %}
         </div>
         <div class="font-thin text-sm md:text-base">
@@ -142,22 +138,20 @@ layout: mbm2020
   </section>
     <section class="page-section">
     <div id="posters" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">Posters</h1>
+    <h2 class="section-header">Posters</h2>
 
     <div class="flex flex-col lg:flex-row lg:flex-wrap">
       {% for speaker in site.data.posters %}
       <section class="talk-box content-box external shadow-lg rounded-lg">
         <div class="text-lg md:text-xl mb-4">
-          <h1>
+          <h3>
             <span class="font-semibold">{{ speaker.name.first }} {{ speaker.name.last }}</span>,
             <span class="italic">{{ speaker.poster.title }}</span>
-          </h1>
+          </h3>
         </div>
-        <div class="font-light mb-8">
+        <div class="speaker-description mb-8">
           {% for para in speaker.poster.abstract %}
-          <p class="py-2">
-           {{ para | markdownify }}
-          </p>
+            {{ para | markdownify }}
           {% endfor %}
         </div>
         <div class="font-thin text-sm md:text-base">
@@ -175,59 +169,54 @@ layout: mbm2020
   </section>
   <section class="page-section">
     <div id="registration" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">
-      Registration
-    </h1>
-    <!-- <div class="content-box"> -->
-      <p class="mt-4 mb-4">
-        You can participate at MBM 2020 by
-      </p>
-      <ul class="px-8 list-disc">
-        <li>giving a plenary talk,</li>
-        <li>presenting a poster (i.e. a four-slide presentation),</li>
-        <li>or simply as an observer.</li>
-      </ul>
-      <p class="mt-4 mb-2">
-        In the first two cases you will have to submit an <strong>abstract
-        of max. 2000 characters</strong>. Please note that the number of
-        plenary speakers is limited. If you sign up for a talk but do not
-        get selected for a plenary talk, you are welcome to present a shorter
-        four-slide presentation during the poster session. The poster sessions
-        will be held in parallel.
-      </p>
-      <p class="my-2">
-        As part of the goals for the workshop we will give preference to
-        speakers on PhD and PostDoc level.
-      </p>
-      <p class="my-2">
-        Please note that you can edit your registration, which allows you
-        to change your participation status.
-      </p>
-      <p class="my-2">
-        The <strong>registration deadline</strong> is
-      </p>
-      <ul class="px-8 list-disc">
-        <li>
-          for talks on September 25th
-          (information about selection on September 28th),
-        </li>
-        <li>for posters on October 2nd, and</li>
-        <li>for observers on October 14th.</li>
-      </ul>
-      <p class="my-2">
-        Participation in the digital workshop will be free of charge.
-      </p>
-      <form class="mt-4 flex flex-row justify-center items-center" action="https://docs.google.com/forms/d/e/1FAIpQLSdJ46IknhSQdsHDNXNC_kOMwJ6-9t1JLqPy9FBlRtMCeAWU3w/viewform?usp=sf_link" target="_blank">
-        <input type="submit" class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded hover:bg-mbm-green-dark hover:text-white cursor-pointer" value="Register here" />
-      </form>
+    <h2 class="section-header">Registration</h2>
+    <p class="mt-4 mb-4">
+      You can participate at MBM 2020 by
+    </p>
+    <ul class="px-8 list-disc">
+      <li>giving a plenary talk,</li>
+      <li>presenting a poster (i.e. a four-slide presentation),</li>
+      <li>or simply as an observer.</li>
+    </ul>
+    <p class="mt-4 mb-2">
+      In the first two cases you will have to submit an <strong>abstract
+      of max. 2000 characters</strong>. Please note that the number of
+      plenary speakers is limited. If you sign up for a talk but do not
+      get selected for a plenary talk, you are welcome to present a shorter
+      four-slide presentation during the poster session. The poster sessions
+      will be held in parallel.
+    </p>
+    <p class="my-2">
+      As part of the goals for the workshop we will give preference to
+      speakers on PhD and PostDoc level.
+    </p>
+    <p class="my-2">
+      Please note that you can edit your registration, which allows you
+      to change your participation status.
+    </p>
+    <p class="my-2">
+      The <strong>registration deadline</strong> is
+    </p>
+    <ul class="px-8 list-disc">
+      <li>
+        for talks on September 25th
+        (information about selection on September 28th),
+      </li>
+      <li>for posters on October 2nd, and</li>
+      <li>for observers on October 14th.</li>
+    </ul>
+    <p class="my-2">
+      Participation in the digital workshop will be free of charge.
+    </p>
+    <form class="mt-4 flex flex-row justify-center items-center" action="https://docs.google.com/forms/d/e/1FAIpQLSdJ46IknhSQdsHDNXNC_kOMwJ6-9t1JLqPy9FBlRtMCeAWU3w/viewform?usp=sf_link" target="_blank">
+      <input type="submit" class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded hover:bg-mbm-green-dark hover:text-white cursor-pointer" value="Register here" />
+    </form>
   </section>
   <section class="page-section">
     <div id="contact" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h1 class="section-header">
-      Contact
-    </h1>
-      <p><span class="font-bold">Organising team (alphabetic order):</span>
-      Filip Buric, Felix Held, Barbara Schnitzer</p>
-      <p><span class="font-bold">Contact:</span> {filip.buric, hefelix, barsch} (at) chalmers.se</p>
+    <h2 class="section-header">Contact</h2>
+    <p><span class="font-bold">Organising team (alphabetic order):</span>
+    Filip Buric, Felix Held, Barbara Schnitzer</p>
+    <p><span class="font-bold">Contact:</span> {filip.buric, hefelix, barsch} (at) chalmers.se</p>
   </section>
 </div>

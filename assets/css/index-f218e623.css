@@ -23124,7 +23124,7 @@ video {
 }
 
 .section-header {
-  font-size: 2.25rem;
+  font-size: 1.875rem;
   font-weight: 700;
   padding-bottom: 0.5rem
 }
@@ -23132,7 +23132,7 @@ video {
 @media (min-width: 768px) {
 
 .section-header {
-    font-size: 3rem
+    font-size: 2.25rem
 }
   }
 
@@ -23175,22 +23175,9 @@ video {
 }
   }
 
-.speaker-description {
-  width: 100%
-}
-
-@media (min-width: 768px) {
-
-.speaker-description {
-    width: 66.666667%
-}
-  }
-
-@media (min-width: 1024px) {
-
-.speaker-description {
-    width: 75%
-}
+.speaker-description p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
 .speaker-content {
