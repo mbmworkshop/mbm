@@ -47,23 +47,23 @@ layout: mbm2020
   <section class="page-section">
     <div id="program" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h2 class="section-header">Program</h2>
-      <div class="flex flex-col lg:flex-row pt-2 pb-4">
+      <div class="flex flex-col lg:flex-row pt-2 -mt-2">
         {% for day in site.data.program %}
-        <div class="px-4 w-full lg:w-1/2 flex flex-col">
+        <div class="mt-4 px-4 w-full lg:w-1/2 flex flex-col">
           <h3 class="content-header">Day {{ day.day }}</h3>
           <table class="table-fixed w-full">
             <thead>
               <tr>
-                <th class="w-1/6 text-center">Time</th>
-                <th class="w-5/6 px-4 text-left">Activity</th>
+                <th class="w-1/6 text-center font-semibold">Time</th>
+                <th class="w-5/6 px-4 text-left font-semibold">Activity</th>
               </tr>
             </thead>
             <tbody>
               {% for event in day.program %}
               <tr class="{% if event.highlight %}bg-mbm-green-light{% endif %}
-              border-t-2 border-b-2 border-gray-300">
+              border-t border-gray-400">
                 <td class="py-2 text-center">{{ event.time }}</td>
-                <td class="py-2 px-4">{{ event.activity }}</td>
+                <td class="py-2 px-4"><span class="{% if event.break %}text-gray-600 italic{% endif %} {% if event.talk %}font-semibold{% endif %}">{{ event.activity }}</span> {% if event.invited %}<span class="text-sm lg:text-base text-gray-600 italic">(Invited speaker)</span>{% endif %}</td>
               </tr>
               {% endfor %}
             </tbody>
@@ -177,8 +177,8 @@ layout: mbm2020
       <li>or simply as an observer.</li>
     </ul>
     <p class="mt-4 mb-2">
-      In the first two cases you will have to submit an <strong>abstract
-      of max. 2000 characters</strong>. Please note that the number of
+      In the first two cases you will have to submit an <span class="font-normal">abstract
+      of max. 2000 characters</span>. Please note that the number of
       plenary speakers is limited. If you sign up for a talk but do not
       get selected for a plenary talk, you are welcome to present a shorter
       four-slide presentation during the poster session. The poster sessions
@@ -193,7 +193,7 @@ layout: mbm2020
       to change your participation status.
     </p>
     <p class="my-2">
-      The <strong>registration deadline</strong> is
+      The <span class="font-normal">registration deadline</span> is
     </p>
     <ul class="px-8 list-disc">
       <li>
