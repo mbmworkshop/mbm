@@ -135,3 +135,24 @@
     abstract:
       - >
         Changes in gene expression levels between different conditions are mainly caused by changes in transcription factor binding. Using newer methods to map transcription factor binding with unprecedented resolution, like ChIP-exo, one can obtain in-depth knowledge about transcription factor behavior at different conditions. Combining accurate binding maps with accurate expression measurements one can gain insights into how differential transcription factor binding affects conditional gene expression patterns. This knowledge can subsequently be leveraged to rationally modify promoters to achieve a desired conditional gene expression response, which is desirable in metabolic engineering. Using data from 21 transcription factors in the model organism Saccharomyces cerevisiae, we built a machine learning model to identify the most important determinants for conditional gene expression. We also present an online promoter engineering tool called HYENA. With HYENA one can design hybrid promoters with defined conditional gene expression responses for yeast cells grown on glucose and on ethanol. This tool is based on gradient boosting regression trees and is equipped with a user-friendly streamlit based interface.
+- name:
+    first: Kajsa
+    last: Tunedal
+  affiliation: Linköping University
+  poster:
+    title: Non-invasive investigation of hemodynamic changes in hypertension and T2D through cardiovascular modeling
+    authors: Kajsa Tunedal (1,2), Belén Casas Garcia (1), Carl-Johan Carlhäll (2,3,4), Federica Viola (2,3), Tino Ebbers (2,3,5), Gunnar Cedersund (1,3,5)
+    affiliations:
+      - >
+        (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
+      - >
+        (2) Unit of Cardiovascular Sciences, Department of Health, Medicine and Caring Sciences (HMV), Linköping University, Linköping, Sweden
+      - >
+        (3) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
+      - >
+        (4) Dept. Of Clinical Physiology, Dept. of Health, Medicine and Caring Sciences, Linköping University, Linköping, Sweden
+      - >
+        (5) Shared last author.
+    abstract:
+      - >
+        Hypertension is one of the most common health issues today with 25% men affected worldwide, and is twice as common in patients with type 2 diabetes (T2D). Hypertension is defined in Europe as a blood pressure of ≥140/≥90 mmHg and uncontrolled hypertension is a risk factor for cardiovascular diseases such as coronary artery disease, heart failure, and renal failure. The basic underlying mechanisms such as a dysregulated renin-angiotensin system, alterations in chemo- and baroreceptors and disturbed sodium-potassium balance are known. However, the connection to other cardiovascular diseases is complex and the treatment of hypertension usually involves lifestyle changes and trial- and error by testing several anti-hypertensive drugs . There is a need of deeper understanding of the changes in hemodynamics during hypertension and especially in T2D patients. Non-invasive measurements such as four-dimensional magnetic resonance imaging (4D Flow MRI) allows for detailed data on hemodynamics with 3D visualization of blood flow over time. By combining this hemodynamic data with a cardiovascular lumped parameter model, more information can be extracted that otherwise is hard to measure non-invasively, such as parameters of the contraction and relaxation of the left ventricle and the propagation of the pressure wave . Through a sub-study to SCAPIS Linköping, 40 T2D patients and 44 controls underwent 4D Flow MRI and cuff pressure measurements. A cardiovascular model is now being applied to the data, to create personalized models with hemodynamics for each individual. This gives assessment of new model-derived biomarkers, which are compared between hypertensive and non-hypertensive individuals, as well as between T2D patients and controls, to investigate hemodynamic differences between and within the groups. The study has the potential to bring new insights to the hemodynamic mechanisms behind hypertension with and without T2D, and to provide a new clinical tool for diagnostics.
