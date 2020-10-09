@@ -3,14 +3,18 @@
     - time: "13:00"
       activity: Start-up
     - time: "13:10"
-      activity: "Talk: Invited Speaker"
+      activity: "Jan Hasenauer"
       highlight: true
     - time: "13:40"
-      activity: Other talks (20 min x 2)
+      activity: William Lövfors
+    - time: "14:00"
+      activity: Jan Zrimec
     - time: "14:20"
       activity: Break
     - time: "14:30"
-      activity: Other talks (20 min x 2)
+      activity: Erik Bülow
+    - time: "14:50"
+      activity: Linnea Österberg
     - time: "15:10"
       activity: Break
     - time: "15:20"
@@ -18,7 +22,7 @@
     - time: "16:20"
       activity: Break
     - time: "16:30"
-      activity: "Talk: Invited Speaker"
+      activity: "Lars Rönnegård"
       highlight: true
     - time: "17:00"
       activity: Official program for day 1 ends
@@ -27,23 +31,27 @@
 - day: 2
   program:
     - time: "08:30"
-      activity: "Talk: Invited Speaker"
+      activity: "Gunnar Cedersund"
       highlight: true
     - time: "09:00"
-      activity: "Talk: Invited Speaker"
+      activity: "Falko Schmidt"
       highlight: true
     - time: "09:30"
-      activity: Other talk (20 min x 1)
+      activity: Carl-Joar Karlsson
     - time: "09:50"
       activity: Break
     - time: "10:00"
-      activity: Other talks (20 min x 3)
+      activity: Sebastian Persson
+    - time: "10:20"
+      activity: Ida Larsson
+    - time: "10:40"
+      activity: Fredrik Ohlsson
     - time: "11:00"
       activity: Break
     - time: "11:10"
-      activity: Other talk (20 min x 1)
+      activity: Peter Jagars
     - time: "11:30"
-      activity: "Talk: Invited Speaker"
+      activity: "Jeanette Hellgren Kotaleski"
       highlight: true
     - time: "12:00"
       activity: Session closing
