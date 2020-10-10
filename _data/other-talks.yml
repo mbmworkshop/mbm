@@ -1,3 +1,25 @@
+- name:
+    first: William
+    last: Lövfors
+  affiliation: Linköping University
+  talk:
+    title: Towards a comprehensive and multi-level module for metabolic control of the adipose tissue
+    authors: William Lövfors(1,2), Christian Simonsson(1,4), Cecilia Jönsson(3), Karin Stenkula(4), Peter Strålfors(3),  Elin Nyman(1), Gunnar Cedersund(1,5)
+    affiliations:
+      - >
+        (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
+      - >
+        (2) Department of Mathematics, Linköping University, Linköping, Sweden
+      - > 
+        (3) Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden
+      - >
+        (4) Lund university, Lund, Sweden
+      - >
+        (5) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
+    abstract:
+      - >
+        Type 2 diabetes is an important risk factor for myocardial infarction and stroke, which are the leading causes of death in the world. Central to these diseases is the adipose tissue. The adipose tissue is both responding to hormones like insulin and catecholamines, which regulate the metabolic function of the tissue, and is secreting its own hormones, e.g. adiponectin. However, even if much research has generated many partial insights regarding these processes, there is still a lack of consensus regarding many details. The main reason for this is the high degree of complexity and over-lapping co-regulation between the different processes. To tackle this complexity, we have collected highly resolved quantitative data, which we have analyzed using mechanistic modelling. This combination has allowed us to iteratively test and refine mechanistic hypotheses, where we use the data to both evaluate and refine the hypotheses, and to validate them using independent predictions. We have used this approach to characterize various sub-systems in the adipose tissue: insulin signaling leading to glucose uptake and inhibition of lipolysis, catecholamine stimulation of lipolysis and adiponectin secretion, both in type 2 diabetes and control. These models have so far described these processes one by one, even though there are important points of overlap. In this talk I will present both our results for the different existing models, and outline how we now are creating a combined multi-level model for the adipose tissue. This final model will be able to serve as a module in whole-body models used to aid drug development and healthcare.
+
 - name: 
     first: Jan
     last: Zrimec
