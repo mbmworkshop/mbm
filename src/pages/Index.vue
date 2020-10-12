@@ -70,7 +70,7 @@ query {
     				 filter: { type: { eq: "talk" }}) {
 		...contentFields
   }
-  posters: allOthers (filter: { type: { eq: "poster" }}) {
+  posters: allOthers (order: ASC, filter: { type: { eq: "poster" }}) {
 		...contentFields
   }
 }
