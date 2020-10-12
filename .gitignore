@@ -1,9 +1,8 @@
-_site
-.sass-cache
-.jekyll-metadata
-fontawesome.txt
-Gemfile.lock
+*.log
+.cache
 .DS_Store
+src/.temp
 node_modules
-presentations
-_assets/build
+dist
+.env
+.env.*
