@@ -13,20 +13,20 @@ module.exports = {
       xs: '375px',
       sm: '600px',
       md: '768px',
-      lg: '1024px',  
+      lg: '1024px',
       xl: '1280px',
     },
     extend: {
       colors: {
         'mbm-green': {
-          'dark': '#164b39',
-          'default': '#247a5d',
-          'light': '#91c4b3'
+          dark: '#164b39',
+          DEFAULT: '#247a5d',
+          light: '#91c4b3'
         },
         'mbm-red': {
-            'dark': '4f2117',
-            'default': '#7a3224',
-            'light': '#ca634e'
+            dark: '4f2117',
+            DEFAULT: '#7a3224',
+            light: '#ca634e'
         }
       }
     }
