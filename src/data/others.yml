@@ -1,169 +1,7 @@
 - order: 1
-  name:
-    first: William
-    last: Lövfors
-  affiliation: Linköping University
-  type: talk
-  content:
-    title: Towards a comprehensive and multi-level module for metabolic control of the adipose tissue
-    authors: William Lövfors(1,2), Christian Simonsson(1,4), Cecilia Jönsson(3), Karin Stenkula(4), Peter Strålfors(3),  Elin Nyman(1), Gunnar Cedersund(1,5)
-    affiliations:
-      - >
-        (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
-      - >
-        (2) Department of Mathematics, Linköping University, Linköping, Sweden
-      - > 
-        (3) Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden
-      - >
-        (4) Lund university, Lund, Sweden
-      - >
-        (5) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
-    abstract:
-      - >
-        Type 2 diabetes is an important risk factor for myocardial infarction and stroke, which are the leading causes of death in the world. Central to these diseases is the adipose tissue. The adipose tissue is both responding to hormones like insulin and catecholamines, which regulate the metabolic function of the tissue, and is secreting its own hormones, e.g. adiponectin. However, even if much research has generated many partial insights regarding these processes, there is still a lack of consensus regarding many details. The main reason for this is the high degree of complexity and over-lapping co-regulation between the different processes. To tackle this complexity, we have collected highly resolved quantitative data, which we have analyzed using mechanistic modelling. This combination has allowed us to iteratively test and refine mechanistic hypotheses, where we use the data to both evaluate and refine the hypotheses, and to validate them using independent predictions. We have used this approach to characterize various sub-systems in the adipose tissue: insulin signaling leading to glucose uptake and inhibition of lipolysis, catecholamine stimulation of lipolysis and adiponectin secretion, both in type 2 diabetes and control. These models have so far described these processes one by one, even though there are important points of overlap. In this talk I will present both our results for the different existing models, and outline how we now are creating a combined multi-level model for the adipose tissue. This final model will be able to serve as a module in whole-body models used to aid drug development and healthcare.
-- order: 2
   name: 
-    first: Jan
-    last: Zrimec
-  affiliation: Chalmers University of Technology
-  type: talk
-  content:
-    title: Learning the regulatory grammar of DNA for gene expression engineering
-    authors: Jan Zrimec (1), Aleksej Zelezniak (1)
-    affiliations:
-      - >
-        (1) Department of Biology and Biological Engineering, Chalmers University of Technology
-    abstract: 
-      - >
-        The DNA regulatory code that governs gene expression is present in the gene regulatory structure that spans the coding and adjacent non-coding regulatory DNA regions, including promoters, terminators and untranslated regions. Deciphering this regulatory code, as well as how the whole gene regulatory structure interacts to produce mRNA transcripts and regulate mRNA abundance, can greatly improve our capabilities for controlling gene expression and solving problems related to both medicine and biotechnology. 
-      - >
-        Here, we consider that natural systems offer the most accurate information on gene expression regulation and apply deep learning on over 20,000 mRNA datasets to learn the DNA-encoded regulatory code across a variety of model organisms from bacteria to Human ([https://doi.org/10.1101/792531](https://doi.org/10.1101/792531)). Since up to 82% of the regulatory code is encoded in the gene regulatory structure, mRNA abundance can be predicted directly from DNA with high accuracy in all model organisms. Coding and regulatory regions in fact carry both overlapping and orthogonal information and additively contribute to gene expression levels. By mining the gene expression models for the relevant DNA regulatory motifs, we uncover motif interactions across the whole gene regulatory structure that define over 3 orders of magnitude of gene expression levels. Based on these findings we develop a novel AI-guided approach protein expression engineering and experimentally verify its usefulness.
-      - >
-        Our results challenge the current paradigm that single motifs or regulatory regions are solely responsible for gene expression levels. Instead, we demonstrate that the whole gene regulatory structure, comprising the DNA regulatory grammar of interacting DNA motifs across protein coding and adjacent regulatory regions, forms a coevolved transcriptional regulatory unit and provides a mechanism by which whole gene systems with pre-specified expression patterns can be designed. 
-- order: 3
-  name: 
-    first: Erik
-    last: Bülow
-  affiliation: University of Gothenburg
-  type: talk
-  content:
-    title: >
-      Predicting mortality by comorbidity for patients with hip arthroplasty: Prospective observational register studies of a nationwide Swedish cohort
-    authors: Erik Bülow (1)
-    affiliations:
-      - >
-        (1) Department of Orthopaedics, Institute of Clinical Sciences, the Sahlgrenska Academy, University of Gothenburg
-    abstract: 
-      - >
-        INTRODUCTION: Patients with total hip arthroplasty (THA) due to osteoarthritis (OA) are usually healthy, some with a remaining lifetime of several decades after surgery. Patients with hip arthroplasty due to a femoral neck fracture (FNF) are often old and frail with 13 % mortality within 90 days of surgery. To predict all-cause mortality for those groups has been considered but no prediction model has so far been widely accepted. 
-      - >
-        PATIENTS AND METHODS: We developed an R package to estimate comorbidity from large data sets. We used data from the Swedish Hip Arthroplasty Register (SHAR), other nationwide Swedish registers and the National Joint Registry for England, Wales, Northern Ireland, the Isle of Man and the States of Guernsey (NJR). We evaluated the discriminatory abilities of the Charlson and Elixhauser comorbidity indices to predict mortality for patients with hip arthroplasty due to OA and FNF. We also developed a new statistical prediction model for 90-day mortality after cemented THA due to OA using a bootstrap ranking procedure with logistic least absolute shrinkage and selection operator (LASSO) regression. The model was validated internally, as well as externally with patients from England and Wales. We built a web calculator for clinical usage. Finally, association between the Elixhauser comorbidity index and the restricted mean survival time (RMST) after surgery was assessed for patients with THA due to OA. 
-      - >
-        RESULTS: The coder R-package provides a dynamic solution for patient classification. Existing comorbidity indices did not accurately predicted mortality after hip arthroplasty due to OA or FNF. The new model did predict 90-day mortality with good discriminatory ability (AUC > 0.7) and was well calibrated. Shortening of the RMST for 10 years after surgery ranged from 315 days for patients with no comorbidity, to 1,193 days for patients with at least 3 comorbidities. 
-- order: 4
-  name: 
-    first: Linnea
-    last: Österberg
-  affiliation: Chalmers University of Technology
-  type: talk
-  content:
-    title: A novel yeast hybrid modeling framework integrating Boolean and enzyme-constrained networks enables exploration of the interplay between signaling and metabolism
-    authors: Linnea Österberg (1,2,3), Iván Domenzain Cerecer (3,4), Julia Münch (1,2), Jens Nielsen (3,4,5), Stefan Hohmann (3), Marija Cvijovic (1,2)
-    affiliations:
-      - >
-        (1) Department of Mathematical Sciences, University of Gothenburg, Gothenburg, Sweden
-      - >
-        (2) Department of Mathematical Sciences, Chalmers University of Technology, Gothenburg, Sweden
-      - >
-        (3) Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden
-      - >
-        (4) Novo Nordisk Foundation Center for Biosustainability, Chalmers University of Technology, SE41296 Gothenburg, Sweden
-      - >
-        (5) BioInnovation Institute, Ole Maaløes Vej 3, DK-2200 Copenhagen, Denmark
-    abstract: 
-      - >
-        The interplay between nutrient-induced signaling and metabolism plays an important role in maintaining homeostasis and failure to do so has been implicated in human diseases and conditions such as obesity, type 2 diabetes, cancer and ageing. Therefore, unravelling the role of nutrients as signaling molecules and metabolites as well as their interconnectivity may provide a deeper understanding of how these conditions occur. Both the signalling and metabolism have been extensively studied using various systems biology approaches. However, they are mainly studied individually and in addition current models lack both the complexity of the dynamics and the effects of the crosstalk in the signaling system. To gain a better understanding of the interconnectivity between nutrient signaling and metabolism, we have developed a hybrid model by combining the Boolean and the enzyme constraint models using a regulatory network as a link. The model is capable of reproducing the regulatory effects that are associated with the Crabtree effect and glucose repression. We show that using this methodology one can investigate intrinsically different systems, such as signaling and metabolism, in the same model and gain insight into how the interplay between them can have non-trivial effects by showing a connection between Snf1 signaling and chronological lifespan by the regulation of NDE and NDI usage in respiring conditions. In addition, the model showed that during fermentation, enzyme utilization is the more important factor governing the protein allocation, while in low glucose conditions robustness and control is prioritized.
-- order: 5
-  name: 
-    first: Carl-Joar
-    last: Karlsson
-  affiliation: Chalmers University of Technology and University of Gothenburg
-  type: talk
-  content:
-    title: >
-      Decisions and disease: a mechanism for the evolution of cooperation
-    authors: Julie Rowlett (1), Carl-Joar Karlsson (1)
-    affiliations: 
-      - >
-        (1) Department of Mathematics, Chalmers University of Technology and University of Gothenburg, Gothenburg, Sweden
-    abstract: 
-      - >
-        In numerous contexts, individuals may decide whether they take actions to mitigate the spread of disease, or not. Mitigating the spread of disease requires an individual to change their routine behaviours to benefit others, resulting in a ‘disease dilemma’ similar to the seminal prisoner’s dilemma. In the classical prisoner’s dilemma, evolutionary game dynamics predict that all individuals evolve to ‘defect.’ We have discovered that when the rate of cooperation within a population is directly linked to the rate of spread of the disease, cooperation evolves under certain conditions. For diseases which do not confer immunity to recovered individuals, if the time scale at which individuals receive accurate information regarding the disease is sufficiently rapid compared to the time scale at which the disease spreads, then cooperation emerges. Moreover, in the limit as mitigation measures become increasingly effective, the disease can be controlled; the number of infections tends to zero. It has been suggested that disease spreading models may also describe social and group dynamics, indicating that this mechanism for the evolution of cooperation may also apply in those contexts. 
-- order: 6
-  name: 
-    first: Sebastian
-    last: Persson
-  affiliation: University of Gothenburg
-  type: talk
-  content:
-    title: Fine-tuning of energy levels regulates SUC2 via a SNF1-dependent feedback loop.
-    authors: Persson Sebastian (1, 2), Welkenhuysen Niek (1, 2), Shashkova Sviatlana (3), Cvijovic Marija (1, 2)
-    affiliations:
-      - >
-        (1) Department of Mathematical Sciences, University of Gothenburg, Gothenburg, Sweden
-      - >
-        (2) Department of Mathematical Sciences, Chalmers University of Technology, Gothenburg, Sweden
-      - >
-        (3) Department of Microbiology and Immunology, Institute of Biomedicine, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden
-    abstract: 
-      - >
-        Nutrient sensing pathways are playing an important role in cellular response to different energy levels. In budding yeast, Saccharomyces cerevisiae, the sucrose non-fermenting protein kinase complex SNF1 is a master regulator of energy homeostasis. It is affected by multiple inputs, among which energy levels is the most prominent. Largely due to SNF1, cells which are exposed to a switch in carbon source availability display a change in the gene expression machinery. In a glucose rich environment Snf1/Mig1 pathway represses the expression of its downstream target, such as SUC2. However, upon glucose depletion SNF1 is activated which leads to an increase in SUC2 expression. Our single cell experiments indicate that this increase in SUC2 expression upon starvation only is temporary, as the gene expression pattern of SUC2 shows rapid increase followed by a decrease to the initial state with high cell-to-cell variability. The mechanism behind this behavior is currently unknown. In this work we study the long-term behavior of the Snf1/Mig1 pathway upon glucose starvation with a microfluidics and non-linear mixed effect modelling approach. Overall, our systems biology approach proposes a negative feedback mechanism that works through the SNF1 complex and is controlled by energy levels. We further show that Reg1 likely is involved in the negative feedback mechanism.
-- order: 7
-  name:
-    first: Ida
-    last: Larsson
-  affiliation: Uppsala University
-  type: talk
-  content:
-    title: Reconstruction of plasticity and cell state dependent growth of glioblastoma
-    authors: Ida Larsson (1), Erika Dalmo (1), Ramy Elgendy (1), Rebecka Jörnsten (2), Bengt Westermark (1), Sven Nelander (1)
-    affiliations: 
-      - >
-        (1) Department of Immunology, Genetics and Pathology, Uppsala University, Sweden 
-      - >
-        (2) Department of Mathematical Sciences, University of Gothenburg, Sweden
-    abstract:
-      - >
-        The malignant brain tumor glioblastoma (GBM) is characterized by a complex cellular composition, shaped not only by tumor evolution but also plastic and stochastic processes in the cells. To understand the underlying dynamics of GBM cell behavior, we have developed a method that integrates single-cell RNA sequencing (scRNA-seq) time series data from DNA-barcoded cells with a mathematical model of single cell dynamics. The model clarifies how cellular states relate to each other, it accounts for phenotypic switching and state-dependent cell growth.
-      - >
-        In our model, cells in a given state can either die, grow or transition to another state, and GBM dynamics is thus captured by a system with k(1+k) first-order reactions, for k states. As a continuum approximation, the system is described by a set of linear differential equations dx/dt=A*x where x is a vector defining the number of cells in each state and A holds the reaction rates we want to estimate. A is estimated from data by convex optimization, minimising the sum-of-square disagreement with barcode counts. 
-      - >
-        We use the model to analyse how cells derived from a GBM patient transition between transcriptionally defined states over time and we are in addition able to quantify growth rates for each state, which show a high variation between states. A key finding is that under baseline conditions, the cells transition according to a clear hierarchy, along an axis from a state of slow-cycling stem-like cells via a state of rapidly cycling cells to finally end up in the more differentiated slow- or non-cycling states. Under genotoxic or differentiation therapy, we can show that there is an increased flow of cells from the majority of all states to one specific state for each therapeutic intervention.
-- order: 8
-  name: 
-    first: Fredrik
-    last: Ohlsson
-  affiliation: Umeå University
-  type: talk
-  content:
-    title: Symmetries and structural model selection for the Hill model
-    authors: Fredrik Ohlsson (1), Johannes Borgqvist (2), Marija Cvijovic (2)
-    affiliations:
-      - >
-        (1) Department of Mathematics and Mathematical Statistics, Umeå University, Umeå, Sweden
-      - >
-        (2) Department of Mathematical Sciences, Chalmers University of Technology and the University of Gothenburg, Gothenburg, Sweden
-    abstract:
-      - >
-        A symmetry of an ordinary differential equation (ODE) is a point transformation that preserves the space of solutions of the ODE. We are concerned with 1-parameter Lie groups of transformations generated by differential operators, interpreted as elements of the corresponding Lie algebra. Analysis of the symmetries of a model provides a way to understand manifestly nonlinear properties of its solutions and hence the underlying structure of the system modelled. Conversely, describing the structure observed in experimental data in terms of symmetries can guide the development of mechanistic models that are informed by global properties of their solutions rather than local residual analysis.
-      - >
-        We consider the nonlinear Hill models of order n appearing in the description of enzymatically catalysed conversion reactions in the limit where the substrate concentration is large. We derive a class of symmetries which are unique to each order Hill model and investigate their action on its solutions. For each value of n, there is consequently a 1-parameter family of transformations that preserve the space of solutions of the corresponding Hill model, but not Hill models of any other order.
-      - >
-        We apply the derived symmetries to the problem of accounting for structural properties in model selection. By performing symmetry transformations corresponding to different candidate Hill models to measurement data before model fitting, we obtain a procedure in which the fit is approximately invariant under the variation of the transformation parameter for the true underlying model in the limit of vanishing measurement error. Models for which the symmetry structure is not realized in the data, on the other hand, are expected to exhibit decreasing quality-of-fit as the transformation parameter increases from zero, corresponding to the identity transformation. We evaluate the proposed method on simulated Hill model data and demonstrate performance superior to ordinary least-square fitting.
-- order: 9
-  name: 
-    first: Peter
-    last: Jagers
+    first: To be 
+    last: announced
   affiliation: Chalmers University and University of Gothenburg
   type: talk
   content:
@@ -177,195 +15,389 @@
       - >
         Consider a population whose size changes stepwise by its members reproducing or dying (disappearing), but is otherwise quite general. Denote the initial (non-random) size by `Z_0` and the size of the nth change by `C_n`, `n = 1,2,...`. Population sizes hence develop successively as `Z_1 = Z_0+ C_1`,  `Z_2 = Z_1 + C_2`, and so on, indefinitely or until there are no further size changes, due to extinction. Extinction is thus assumed final, so that `Z_n = 0` implies that `Z_{n+1} = 0`, without there being any other finite absorbing class of population sizes. We make no assumptions about the time durations between the successive changes. In the real world, or more specific models, those may be of varying length, depending upon individual life span distributions and their interdependencies, the age-distribution at hand and intervening circumstances. We could consider toy models of Galton–Watson type generation counting or of the birth-and-death type, with one individual acting per change, until extinction, or the most general multi-type CMJ branching processes with, say, population size dependence of reproduction. Changes may have quite varying distributions. The basic assumption is that there is a carrying capacity, i.e. a non-negative number `K` such that the conditional expectation of the change, given the complete past history, is non-positive whenever the population exceeds `K`, the carrying capacity. Further, we assume that the change In a non-extinct population is negative (an individual dying) with a conditional (given the past) positive probability. The straightforward, but in contents and implications far-reaching, consequence is that all such populations must die out. Mathematically, it follows by a supermartingale convergence property and positive probability of reaching the absorbing extinction state.
 - name:
-    first: Hanna
-    last: Isaksson
-  affiliation: Umeå University
+    first: To be announced
+    last: 
+  affiliation: 
   type: poster
   content:
-    title: Small differences in multicellular life cycles have big effects for its evolution
-    authors: Hanna Isaksson (1), Eric Libby (1)
+    title: 
+    authors: 
     affiliations: 
       - >
-        (1) Umeå University, IceLab, Department of Mathematics and Mathematical Statistics
+        
     abstract:
       - >
-        All multicellular organisms evolved from unicellular ancestors, yet not all multicellular lineages evolved similar levels of complexity. The evolution of complex multicellularity involves a series of adaptations that transform simple groups of cells into large structures of differentiated cells. Experimental and theoretical studies have identified some key factors that influence the evolution of complexity such as the presence of bottlenecks in multicellular life cycles and whether development is clonal or aggregative. These factors, however, distinguish between disparate types of multicellular life cycles; yet little is known about how small variations within the same type of multicellular life cycle affect its future evolution. Here, we consider a simple multicellular life cycle of a filament that reproduces via fragmentation. We use mathematical modeling to explore how subtle variations in the fragmentation process affect the rate that beneficial mutations fix. In particular, we find that the number of daughter filaments produced during a fragmentation affects the speed and likelihood that mutations fix. One class of mutations, called altruistic mutations, that impose a cost on individual cells but improve the survival of the filament did not fix when filaments fragmented into high numbers of daughters. Our results show that the specific structure of a multicellular life cycle matters, either promoting or inhibiting adaptations that give rise to greater organismal complexity.
-- name:
-    first: Mahnaz
-    last: Irani-Shemirani
-  affiliation: University of Gothenburg
-  type: poster
-  content:
-    title: Comparison of Whole Genome Sequencing Pipelines for Analysis of Staphylococcus aureus Isolates from Sepsis Patients
-    authors: Mahnaz I.Shemirani (1,3), Andreas Tilevik (1), Diana Tilevik (1), Anna-Karin Pernestig (1), Helena Enroth (1,2)
-    affiliations:
-      - >
-        (1) Systems Biology Research Center, University of Skövde, Skövde
-      - >
-        (2) Laboratory medicine, Unilabs, Skövde
-      - >
-        (3) Department of Laboratory Medicine, University of Gothenburg, Gothenburg
-    abstract:
-      - >
-        Having access to Whole-genome sequencing (WGS) bioinformatic pipelines of Staphylococcus aureus (S. aureus) in a life-threatening condition such as sepsis reduce the turnaround time of diagnosis and aid in appropriate antibiotic therapy, but having a bioinformatician in each clinical microbiological laboratory is not feasible.A fully automated user-friendly software optimized for microbiologists without a background in bioinformatics facilitates the routine use.Paired-end sequences of 264 strains of S.aureus from patients with suspected sepsis were assembled and analyzed by an in-house pipeline using de novo assembly and commercial platform, 1928DSA. We compared the two strategies of the WGS method to the standard method of Matrix-assisted Laser Desorption Ionization Time of Flight Mass Spectrometry (MALDI-TOF MS) and disc diffusion, and were also compared with each other for multilocus sequence typing, species identification, virulence, and resistance profiling. The in-house pipeline identified a higher number of S. aureus species (99%) than 1928DSA (97%). Both methods identified the same non-S. aureus species, which were not recognized by MALDI-TOF MS. They were also consistent with MALDI-TOF MS in discovering MRSA strains. The genotypic antibiotic resistance prediction matched each other in the prediction of Erythromycin and Fusidic acid (100%) and Penicillin class resistance (85.8%). More results were attained by the in-house pipeline in terms of ST type prediction (96.5%) versus 1928DSA (91%). Both methods showed the same results for five virulence genes; LukF-PVL, LukS-PVL, etA, etB, and tst. Overall, according to our comparison, 1928DSA presented functionality for clinical use in identifying and prediction of non-S. aureus and MRSA strains, and resistance genes of Penicillin class and Erythromycin.
-- name:
-    first: Jan
-    last: Zrimec
-  affiliation: Chalmers University of Technology
-  type: poster
-  content:
-    title: Multiple plasmid origin-of-transfer substrates can enable the spread of natural antimicrobial resistance to human pathogens
-    authors: Jan Zrimec (1)
-    affiliations:
-      - >
-        (1) Department of Biology and Biological Engineering, Chalmers University of Technology
-    abstract:
-      - >
-        Antimicrobial resistance poses a great danger to humanity, in part due to the widespread horizontal transfer of plasmids via conjugation. Modelling of plasmid transfer is essential to uncovering the fundamentals of resistance transfer and for development of predictive measures to limit the spread of resistance. However, a major limitation in the current understanding of plasmids is the inadequate characterisation of their DNA transfer mechanisms, such as the DNA origin-of-transfer regions, where plasmid transfer initiates. This conceals the actual potential for plasmid transfer in nature. Here, we consider that the plasmid-borne origin-of-transfer substrates encode specific DNA structural properties that can facilitate finding and typing these regions in large datasets, including determining their potential transfer ranges ([https://doi.org/10.1038/s41598-018-20157-y](https://doi.org/10.1038/s41598-018-20157-y)). We thus develop a DNA structure-based alignment procedure for typing the origin-of-transfer substrates that outperforms the current sequence-based approaches ([https://doi.org/10.1101/2020.04.20.050401](https://doi.org/10.1101/2020.04.20.050401), [https://arxiv.org/abs/2007.14922](https://arxiv.org/abs/2007.14922)). We identify thousands of yet undiscovered putative DNA transfer substrates, showing that putative plasmid mobility can in fact be 2-fold higher and span almost 2-fold more host species than is currently understood. Over half of all putative mobile plasmids contain conjugative mechanisms belonging to different mobility groups, which can potentially link previously confined host ranges across ecological habitats into a robust plasmid transfer network. We show that this network can in fact serve to transfer antimicrobial resistance from the environmental genetic reservoirs to human pathogens, which might be an important driver of the observed rapid resistance development in humans and thus an important point of focus for future prevention measures.
-- name:
-    first: Mihail
-    last: Anton
-  affiliation: Chalmers University of Technology
-  type: poster
-  content:
-    title: Metabolic Atlas – a website for exploration and visualization of metabolic networks
-    authors: Mihail Anton (1), Pierre-Etienne Cholley (1), Jonathan L. Robinson (1), Shan Huang (2), L. Thomas Svensson (1), Jens Nielsen (3)
-    affiliations:
-      - >
-        (1) Department of Biology and Biological Engineering, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Chalmers University of Technology, Sweden
-      - >
-        (2) Department of Biology and Biological Engineering, Chalmers University of Technology, Sweden
-      - >
-        (3) Department of Biology and Biological Engineering, Wallenberg Center for Protein Research, Chalmers University of Technology; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark; BioInnovation Institute (Denmark), Sweden
-    abstract:
-      - >
-        Genome-scale metabolic models (GEMs) are valuable tools to study metabolism and provide a scaffold for the integrative analysis of omics data. GEMs often encompass thousands of reactions, metabolites and genes, whose manipulation require complex data structures.
-      - >
-        Metabolic Atlas, through the web platform available at [https://metabolicatlas.org](https://metabolicatlas.org), aims to make the entire GEM content available for easy navigation. This is achieved through both tabular and map views (2D and 3D), each suited for different usage scenarios. In addition, Metabolic Atlas aims to meet the needs of the community through the development of specific tools and features though iterative releases.
-      - >
-        Currently, Metabolic Atlas facilitates exploration and visualization of two open-source GEMs: Human1, an integration and extensive curation of the most recent human metabolic models (Robinson et al., 2020), and Yeast8, a consensus metabolic model for S. cerevisiae (Lu et al., 2019).
-      - >
-        The history of Metabolic Atlas starts before 2015 (Pornputtapong et al., 2015). The present website has been re-developed from the ground up, following open-source standards. It was made publicly available mid 2019, and is now at version 1.7 (Robinson et al., 2020). We plan to continue the development in a tic-toc method: a major release altering the foundation of the website, followed by several smaller releases. We are actively engaging the community to address the challenges in accessing GEMs for curation, analysis and biological understanding, under the guidance of FAIR principles.
-      - >
-        source: [https://f1000research.com/posters/9-561](https://f1000research.com/posters/9-561)
-- name:
-    first: Rebecka
-    last: Andersson
-  affiliation: Umeå University
-  type: poster
-  content:
-    title: Computing the probability of a successful endosymbiotic event
-    authors: Rebecka Andersson (1,2), Jordan G. Okie (3), Christopher P. Kempes (4), Eric Libby (1,2)
-    affiliations:
-      - >
-        (1) IceLab, Umeå University
-      - >
-        (2) Department of Mathematics and Mathematical Statistics, Umeå University
-      - >
-        (3) Arizona State University
-      - >
-        (4) Santa Fe Institute
-    abstract:
-      - >
-        The endosymbiotic event that gave rise to mitochondria and eukaryotes is a pivotal event in the evolution of life on earth— unparalleled in terms of its rarity and significance. It is thought to have occurred only once and account for the evolution of all large, complex life. Despite its importance, we do not understand the general principles that govern the probability of an endosymbiotic event. To this end, we use scaling relationships that connect requirements of microbial physiology to microbial size in order to investigate for what organismal sizes of endosymbiont and host an endosymbiosis would be physically possible. By studying these scaling relationships, we hope to obtain a null hypothesis of feasible and likely scenarios for a successful endosymbiosis.
-- name:
-    first: William
-    last: Lövfors
-  affiliation: Linköping University
-  type: poster
-  content:
-    title: A multi-level model analysis of lipolysis and fatty acid release from adipocytes in vitro and from adipose tissue in vivo
-    authors: William Lövfors (1,2), Jona Ekström (1), Cecilia Jönsson (3), Peter Strålfors (3), Gunnar Cedersund (1,4), and Elin Nyman (1)
-    affiliations:
-      - >
-        (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
-      - >
-        (2) Department of Mathematics, Linköping University, Linköping, Sweden
-      - >
-        (3) Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden
-      - >
-        (4) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
-    abstract:
-      - >
-        Lipolysis and the release of fatty acids to supply energy to other organs, e.g. during exercise and starvation, are important functions of the adipose tissue. The intracellular lipolytic pathway of adipocytes is activated by adrenaline and noradrenaline, and inhibited by insulin. Type 2 diabetic individuals have elevated levels of circulating fatty acids. The mechanism behind this elevation is not fully known, and to increase the knowledge, a link between the systemic circulation and intracellular lipolysis is key. However, lipolysis data and knowledge from in vitro systems has not been linked to corresponding data and knowledge in vivo. Here, we use mathematical modeling to provide such a link. We combine mechanisms for insulin effects found from in vivo and in vitro data into a model that can explain all data. The model is also tested on independent data. We show the usefulness of the model by simulating new and more challenging experimental setups in silico, e.g. the release of fatty acids into the circulation during an insulin clamp, and the difference in such simulations between individuals with and without type 2 diabetes. Our work provides a new platform for model-based analysis of fatty acid release from the adipose tissue, in health and disease.
-- name:
-    first: Tilda
-    last: Herrgårdh
-  affiliation: Linköping University
-  type: poster
-  content:
-    title: >
-      Multilevel multiscale hybrid model: towards a model for atherosclerosis progression and stroke
-    authors: T. Herrgårdh (1), E. Nyman (1), H. Örman (1), and G. Cedersund (1)
-    affiliations:
-      - >
-        (1) Department of Biomedical Engineering, Linköping University, Sweden
-    abstract:
-      - >
-        Atherosclerosis develops over several years and usually does not show symptoms before it leads to more acute conditions such as stroke. In order to prevent and predict a stroke, the mechanisms behind atherosclerosis must therefore be fully understood. These mechanisms function as a system on different levels, comprising many both medical and environmental factors, and involving multiple organs, timescales, and control mechanisms. There are also different types of data available, relevant for prediction and treatment of atherosclerosis: clinical and images, population and individual data, dynamic and static. Therefore, a multiscale, multilevel as well as a hybrid modelling approach is needed to fully understand and predict the disease progression of atherosclerosis. Herein, we propose a multi-level model for atherosclerosis progression, connecting diabetes progression, on cellular up to organ and whole-body level, with models for long-term effects of triglycerides in blood and inflammation. This mechanistic model can be used to simulate biomarkers over time for different interventions (i.e drug or diet), to be feeded into a machine learning model for stroke risk calculation. We think our suggested hybrid model could be used as decision support, in the clinic or by individuals themselves, to evaluate different treatments and interventions, whilst offering a way to understand why a certain prediction was made, from a physiological perspective, and thus criticize the assessments made.
-- name:
-    first: Christoph
-    last: Börlin
-  affiliation: Chalmers University of Technology
-  type: poster
-  content:
-    title: Analyzing and predicting conditional gene expression changes using transcription factor binding data
-    authors: Christoph S. Börlin (1,2), David Bergenholm (1,2),  Eduard J. Kerkhoven (1,2), Verena Siewers (1,2), Jens Nielsen (1,2,3)
-    affiliations:
-      - >
-        (1) Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, SE-41296, Sweden
-      - >
-        (2) Novo Nordisk Foundation Center for Biosustainability, Chalmers University of Technology, Gothenburg, SE-41296, Sweden
-      - >
-        (3) BioInnovation Institute, Ole Maaløes Vej 3, DK2200 Copenhagen N, Denmark
-    abstract:
-      - >
-        Changes in gene expression levels between different conditions are mainly caused by changes in transcription factor binding. Using newer methods to map transcription factor binding with unprecedented resolution, like ChIP-exo, one can obtain in-depth knowledge about transcription factor behavior at different conditions. Combining accurate binding maps with accurate expression measurements one can gain insights into how differential transcription factor binding affects conditional gene expression patterns. This knowledge can subsequently be leveraged to rationally modify promoters to achieve a desired conditional gene expression response, which is desirable in metabolic engineering. Using data from 21 transcription factors in the model organism Saccharomyces cerevisiae, we built a machine learning model to identify the most important determinants for conditional gene expression. We also present an online promoter engineering tool called HYENA. With HYENA one can design hybrid promoters with defined conditional gene expression responses for yeast cells grown on glucose and on ethanol. This tool is based on gradient boosting regression trees and is equipped with a user-friendly streamlit based interface.
-- name:
-    first: Kajsa
-    last: Tunedal
-  affiliation: Linköping University
-  type: poster
-  content:
-    title: Non-invasive investigation of hemodynamic changes in hypertension and T2D through cardiovascular modeling
-    authors: Kajsa Tunedal (1,2), Belén Casas Garcia (1), Carl-Johan Carlhäll (2,3,4), Federica Viola (2,3), Tino Ebbers (2,3,5), Gunnar Cedersund (1,3,5)
-    affiliations:
-      - >
-        (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
-      - >
-        (2) Unit of Cardiovascular Sciences, Department of Health, Medicine and Caring Sciences (HMV), Linköping University, Linköping, Sweden
-      - >
-        (3) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
-      - >
-        (4) Dept. Of Clinical Physiology, Dept. of Health, Medicine and Caring Sciences, Linköping University, Linköping, Sweden
-      - >
-        (5) Shared last author.
-    abstract:
-      - >
-        Hypertension is one of the most common health issues today with 25% men affected worldwide, and is twice as common in patients with type 2 diabetes (T2D). Hypertension is defined in Europe as a blood pressure of ≥140/≥90 mmHg and uncontrolled hypertension is a risk factor for cardiovascular diseases such as coronary artery disease, heart failure, and renal failure. The basic underlying mechanisms such as a dysregulated renin-angiotensin system, alterations in chemo- and baroreceptors and disturbed sodium-potassium balance are known. However, the connection to other cardiovascular diseases is complex and the treatment of hypertension usually involves lifestyle changes and trial- and error by testing several anti-hypertensive drugs . There is a need of deeper understanding of the changes in hemodynamics during hypertension and especially in T2D patients. Non-invasive measurements such as four-dimensional magnetic resonance imaging (4D Flow MRI) allows for detailed data on hemodynamics with 3D visualization of blood flow over time. By combining this hemodynamic data with a cardiovascular lumped parameter model, more information can be extracted that otherwise is hard to measure non-invasively, such as parameters of the contraction and relaxation of the left ventricle and the propagation of the pressure wave . Through a sub-study to SCAPIS Linköping, 40 T2D patients and 44 controls underwent 4D Flow MRI and cuff pressure measurements. A cardiovascular model is now being applied to the data, to create personalized models with hemodynamics for each individual. This gives assessment of new model-derived biomarkers, which are compared between hypertensive and non-hypertensive individuals, as well as between T2D patients and controls, to investigate hemodynamic differences between and within the groups. The study has the potential to bring new insights to the hemodynamic mechanisms behind hypertension with and without T2D, and to provide a new clinical tool for diagnostics.
-- name:
-    first: Julia
-    last: Larsson
-  affiliation: Fraunhofer-Chalmers Centre
-  type: poster
-  content:
-    title: Second-generation TNFα turnover model following multiple LPS-provocations and drug interventions
-    authors: Julia Larsson (1,2,5), Edmund Hoppe (3), Marija Cvijovic (2), Mats Jirstrand (1), and Johan Gabrielsson (4)
-    affiliations:
-      - >
-        (1)	Fraunhofer-Chalmers Centre, Chalmers Science Park, Gothenburg, Sweden
-      - >
-        (2)	Department of Mathematical Sciences, Chalmers University of Technology and University of Gothenburg, Gothenburg, Sweden
-      - >
-        (3)	Boehringer Ingelheim, Ingelheim am Rhein, Germany
-      - >
-        (4)	Firma Biopharmacon, Engelbrektsgatan 5, 41127 Gothenburg, Sweden, Professor.Gabrielsson@gmail.com
-      - >
-        (5)	Address correspondence to julia.larsson@fcc.chalmers.se
-    abstract:
-      - >
-        Tumour necrosis factor alpha (TNF<sub>α</sub>) is a pro-inflammatory cytokine responsible for several immuno-responses in the body and acts a promising target for treatment against immune-mediated diseases, such as rheumatoid arthritis and Chron’s disease, but also possibly plays an important role in cancer treatment. Although TNF<sub>α</sub> is one of the most studied pro-inflammatory cytokines, there still exist a necessity of adding more information to the meta-analysis as well as connecting already existing information together, for better understanding of TNF<sub>α</sub> disposition as well as discrimination and ranking of test compounds in drug discovery.
-      - >
-        In this project we create a second-generation model of TNF<sub>α</sub> turnover by refining the previous mathematical model developed by our group (Held et al. 2019), using the Non-Linear Mixed Effects framework. The model is tested on data where TNF<sub>α</sub> release is triggered by lipopolysaccharides (LPS), in absence or presence of a drug suppressing TNF<sub>α</sub> release. Both inter-individual as well as inter-occasion variability is added to the model to take into account the large variety in response, and the goal is to produce a framework of how to model TNF<sub>α</sub> response in vivo, independent of study or drug.
-      - >
-        The current results show that the model successfully predicts drug pharmacokinetics and TNF<sub>α</sub> release in absence of drug, but further refinements has to be made to predict TNF<sub>α</sub> release in presence of drug. The lack of time-concentration data of LPS and baseline responses of TNF<sub>α</sub>, combined with the large variety in data, leads to uncertainties when distinguishing the stimulatory/inhibitory relationship between LPS provocation and drug intervention. 
+
+
+
+# - order: 1
+#   name:
+#     first: William
+#     last: Lövfors
+#   affiliation: Linköping University
+#   type: talk
+#   content:
+#     title: Towards a comprehensive and multi-level module for metabolic control of the adipose tissue
+#     authors: William Lövfors(1,2), Christian Simonsson(1,4), Cecilia Jönsson(3), Karin Stenkula(4), Peter Strålfors(3),  Elin Nyman(1), Gunnar Cedersund(1,5)
+#     affiliations:
+#       - >
+#         (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
+#       - >
+#         (2) Department of Mathematics, Linköping University, Linköping, Sweden
+#       - > 
+#         (3) Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden
+#       - >
+#         (4) Lund university, Lund, Sweden
+#       - >
+#         (5) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
+#     abstract:
+#       - >
+#         Type 2 diabetes is an important risk factor for myocardial infarction and stroke, which are the leading causes of death in the world. Central to these diseases is the adipose tissue. The adipose tissue is both responding to hormones like insulin and catecholamines, which regulate the metabolic function of the tissue, and is secreting its own hormones, e.g. adiponectin. However, even if much research has generated many partial insights regarding these processes, there is still a lack of consensus regarding many details. The main reason for this is the high degree of complexity and over-lapping co-regulation between the different processes. To tackle this complexity, we have collected highly resolved quantitative data, which we have analyzed using mechanistic modelling. This combination has allowed us to iteratively test and refine mechanistic hypotheses, where we use the data to both evaluate and refine the hypotheses, and to validate them using independent predictions. We have used this approach to characterize various sub-systems in the adipose tissue: insulin signaling leading to glucose uptake and inhibition of lipolysis, catecholamine stimulation of lipolysis and adiponectin secretion, both in type 2 diabetes and control. These models have so far described these processes one by one, even though there are important points of overlap. In this talk I will present both our results for the different existing models, and outline how we now are creating a combined multi-level model for the adipose tissue. This final model will be able to serve as a module in whole-body models used to aid drug development and healthcare.
+# - order: 2
+#   name: 
+#     first: Jan
+#     last: Zrimec
+#   affiliation: Chalmers University of Technology
+#   type: talk
+#   content:
+#     title: Learning the regulatory grammar of DNA for gene expression engineering
+#     authors: Jan Zrimec (1), Aleksej Zelezniak (1)
+#     affiliations:
+#       - >
+#         (1) Department of Biology and Biological Engineering, Chalmers University of Technology
+#     abstract: 
+#       - >
+#         The DNA regulatory code that governs gene expression is present in the gene regulatory structure that spans the coding and adjacent non-coding regulatory DNA regions, including promoters, terminators and untranslated regions. Deciphering this regulatory code, as well as how the whole gene regulatory structure interacts to produce mRNA transcripts and regulate mRNA abundance, can greatly improve our capabilities for controlling gene expression and solving problems related to both medicine and biotechnology. 
+#       - >
+#         Here, we consider that natural systems offer the most accurate information on gene expression regulation and apply deep learning on over 20,000 mRNA datasets to learn the DNA-encoded regulatory code across a variety of model organisms from bacteria to Human ([https://doi.org/10.1101/792531](https://doi.org/10.1101/792531)). Since up to 82% of the regulatory code is encoded in the gene regulatory structure, mRNA abundance can be predicted directly from DNA with high accuracy in all model organisms. Coding and regulatory regions in fact carry both overlapping and orthogonal information and additively contribute to gene expression levels. By mining the gene expression models for the relevant DNA regulatory motifs, we uncover motif interactions across the whole gene regulatory structure that define over 3 orders of magnitude of gene expression levels. Based on these findings we develop a novel AI-guided approach protein expression engineering and experimentally verify its usefulness.
+#       - >
+#         Our results challenge the current paradigm that single motifs or regulatory regions are solely responsible for gene expression levels. Instead, we demonstrate that the whole gene regulatory structure, comprising the DNA regulatory grammar of interacting DNA motifs across protein coding and adjacent regulatory regions, forms a coevolved transcriptional regulatory unit and provides a mechanism by which whole gene systems with pre-specified expression patterns can be designed. 
+# - order: 3
+#   name: 
+#     first: Erik
+#     last: Bülow
+#   affiliation: University of Gothenburg
+#   type: talk
+#   content:
+#     title: >
+#       Predicting mortality by comorbidity for patients with hip arthroplasty: Prospective observational register studies of a nationwide Swedish cohort
+#     authors: Erik Bülow (1)
+#     affiliations:
+#       - >
+#         (1) Department of Orthopaedics, Institute of Clinical Sciences, the Sahlgrenska Academy, University of Gothenburg
+#     abstract: 
+#       - >
+#         INTRODUCTION: Patients with total hip arthroplasty (THA) due to osteoarthritis (OA) are usually healthy, some with a remaining lifetime of several decades after surgery. Patients with hip arthroplasty due to a femoral neck fracture (FNF) are often old and frail with 13 % mortality within 90 days of surgery. To predict all-cause mortality for those groups has been considered but no prediction model has so far been widely accepted. 
+#       - >
+#         PATIENTS AND METHODS: We developed an R package to estimate comorbidity from large data sets. We used data from the Swedish Hip Arthroplasty Register (SHAR), other nationwide Swedish registers and the National Joint Registry for England, Wales, Northern Ireland, the Isle of Man and the States of Guernsey (NJR). We evaluated the discriminatory abilities of the Charlson and Elixhauser comorbidity indices to predict mortality for patients with hip arthroplasty due to OA and FNF. We also developed a new statistical prediction model for 90-day mortality after cemented THA due to OA using a bootstrap ranking procedure with logistic least absolute shrinkage and selection operator (LASSO) regression. The model was validated internally, as well as externally with patients from England and Wales. We built a web calculator for clinical usage. Finally, association between the Elixhauser comorbidity index and the restricted mean survival time (RMST) after surgery was assessed for patients with THA due to OA. 
+#       - >
+#         RESULTS: The coder R-package provides a dynamic solution for patient classification. Existing comorbidity indices did not accurately predicted mortality after hip arthroplasty due to OA or FNF. The new model did predict 90-day mortality with good discriminatory ability (AUC > 0.7) and was well calibrated. Shortening of the RMST for 10 years after surgery ranged from 315 days for patients with no comorbidity, to 1,193 days for patients with at least 3 comorbidities. 
+# - order: 4
+#   name: 
+#     first: Linnea
+#     last: Österberg
+#   affiliation: Chalmers University of Technology
+#   type: talk
+#   content:
+#     title: A novel yeast hybrid modeling framework integrating Boolean and enzyme-constrained networks enables exploration of the interplay between signaling and metabolism
+#     authors: Linnea Österberg (1,2,3), Iván Domenzain Cerecer (3,4), Julia Münch (1,2), Jens Nielsen (3,4,5), Stefan Hohmann (3), Marija Cvijovic (1,2)
+#     affiliations:
+#       - >
+#         (1) Department of Mathematical Sciences, University of Gothenburg, Gothenburg, Sweden
+#       - >
+#         (2) Department of Mathematical Sciences, Chalmers University of Technology, Gothenburg, Sweden
+#       - >
+#         (3) Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, Sweden
+#       - >
+#         (4) Novo Nordisk Foundation Center for Biosustainability, Chalmers University of Technology, SE41296 Gothenburg, Sweden
+#       - >
+#         (5) BioInnovation Institute, Ole Maaløes Vej 3, DK-2200 Copenhagen, Denmark
+#     abstract: 
+#       - >
+#         The interplay between nutrient-induced signaling and metabolism plays an important role in maintaining homeostasis and failure to do so has been implicated in human diseases and conditions such as obesity, type 2 diabetes, cancer and ageing. Therefore, unravelling the role of nutrients as signaling molecules and metabolites as well as their interconnectivity may provide a deeper understanding of how these conditions occur. Both the signalling and metabolism have been extensively studied using various systems biology approaches. However, they are mainly studied individually and in addition current models lack both the complexity of the dynamics and the effects of the crosstalk in the signaling system. To gain a better understanding of the interconnectivity between nutrient signaling and metabolism, we have developed a hybrid model by combining the Boolean and the enzyme constraint models using a regulatory network as a link. The model is capable of reproducing the regulatory effects that are associated with the Crabtree effect and glucose repression. We show that using this methodology one can investigate intrinsically different systems, such as signaling and metabolism, in the same model and gain insight into how the interplay between them can have non-trivial effects by showing a connection between Snf1 signaling and chronological lifespan by the regulation of NDE and NDI usage in respiring conditions. In addition, the model showed that during fermentation, enzyme utilization is the more important factor governing the protein allocation, while in low glucose conditions robustness and control is prioritized.
+# - order: 5
+#   name: 
+#     first: Carl-Joar
+#     last: Karlsson
+#   affiliation: Chalmers University of Technology and University of Gothenburg
+#   type: talk
+#   content:
+#     title: >
+#       Decisions and disease: a mechanism for the evolution of cooperation
+#     authors: Julie Rowlett (1), Carl-Joar Karlsson (1)
+#     affiliations: 
+#       - >
+#         (1) Department of Mathematics, Chalmers University of Technology and University of Gothenburg, Gothenburg, Sweden
+#     abstract: 
+#       - >
+#         In numerous contexts, individuals may decide whether they take actions to mitigate the spread of disease, or not. Mitigating the spread of disease requires an individual to change their routine behaviours to benefit others, resulting in a ‘disease dilemma’ similar to the seminal prisoner’s dilemma. In the classical prisoner’s dilemma, evolutionary game dynamics predict that all individuals evolve to ‘defect.’ We have discovered that when the rate of cooperation within a population is directly linked to the rate of spread of the disease, cooperation evolves under certain conditions. For diseases which do not confer immunity to recovered individuals, if the time scale at which individuals receive accurate information regarding the disease is sufficiently rapid compared to the time scale at which the disease spreads, then cooperation emerges. Moreover, in the limit as mitigation measures become increasingly effective, the disease can be controlled; the number of infections tends to zero. It has been suggested that disease spreading models may also describe social and group dynamics, indicating that this mechanism for the evolution of cooperation may also apply in those contexts. 
+# - order: 6
+#   name: 
+#     first: Sebastian
+#     last: Persson
+#   affiliation: University of Gothenburg
+#   type: talk
+#   content:
+#     title: Fine-tuning of energy levels regulates SUC2 via a SNF1-dependent feedback loop.
+#     authors: Persson Sebastian (1, 2), Welkenhuysen Niek (1, 2), Shashkova Sviatlana (3), Cvijovic Marija (1, 2)
+#     affiliations:
+#       - >
+#         (1) Department of Mathematical Sciences, University of Gothenburg, Gothenburg, Sweden
+#       - >
+#         (2) Department of Mathematical Sciences, Chalmers University of Technology, Gothenburg, Sweden
+#       - >
+#         (3) Department of Microbiology and Immunology, Institute of Biomedicine, Sahlgrenska Academy, University of Gothenburg, Gothenburg, Sweden
+#     abstract: 
+#       - >
+#         Nutrient sensing pathways are playing an important role in cellular response to different energy levels. In budding yeast, Saccharomyces cerevisiae, the sucrose non-fermenting protein kinase complex SNF1 is a master regulator of energy homeostasis. It is affected by multiple inputs, among which energy levels is the most prominent. Largely due to SNF1, cells which are exposed to a switch in carbon source availability display a change in the gene expression machinery. In a glucose rich environment Snf1/Mig1 pathway represses the expression of its downstream target, such as SUC2. However, upon glucose depletion SNF1 is activated which leads to an increase in SUC2 expression. Our single cell experiments indicate that this increase in SUC2 expression upon starvation only is temporary, as the gene expression pattern of SUC2 shows rapid increase followed by a decrease to the initial state with high cell-to-cell variability. The mechanism behind this behavior is currently unknown. In this work we study the long-term behavior of the Snf1/Mig1 pathway upon glucose starvation with a microfluidics and non-linear mixed effect modelling approach. Overall, our systems biology approach proposes a negative feedback mechanism that works through the SNF1 complex and is controlled by energy levels. We further show that Reg1 likely is involved in the negative feedback mechanism.
+# - order: 7
+#   name:
+#     first: Ida
+#     last: Larsson
+#   affiliation: Uppsala University
+#   type: talk
+#   content:
+#     title: Reconstruction of plasticity and cell state dependent growth of glioblastoma
+#     authors: Ida Larsson (1), Erika Dalmo (1), Ramy Elgendy (1), Rebecka Jörnsten (2), Bengt Westermark (1), Sven Nelander (1)
+#     affiliations: 
+#       - >
+#         (1) Department of Immunology, Genetics and Pathology, Uppsala University, Sweden 
+#       - >
+#         (2) Department of Mathematical Sciences, University of Gothenburg, Sweden
+#     abstract:
+#       - >
+#         The malignant brain tumor glioblastoma (GBM) is characterized by a complex cellular composition, shaped not only by tumor evolution but also plastic and stochastic processes in the cells. To understand the underlying dynamics of GBM cell behavior, we have developed a method that integrates single-cell RNA sequencing (scRNA-seq) time series data from DNA-barcoded cells with a mathematical model of single cell dynamics. The model clarifies how cellular states relate to each other, it accounts for phenotypic switching and state-dependent cell growth.
+#       - >
+#         In our model, cells in a given state can either die, grow or transition to another state, and GBM dynamics is thus captured by a system with k(1+k) first-order reactions, for k states. As a continuum approximation, the system is described by a set of linear differential equations dx/dt=A*x where x is a vector defining the number of cells in each state and A holds the reaction rates we want to estimate. A is estimated from data by convex optimization, minimising the sum-of-square disagreement with barcode counts. 
+#       - >
+#         We use the model to analyse how cells derived from a GBM patient transition between transcriptionally defined states over time and we are in addition able to quantify growth rates for each state, which show a high variation between states. A key finding is that under baseline conditions, the cells transition according to a clear hierarchy, along an axis from a state of slow-cycling stem-like cells via a state of rapidly cycling cells to finally end up in the more differentiated slow- or non-cycling states. Under genotoxic or differentiation therapy, we can show that there is an increased flow of cells from the majority of all states to one specific state for each therapeutic intervention.
+# - order: 8
+#   name: 
+#     first: Fredrik
+#     last: Ohlsson
+#   affiliation: Umeå University
+#   type: talk
+#   content:
+#     title: Symmetries and structural model selection for the Hill model
+#     authors: Fredrik Ohlsson (1), Johannes Borgqvist (2), Marija Cvijovic (2)
+#     affiliations:
+#       - >
+#         (1) Department of Mathematics and Mathematical Statistics, Umeå University, Umeå, Sweden
+#       - >
+#         (2) Department of Mathematical Sciences, Chalmers University of Technology and the University of Gothenburg, Gothenburg, Sweden
+#     abstract:
+#       - >
+#         A symmetry of an ordinary differential equation (ODE) is a point transformation that preserves the space of solutions of the ODE. We are concerned with 1-parameter Lie groups of transformations generated by differential operators, interpreted as elements of the corresponding Lie algebra. Analysis of the symmetries of a model provides a way to understand manifestly nonlinear properties of its solutions and hence the underlying structure of the system modelled. Conversely, describing the structure observed in experimental data in terms of symmetries can guide the development of mechanistic models that are informed by global properties of their solutions rather than local residual analysis.
+#       - >
+#         We consider the nonlinear Hill models of order n appearing in the description of enzymatically catalysed conversion reactions in the limit where the substrate concentration is large. We derive a class of symmetries which are unique to each order Hill model and investigate their action on its solutions. For each value of n, there is consequently a 1-parameter family of transformations that preserve the space of solutions of the corresponding Hill model, but not Hill models of any other order.
+#       - >
+#         We apply the derived symmetries to the problem of accounting for structural properties in model selection. By performing symmetry transformations corresponding to different candidate Hill models to measurement data before model fitting, we obtain a procedure in which the fit is approximately invariant under the variation of the transformation parameter for the true underlying model in the limit of vanishing measurement error. Models for which the symmetry structure is not realized in the data, on the other hand, are expected to exhibit decreasing quality-of-fit as the transformation parameter increases from zero, corresponding to the identity transformation. We evaluate the proposed method on simulated Hill model data and demonstrate performance superior to ordinary least-square fitting.
+# - order: 9
+#   name: 
+#     first: Peter
+#     last: Jagers
+#   affiliation: Chalmers University and University of Gothenburg
+#   type: talk
+#   content:
+#     title: >
+#       Galton was right: (almost) all populations die out.
+#     authors: Peter Jagers (1), Sergei Zuyev (1)
+#     affiliations: 
+#       - >
+#         (1) Department of Mathematical Sciences, Chalmers University of Technology and University of Gothenburg
+#     abstract:
+#       - >
+#         Consider a population whose size changes stepwise by its members reproducing or dying (disappearing), but is otherwise quite general. Denote the initial (non-random) size by `Z_0` and the size of the nth change by `C_n`, `n = 1,2,...`. Population sizes hence develop successively as `Z_1 = Z_0+ C_1`,  `Z_2 = Z_1 + C_2`, and so on, indefinitely or until there are no further size changes, due to extinction. Extinction is thus assumed final, so that `Z_n = 0` implies that `Z_{n+1} = 0`, without there being any other finite absorbing class of population sizes. We make no assumptions about the time durations between the successive changes. In the real world, or more specific models, those may be of varying length, depending upon individual life span distributions and their interdependencies, the age-distribution at hand and intervening circumstances. We could consider toy models of Galton–Watson type generation counting or of the birth-and-death type, with one individual acting per change, until extinction, or the most general multi-type CMJ branching processes with, say, population size dependence of reproduction. Changes may have quite varying distributions. The basic assumption is that there is a carrying capacity, i.e. a non-negative number `K` such that the conditional expectation of the change, given the complete past history, is non-positive whenever the population exceeds `K`, the carrying capacity. Further, we assume that the change In a non-extinct population is negative (an individual dying) with a conditional (given the past) positive probability. The straightforward, but in contents and implications far-reaching, consequence is that all such populations must die out. Mathematically, it follows by a supermartingale convergence property and positive probability of reaching the absorbing extinction state.
+# - name:
+#     first: Hanna
+#     last: Isaksson
+#   affiliation: Umeå University
+#   type: poster
+#   content:
+#     title: Small differences in multicellular life cycles have big effects for its evolution
+#     authors: Hanna Isaksson (1), Eric Libby (1)
+#     affiliations: 
+#       - >
+#         (1) Umeå University, IceLab, Department of Mathematics and Mathematical Statistics
+#     abstract:
+#       - >
+#         All multicellular organisms evolved from unicellular ancestors, yet not all multicellular lineages evolved similar levels of complexity. The evolution of complex multicellularity involves a series of adaptations that transform simple groups of cells into large structures of differentiated cells. Experimental and theoretical studies have identified some key factors that influence the evolution of complexity such as the presence of bottlenecks in multicellular life cycles and whether development is clonal or aggregative. These factors, however, distinguish between disparate types of multicellular life cycles; yet little is known about how small variations within the same type of multicellular life cycle affect its future evolution. Here, we consider a simple multicellular life cycle of a filament that reproduces via fragmentation. We use mathematical modeling to explore how subtle variations in the fragmentation process affect the rate that beneficial mutations fix. In particular, we find that the number of daughter filaments produced during a fragmentation affects the speed and likelihood that mutations fix. One class of mutations, called altruistic mutations, that impose a cost on individual cells but improve the survival of the filament did not fix when filaments fragmented into high numbers of daughters. Our results show that the specific structure of a multicellular life cycle matters, either promoting or inhibiting adaptations that give rise to greater organismal complexity.
+# - name:
+#     first: Mahnaz
+#     last: Irani-Shemirani
+#   affiliation: University of Gothenburg
+#   type: poster
+#   content:
+#     title: Comparison of Whole Genome Sequencing Pipelines for Analysis of Staphylococcus aureus Isolates from Sepsis Patients
+#     authors: Mahnaz I.Shemirani (1,3), Andreas Tilevik (1), Diana Tilevik (1), Anna-Karin Pernestig (1), Helena Enroth (1,2)
+#     affiliations:
+#       - >
+#         (1) Systems Biology Research Center, University of Skövde, Skövde
+#       - >
+#         (2) Laboratory medicine, Unilabs, Skövde
+#       - >
+#         (3) Department of Laboratory Medicine, University of Gothenburg, Gothenburg
+#     abstract:
+#       - >
+#         Having access to Whole-genome sequencing (WGS) bioinformatic pipelines of Staphylococcus aureus (S. aureus) in a life-threatening condition such as sepsis reduce the turnaround time of diagnosis and aid in appropriate antibiotic therapy, but having a bioinformatician in each clinical microbiological laboratory is not feasible.A fully automated user-friendly software optimized for microbiologists without a background in bioinformatics facilitates the routine use.Paired-end sequences of 264 strains of S.aureus from patients with suspected sepsis were assembled and analyzed by an in-house pipeline using de novo assembly and commercial platform, 1928DSA. We compared the two strategies of the WGS method to the standard method of Matrix-assisted Laser Desorption Ionization Time of Flight Mass Spectrometry (MALDI-TOF MS) and disc diffusion, and were also compared with each other for multilocus sequence typing, species identification, virulence, and resistance profiling. The in-house pipeline identified a higher number of S. aureus species (99%) than 1928DSA (97%). Both methods identified the same non-S. aureus species, which were not recognized by MALDI-TOF MS. They were also consistent with MALDI-TOF MS in discovering MRSA strains. The genotypic antibiotic resistance prediction matched each other in the prediction of Erythromycin and Fusidic acid (100%) and Penicillin class resistance (85.8%). More results were attained by the in-house pipeline in terms of ST type prediction (96.5%) versus 1928DSA (91%). Both methods showed the same results for five virulence genes; LukF-PVL, LukS-PVL, etA, etB, and tst. Overall, according to our comparison, 1928DSA presented functionality for clinical use in identifying and prediction of non-S. aureus and MRSA strains, and resistance genes of Penicillin class and Erythromycin.
+# - name:
+#     first: Jan
+#     last: Zrimec
+#   affiliation: Chalmers University of Technology
+#   type: poster
+#   content:
+#     title: Multiple plasmid origin-of-transfer substrates can enable the spread of natural antimicrobial resistance to human pathogens
+#     authors: Jan Zrimec (1)
+#     affiliations:
+#       - >
+#         (1) Department of Biology and Biological Engineering, Chalmers University of Technology
+#     abstract:
+#       - >
+#         Antimicrobial resistance poses a great danger to humanity, in part due to the widespread horizontal transfer of plasmids via conjugation. Modelling of plasmid transfer is essential to uncovering the fundamentals of resistance transfer and for development of predictive measures to limit the spread of resistance. However, a major limitation in the current understanding of plasmids is the inadequate characterisation of their DNA transfer mechanisms, such as the DNA origin-of-transfer regions, where plasmid transfer initiates. This conceals the actual potential for plasmid transfer in nature. Here, we consider that the plasmid-borne origin-of-transfer substrates encode specific DNA structural properties that can facilitate finding and typing these regions in large datasets, including determining their potential transfer ranges ([https://doi.org/10.1038/s41598-018-20157-y](https://doi.org/10.1038/s41598-018-20157-y)). We thus develop a DNA structure-based alignment procedure for typing the origin-of-transfer substrates that outperforms the current sequence-based approaches ([https://doi.org/10.1101/2020.04.20.050401](https://doi.org/10.1101/2020.04.20.050401), [https://arxiv.org/abs/2007.14922](https://arxiv.org/abs/2007.14922)). We identify thousands of yet undiscovered putative DNA transfer substrates, showing that putative plasmid mobility can in fact be 2-fold higher and span almost 2-fold more host species than is currently understood. Over half of all putative mobile plasmids contain conjugative mechanisms belonging to different mobility groups, which can potentially link previously confined host ranges across ecological habitats into a robust plasmid transfer network. We show that this network can in fact serve to transfer antimicrobial resistance from the environmental genetic reservoirs to human pathogens, which might be an important driver of the observed rapid resistance development in humans and thus an important point of focus for future prevention measures.
+# - name:
+#     first: Mihail
+#     last: Anton
+#   affiliation: Chalmers University of Technology
+#   type: poster
+#   content:
+#     title: Metabolic Atlas – a website for exploration and visualization of metabolic networks
+#     authors: Mihail Anton (1), Pierre-Etienne Cholley (1), Jonathan L. Robinson (1), Shan Huang (2), L. Thomas Svensson (1), Jens Nielsen (3)
+#     affiliations:
+#       - >
+#         (1) Department of Biology and Biological Engineering, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Chalmers University of Technology, Sweden
+#       - >
+#         (2) Department of Biology and Biological Engineering, Chalmers University of Technology, Sweden
+#       - >
+#         (3) Department of Biology and Biological Engineering, Wallenberg Center for Protein Research, Chalmers University of Technology; Novo Nordisk Foundation Center for Biosustainability, Technical University of Denmark; BioInnovation Institute (Denmark), Sweden
+#     abstract:
+#       - >
+#         Genome-scale metabolic models (GEMs) are valuable tools to study metabolism and provide a scaffold for the integrative analysis of omics data. GEMs often encompass thousands of reactions, metabolites and genes, whose manipulation require complex data structures.
+#       - >
+#         Metabolic Atlas, through the web platform available at [https://metabolicatlas.org](https://metabolicatlas.org), aims to make the entire GEM content available for easy navigation. This is achieved through both tabular and map views (2D and 3D), each suited for different usage scenarios. In addition, Metabolic Atlas aims to meet the needs of the community through the development of specific tools and features though iterative releases.
+#       - >
+#         Currently, Metabolic Atlas facilitates exploration and visualization of two open-source GEMs: Human1, an integration and extensive curation of the most recent human metabolic models (Robinson et al., 2020), and Yeast8, a consensus metabolic model for S. cerevisiae (Lu et al., 2019).
+#       - >
+#         The history of Metabolic Atlas starts before 2015 (Pornputtapong et al., 2015). The present website has been re-developed from the ground up, following open-source standards. It was made publicly available mid 2019, and is now at version 1.7 (Robinson et al., 2020). We plan to continue the development in a tic-toc method: a major release altering the foundation of the website, followed by several smaller releases. We are actively engaging the community to address the challenges in accessing GEMs for curation, analysis and biological understanding, under the guidance of FAIR principles.
+#       - >
+#         source: [https://f1000research.com/posters/9-561](https://f1000research.com/posters/9-561)
+# - name:
+#     first: Rebecka
+#     last: Andersson
+#   affiliation: Umeå University
+#   type: poster
+#   content:
+#     title: Computing the probability of a successful endosymbiotic event
+#     authors: Rebecka Andersson (1,2), Jordan G. Okie (3), Christopher P. Kempes (4), Eric Libby (1,2)
+#     affiliations:
+#       - >
+#         (1) IceLab, Umeå University
+#       - >
+#         (2) Department of Mathematics and Mathematical Statistics, Umeå University
+#       - >
+#         (3) Arizona State University
+#       - >
+#         (4) Santa Fe Institute
+#     abstract:
+#       - >
+#         The endosymbiotic event that gave rise to mitochondria and eukaryotes is a pivotal event in the evolution of life on earth— unparalleled in terms of its rarity and significance. It is thought to have occurred only once and account for the evolution of all large, complex life. Despite its importance, we do not understand the general principles that govern the probability of an endosymbiotic event. To this end, we use scaling relationships that connect requirements of microbial physiology to microbial size in order to investigate for what organismal sizes of endosymbiont and host an endosymbiosis would be physically possible. By studying these scaling relationships, we hope to obtain a null hypothesis of feasible and likely scenarios for a successful endosymbiosis.
+# - name:
+#     first: William
+#     last: Lövfors
+#   affiliation: Linköping University
+#   type: poster
+#   content:
+#     title: A multi-level model analysis of lipolysis and fatty acid release from adipocytes in vitro and from adipose tissue in vivo
+#     authors: William Lövfors (1,2), Jona Ekström (1), Cecilia Jönsson (3), Peter Strålfors (3), Gunnar Cedersund (1,4), and Elin Nyman (1)
+#     affiliations:
+#       - >
+#         (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
+#       - >
+#         (2) Department of Mathematics, Linköping University, Linköping, Sweden
+#       - >
+#         (3) Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden
+#       - >
+#         (4) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
+#     abstract:
+#       - >
+#         Lipolysis and the release of fatty acids to supply energy to other organs, e.g. during exercise and starvation, are important functions of the adipose tissue. The intracellular lipolytic pathway of adipocytes is activated by adrenaline and noradrenaline, and inhibited by insulin. Type 2 diabetic individuals have elevated levels of circulating fatty acids. The mechanism behind this elevation is not fully known, and to increase the knowledge, a link between the systemic circulation and intracellular lipolysis is key. However, lipolysis data and knowledge from in vitro systems has not been linked to corresponding data and knowledge in vivo. Here, we use mathematical modeling to provide such a link. We combine mechanisms for insulin effects found from in vivo and in vitro data into a model that can explain all data. The model is also tested on independent data. We show the usefulness of the model by simulating new and more challenging experimental setups in silico, e.g. the release of fatty acids into the circulation during an insulin clamp, and the difference in such simulations between individuals with and without type 2 diabetes. Our work provides a new platform for model-based analysis of fatty acid release from the adipose tissue, in health and disease.
+# - name:
+#     first: Tilda
+#     last: Herrgårdh
+#   affiliation: Linköping University
+#   type: poster
+#   content:
+#     title: >
+#       Multilevel multiscale hybrid model: towards a model for atherosclerosis progression and stroke
+#     authors: T. Herrgårdh (1), E. Nyman (1), H. Örman (1), and G. Cedersund (1)
+#     affiliations:
+#       - >
+#         (1) Department of Biomedical Engineering, Linköping University, Sweden
+#     abstract:
+#       - >
+#         Atherosclerosis develops over several years and usually does not show symptoms before it leads to more acute conditions such as stroke. In order to prevent and predict a stroke, the mechanisms behind atherosclerosis must therefore be fully understood. These mechanisms function as a system on different levels, comprising many both medical and environmental factors, and involving multiple organs, timescales, and control mechanisms. There are also different types of data available, relevant for prediction and treatment of atherosclerosis: clinical and images, population and individual data, dynamic and static. Therefore, a multiscale, multilevel as well as a hybrid modelling approach is needed to fully understand and predict the disease progression of atherosclerosis. Herein, we propose a multi-level model for atherosclerosis progression, connecting diabetes progression, on cellular up to organ and whole-body level, with models for long-term effects of triglycerides in blood and inflammation. This mechanistic model can be used to simulate biomarkers over time for different interventions (i.e drug or diet), to be feeded into a machine learning model for stroke risk calculation. We think our suggested hybrid model could be used as decision support, in the clinic or by individuals themselves, to evaluate different treatments and interventions, whilst offering a way to understand why a certain prediction was made, from a physiological perspective, and thus criticize the assessments made.
+# - name:
+#     first: Christoph
+#     last: Börlin
+#   affiliation: Chalmers University of Technology
+#   type: poster
+#   content:
+#     title: Analyzing and predicting conditional gene expression changes using transcription factor binding data
+#     authors: Christoph S. Börlin (1,2), David Bergenholm (1,2),  Eduard J. Kerkhoven (1,2), Verena Siewers (1,2), Jens Nielsen (1,2,3)
+#     affiliations:
+#       - >
+#         (1) Department of Biology and Biological Engineering, Chalmers University of Technology, Gothenburg, SE-41296, Sweden
+#       - >
+#         (2) Novo Nordisk Foundation Center for Biosustainability, Chalmers University of Technology, Gothenburg, SE-41296, Sweden
+#       - >
+#         (3) BioInnovation Institute, Ole Maaløes Vej 3, DK2200 Copenhagen N, Denmark
+#     abstract:
+#       - >
+#         Changes in gene expression levels between different conditions are mainly caused by changes in transcription factor binding. Using newer methods to map transcription factor binding with unprecedented resolution, like ChIP-exo, one can obtain in-depth knowledge about transcription factor behavior at different conditions. Combining accurate binding maps with accurate expression measurements one can gain insights into how differential transcription factor binding affects conditional gene expression patterns. This knowledge can subsequently be leveraged to rationally modify promoters to achieve a desired conditional gene expression response, which is desirable in metabolic engineering. Using data from 21 transcription factors in the model organism Saccharomyces cerevisiae, we built a machine learning model to identify the most important determinants for conditional gene expression. We also present an online promoter engineering tool called HYENA. With HYENA one can design hybrid promoters with defined conditional gene expression responses for yeast cells grown on glucose and on ethanol. This tool is based on gradient boosting regression trees and is equipped with a user-friendly streamlit based interface.
+# - name:
+#     first: Kajsa
+#     last: Tunedal
+#   affiliation: Linköping University
+#   type: poster
+#   content:
+#     title: Non-invasive investigation of hemodynamic changes in hypertension and T2D through cardiovascular modeling
+#     authors: Kajsa Tunedal (1,2), Belén Casas Garcia (1), Carl-Johan Carlhäll (2,3,4), Federica Viola (2,3), Tino Ebbers (2,3,5), Gunnar Cedersund (1,3,5)
+#     affiliations:
+#       - >
+#         (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
+#       - >
+#         (2) Unit of Cardiovascular Sciences, Department of Health, Medicine and Caring Sciences (HMV), Linköping University, Linköping, Sweden
+#       - >
+#         (3) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
+#       - >
+#         (4) Dept. Of Clinical Physiology, Dept. of Health, Medicine and Caring Sciences, Linköping University, Linköping, Sweden
+#       - >
+#         (5) Shared last author.
+#     abstract:
+#       - >
+#         Hypertension is one of the most common health issues today with 25% men affected worldwide, and is twice as common in patients with type 2 diabetes (T2D). Hypertension is defined in Europe as a blood pressure of ≥140/≥90 mmHg and uncontrolled hypertension is a risk factor for cardiovascular diseases such as coronary artery disease, heart failure, and renal failure. The basic underlying mechanisms such as a dysregulated renin-angiotensin system, alterations in chemo- and baroreceptors and disturbed sodium-potassium balance are known. However, the connection to other cardiovascular diseases is complex and the treatment of hypertension usually involves lifestyle changes and trial- and error by testing several anti-hypertensive drugs . There is a need of deeper understanding of the changes in hemodynamics during hypertension and especially in T2D patients. Non-invasive measurements such as four-dimensional magnetic resonance imaging (4D Flow MRI) allows for detailed data on hemodynamics with 3D visualization of blood flow over time. By combining this hemodynamic data with a cardiovascular lumped parameter model, more information can be extracted that otherwise is hard to measure non-invasively, such as parameters of the contraction and relaxation of the left ventricle and the propagation of the pressure wave . Through a sub-study to SCAPIS Linköping, 40 T2D patients and 44 controls underwent 4D Flow MRI and cuff pressure measurements. A cardiovascular model is now being applied to the data, to create personalized models with hemodynamics for each individual. This gives assessment of new model-derived biomarkers, which are compared between hypertensive and non-hypertensive individuals, as well as between T2D patients and controls, to investigate hemodynamic differences between and within the groups. The study has the potential to bring new insights to the hemodynamic mechanisms behind hypertension with and without T2D, and to provide a new clinical tool for diagnostics.
+# - name:
+#     first: Julia
+#     last: Larsson
+#   affiliation: Fraunhofer-Chalmers Centre
+#   type: poster
+#   content:
+#     title: Second-generation TNFα turnover model following multiple LPS-provocations and drug interventions
+#     authors: Julia Larsson (1,2,5), Edmund Hoppe (3), Marija Cvijovic (2), Mats Jirstrand (1), and Johan Gabrielsson (4)
+#     affiliations:
+#       - >
+#         (1)	Fraunhofer-Chalmers Centre, Chalmers Science Park, Gothenburg, Sweden
+#       - >
+#         (2)	Department of Mathematical Sciences, Chalmers University of Technology and University of Gothenburg, Gothenburg, Sweden
+#       - >
+#         (3)	Boehringer Ingelheim, Ingelheim am Rhein, Germany
+#       - >
+#         (4)	Firma Biopharmacon, Engelbrektsgatan 5, 41127 Gothenburg, Sweden, Professor.Gabrielsson@gmail.com
+#       - >
+#         (5)	Address correspondence to julia.larsson@fcc.chalmers.se
+#     abstract:
+#       - >
+#         Tumour necrosis factor alpha (TNF<sub>α</sub>) is a pro-inflammatory cytokine responsible for several immuno-responses in the body and acts a promising target for treatment against immune-mediated diseases, such as rheumatoid arthritis and Chron’s disease, but also possibly plays an important role in cancer treatment. Although TNF<sub>α</sub> is one of the most studied pro-inflammatory cytokines, there still exist a necessity of adding more information to the meta-analysis as well as connecting already existing information together, for better understanding of TNF<sub>α</sub> disposition as well as discrimination and ranking of test compounds in drug discovery.
+#       - >
+#         In this project we create a second-generation model of TNF<sub>α</sub> turnover by refining the previous mathematical model developed by our group (Held et al. 2019), using the Non-Linear Mixed Effects framework. The model is tested on data where TNF<sub>α</sub> release is triggered by lipopolysaccharides (LPS), in absence or presence of a drug suppressing TNF<sub>α</sub> release. Both inter-individual as well as inter-occasion variability is added to the model to take into account the large variety in response, and the goal is to produce a framework of how to model TNF<sub>α</sub> response in vivo, independent of study or drug.
+#       - >
+#         The current results show that the model successfully predicts drug pharmacokinetics and TNF<sub>α</sub> release in absence of drug, but further refinements has to be made to predict TNF<sub>α</sub> release in presence of drug. The lack of time-concentration data of LPS and baseline responses of TNF<sub>α</sub>, combined with the large variety in data, leads to uncertainties when distinguishing the stimulatory/inhibitory relationship between LPS provocation and drug intervention. 

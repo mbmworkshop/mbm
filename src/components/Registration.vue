@@ -3,13 +3,18 @@
     <div id="registration" class="h-0 relative" style="bottom: 100px;"></div>
     <h2 class="section-header">Registration</h2>
     <p class="mt-2">
-      You can participate at MBM 2020 by
+      You can participate at MBM 2022 by
     </p>
     <ul class="mt-2 px-8 list-disc">
       <li>giving a plenary talk,</li>
       <li>presenting a poster (i.e. a four-slide presentation),</li>
       <li>or simply as an observer.</li>
     </ul>
+    <p class="mt-2">
+      Sign up and more information about how you can take part of MBM 2022 will be announced.    
+    </p>
+
+    <!-- 
     <p class="mt-2">
       In the first two cases you will have to submit an <span class="font-semibold">abstract
       of max. 2000 characters</span>. Please note that the number of
@@ -48,6 +53,8 @@
                     hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
               value="Register here" />
     </form>
+    -->
+
   </section>
 </template>
 

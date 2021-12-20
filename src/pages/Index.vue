@@ -20,12 +20,16 @@
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left
                       text-mbm-red-light font-semibold">
-              Digital Workshop
+              Hybrid Workshop
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">October 15<sup>th</sup></span> and 
-              <span class="font-semibold">16<sup>th</sup>, 2020</span>
+              <span class="font-semibold">Linköping 2022 </span>
+            </p>
+            <p class="xs:text-xl sm:text-2xl lg:text-3xl
+                      text-center lg:text-left">
+              <span class="font-semibold">May 23<sup>th</sup></span> and 
+              <span class="font-semibold">24<sup>th</sup></span>
             </p>
           </div>
         </div>
@@ -36,7 +40,7 @@
         <section class="body-text border-b lg:border-b-0 lg:border-r pb-4 lg:pb-0 lg:pr-4 border-gray-400">
           <h2 class="section-header">The Workshop</h2>
           <p>
-            We are pleased to invite you to our <span class="font-semibold">second Workshop on Modelling in Biology and Medicine (MBM 2020)</span>.
+            We are pleased to invite you to our <span class="font-semibold">second Workshop on Modelling in Biology and Medicine (MBM 2022)</span>.
           </p>
           <p>
             We aim to gather all young researchers in Sweden working on modelling of biological systems. Our ambition is to give all participating PhD students and PostDocs the opportunity to present their work through an oral presentation or a poster. Further, we wish to provide an insight on how modelling in biology and medicine is practiced in academia and industry.
@@ -49,20 +53,21 @@
             The workshop will be held in both plenary presentation sessions for larger talks as well as in smaller sessions for e.g. poster presentations and discussions.
           </p>
           <p>
-            The exact technicalities will be made available for <span class="font-semibold">registered participants</span> closer to the date of the workshop. The main software for presentations and discussions will most likely be Zoom.
+            The exact technicalities will be made available for <span class="font-semibold">registered participants</span> closer to the date of the workshop. We aim to keep the workshop mainly in person in Linköping, but with a hybrid option for people who do not have possibility to travel there.
           </p>
         </section>
       </div>
       
       <Program />
       <InvitedSpeakers />
-      <Overview title="Talks" :collection="$static.talks" />
+      <Overview title="Talks" :collection="$static.talks"  />
       <Overview title="Posters" :collection="$static.posters" />
       <Registration />
       <Contact />      
     </div>
   </Layout>
 </template>
+
 
 <static-query>
 query {

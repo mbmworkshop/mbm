@@ -8,7 +8,7 @@
                     hover:no-underline hover:bg-mbm-green-dark"
               href="/#top">
             <span class="my-auto font-extrabold text-3xl tracking-tight">
-              MBM 2020
+              MBM 2022
             </span>
           </a>
         </div>
@@ -65,4 +65,5 @@ export default {
     }
   }
 }
+
 </script>

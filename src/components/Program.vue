@@ -2,7 +2,17 @@
   <section class="mt-4 border-b border-gray-400">
     <div id="program" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h2 class="section-header">Program</h2>
-      <div class="flex flex-col lg:flex-row pt-2 pb-4">
+
+    <p> A program will be available closer to the event 
+      
+    </p>
+      
+  </section>
+</template>
+
+<!-- extracted from within "<h2 class="section-header">Program</h2>"
+
+<div class="flex flex-col lg:flex-row pt-2 pb-4">
         <div v-for="edge in $static.program.edges" :key="edge.node.id"
              class="px-4 w-full lg:w-1/2 flex flex-col">
           <h3 class="mt-2 sm:text-lg font-semibold">Day {{ edge.node.day }}</h3>
@@ -32,8 +42,8 @@
           </table>
         </div>
       </div>
-  </section>
-</template>
+-->
+
 
 <static-query>
 query {
@@ -44,17 +54,22 @@ query {
         day
         program {
           time
-          activity
-          break
-          talk
-          highlight
-          invited
+          activity  
         }
       }
     }
   }
 }
 </static-query>
+
+<!-- Extracted from program{} since Program could not be minimized when missing links to atleast 1 break, talk, highlight, invited
+time
+activity
+break
+talk
+highlight
+invited
+-->
 
 <script>
 export default {

@@ -1,82 +1,102 @@
 - day: 1
   program: 
-    - time: "13:00"
-      activity: Start-up
-    - time: "13:10"
-      activity: Jan Hasenauer
+    - time: "TBA"
+      activity: Torbjörn Nordling 
       talk: true
       invited: true
-    - time: "13:40"
-      activity: William Lövfors
-      talk: true
-    - time: "14:00"
-      activity: Jan Zrimec
-      talk: true
-    - time: "14:20"
-      activity: Break
-      break: true
-    - time: "14:30"
-      activity: Erik Bülow
-      talk: true
-    - time: "14:50"
-      activity: Linnea Österberg
-      talk: true
-    - time: "15:10"
-      activity: Break
-      break: true
-    - time: "15:20"
-      activity: Poster session
-      highlight: true
-    - time: "16:20"
-      activity: Break
-      break: true
-    - time: "16:30"
-      activity: Lars Rönnegård
+    - time: "TBA"
+      activity: Mattias König 
       talk: true
       invited: true
-    - time: "17:00"
-      activity: Official program for day 1 ends
-    - time: "18:30"
-      activity: Social activity
+    - time: "TBA"
+      activity: Maria Kjellsson 
+      talk: true
+      invited: true
+    # - time: "13:00"
+    #   activity: Start-up
+    # - time: "13:10"
+    #   activity: Jan Hasenauer
+    #   talk: true
+    #   invited: true
+    # - time: "13:40"
+    #   activity: William Lövfors
+    #   talk: true
+    # - time: "14:00"
+    #   activity: Jan Zrimec
+    #   talk: true
+    # - time: "14:20"
+    #   activity: Break
+    #   break: true
+    # - time: "14:30"
+    #   activity: Erik Bülow
+    #   talk: true
+    # - time: "14:50"
+    #   activity: Linnea Österberg
+    #   talk: true
+    # - time: "15:10"
+    #   activity: Break
+    #   break: true
+    # - time: "15:20"
+    #   activity: Poster session
+    #   highlight: true
+    # - time: "16:20"
+    #   activity: Break
+    #   break: true
+    # - time: "16:30"
+    #   activity: Lars Rönnegård
+    #   talk: true
+    #   invited: true
+    # - time: "17:00"
+    #   activity: Official program for day 1 ends
+    # - time: "18:30"
+    #   activity: Social activity
 - day: 2
   program:
-    - time: "08:30"
-      activity: Gunnar Cedersund
+    - time: "TBA"
+      activity: Andreas Hellander 
       talk: true
       invited: true
-    - time: "09:00"
-      activity: Falko Schmidt
+    - time: "TBA"
+      activity: Jan Hasenauer 
       talk: true
       invited: true
-    - time: "09:30"
-      activity: Carl-Joar Karlsson
-      talk: true
-    - time: "09:50"
-      activity: Break
-      break: true
-    - time: "10:00"
-      activity: Sebastian Persson
-      talk: true
-    - time: "10:20"
-      activity: Ida Larsson
-      talk: true
-    - time: "10:40"
-      activity: Fredrik Ohlsson
-      talk: true
-    - time: "11:00"
-      activity: Break
-      break: true
-    - time: "11:10"
-      activity: Peter Jagers
-      talk: true
-    - time: "11:30"
-      activity: Jeanette Hellgren Kotaleski
-      talk: true
-      invited: true
-    - time: "12:00"
-      activity: Session closing
-    - time: "12:10"
-      activity: Lunch break
-      break: true
-    - time: "13:00"
-      activity: Extended discussion / speaker rooms (open ended)
+    # - time: "08:30"
+    #   activity: Gunnar Cedersund
+    #   talk: true
+    #   invited: true
+    # - time: "09:00"
+    #   activity: Falko Schmidt
+    #   talk: true
+    #   invited: true
+    # - time: "09:30"
+    #   activity: Carl-Joar Karlsson
+    #   talk: true
+    # - time: "09:50"
+    #   activity: Break
+    #   break: true
+    # - time: "10:00"
+    #   activity: Sebastian Persson
+    #   talk: true
+    # - time: "10:20"
+    #   activity: Ida Larsson
+    #   talk: true
+    # - time: "10:40"
+    #   activity: Fredrik Ohlsson
+    #   talk: true
+    # - time: "11:00"
+    #   activity: Break
+    #   break: true
+    # - time: "11:10"
+    #   activity: Peter Jagers
+    #   talk: true
+    # - time: "11:30"
+    #   activity: Jeanette Hellgren Kotaleski
+    #   talk: true
+    #   invited: true
+    # - time: "12:00"
+    #   activity: Session closing
+    # - time: "12:10"
+    #   activity: Lunch break
+    #   break: true
+    # - time: "13:00"
+    #   activity: Extended discussion / speaker rooms (open ended)
