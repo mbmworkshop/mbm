@@ -7,21 +7,16 @@
     </p>
     <ul class="mt-2 px-8 list-disc">
       <li>giving a plenary talk,</li>
-      <li>presenting a poster (i.e. a four-slide presentation),</li>
+      <li>presenting a poster,</li>
       <li>or simply as an observer.</li>
     </ul>
-    <p class="mt-2">
-      Sign up and more information about how you can take part of MBM 2022 will be announced.    
-    </p>
-
-    <!-- 
+  
     <p class="mt-2">
       In the first two cases you will have to submit an <span class="font-semibold">abstract
       of max. 2000 characters</span>. Please note that the number of
       plenary speakers is limited. If you sign up for a talk but do not
-      get selected for a plenary talk, you are welcome to present a shorter
-      four-slide presentation during the poster session. The poster sessions
-      will be held in parallel.
+      get selected for a plenary talk, you are welcome to present a poster 
+      during the poster session.
     </p>
     <p class="mt-2">
       As part of the goals for the workshop we will give preference to
@@ -36,23 +31,28 @@
     </p>
     <ul class="mt-2 px-8 list-disc">
       <li>
-        for talks on September 25th
-        (information about selection on September 28th),
-      </li>
-      <li>for posters on October 2nd, and</li>
-      <li>for observers on October 14th.</li>
+        for talks and posters on April 22th, and</li>
+      <li>for observers on May 16th .</li>
     </ul>
     <p class="mt-2">
-      Participation in the digital workshop will be free of charge.
+      Participation will be free of charge.
+    </p>
+    <p class="mt-2">
+      Participation at the dinner will require a small fee.
     </p>
     <form class="mt-4 flex flex-row justify-center items-center" 
-          action="https://docs.google.com/forms/d/e/1FAIpQLSdJ46IknhSQdsHDNXNC_kOMwJ6-9t1JLqPy9FBlRtMCeAWU3w/viewform?usp=sf_link" 
+          action="https://docs.google.com/forms/d/e/1FAIpQLSeFFQ27e4a0HllQHnyaMfd8Av4UFUmFKfeU0GPA0MdWEN6Cnw/viewform?usp=sf_link" 
           target="_blank">
       <input type="submit" 
               class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded
                     hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
               value="Register here" />
     </form>
+
+    <!-- 
+      <p class="mt-2">
+      Sign up and more information about how you can take part of MBM 2022 will be announced.    
+    </p>
     -->
 
   </section>

@@ -3,12 +3,14 @@
     first: Torbjörn
     last: Nordling
   invited: true
-  image: tn.png
+  image: torbjorn.png
   description: >
     Torbjörn Nordling is a professor in physics and electronics at Umeå University and assistant professor in machinetechnolgy at National Cheng Kung University at Tainin, Taiwan.
   bio:
     - >
-      Coming
+      The research in the Nordling Lab is divided into two themes--AI & Data Science and Systems & Synthetic Biology. Within AI & Data Science, their projects cover questions within Digital health, Industry 4.0, Internet of things, and Robotics. Within Systems & Synthetic Biology, the research group focuses on Biomarker discovery, Experiment design, and Identification of gene regulatory networks. The core is a data centric approach to all problems applying existing or developing new methodology as needed. 
+    - >
+      In addition, Dr. Nordling is also an angel investor and advisor of several startups, including Darmiyan Inc.—-a MedTech company developing a virtual microscopy technique for early detection and monitoring of Alzheimer's disease; Virtual Internship Partners Ltd.—-a Digital work company that already is the global leader providing virtual internships to college students; Stakester Ltd.—-a Gaming company democratising e-sport, Trailze Ltd.—-a Navigation company for micro-mobility, Unity Chain, Inc.—-a Block chain venture studio creating the multi-helix technology powering Supra-Oracles, the flagship project of the Entropy Foundation. He has also co-founded several startups, such as ContentMap AB, Nordron AB, and Jagah Systems AB. He has given numerous popular lectures on disruptive innovation, finance, and entrepreneurship, as well as acted as a judge in startup competitions. 
 
 - order: 2
   name: 
@@ -17,22 +19,23 @@
   invited: true
   image: mk.png
   description: >
-    Matthias König heads the Systems Biology and Medicine of the Liver group at Humbolt University (https://livermetabolism.com/).
+    Torbjörn Nordling is Assistant Professor at the Dept. of Mechanical Engineering and Joint Faculty of Miin Wu School of Computing at the National Cheng Kung University in Taiwan, and Senior Lecturer at the Department of Applied Physics and Electronics at Umeå University, Sweden. 
+
   bio:
     - >
-        Coming
+      König's research focus is predictive modeling of metabolism, including projects such as personalized evaluation of liver function tests, multi-scale modeling of the liver, and databases such as the tellurium-web for reproducible simulation experiments. The research group uses both computational modeling, data science, bioinformatics, and machine learning to understand biomedical systems. Köning has also been involved in the development of SBML and SED-ML. 
 
 - order: 3
   name: 
     first: Maria
     last: Kjellsson
   invited: true
-  image: mk2.png
+  image: maria.jpg
   description: >
-   Maria Kjellsson is a professor in Pharmacometrics at the Uppsala University.
+   Maria Kjellsson is an associate professor at the Dept. of Pharmacy at Uppsala University, and leads, together with Mats Karlsson, the research focused on diabetes and associated diseases, performed in the Pharmacometrics group. 
   bio: 
     - >
-        Coming
+      The group use mixed-effects models to investigate several complex aspects of diabetes, from pre-clinical experiments to treatment, risk factors, and disease progression of diabetes. The model applications range from drug discovery and drug development to predictions of long-term treatment effects and risk of cardiovascular disease. Currently, Kjellsson is project leader of a Swedish Research Council-sponsored project with the aim to develop a tool to visualize patients' risk of cardiovascular disease and how the risk changes with treatments.
 
 - order: 4
   name: 
@@ -41,19 +44,19 @@
   invited: true
   image: ah.png
   description: >
-    Andreas Hellander is a professor in Scientific Computing at Uppsala University, also heads the Integrative Scalable Computing Laboratory (https://andreashellander.se/).
+    Andreas Hellander is an Associate Professor in the Integrative Scalable Computing Laboratory at Uppsala University. His group develops theory, methods and software to facilitate scalable digital experiments of complex systems. As a part of this, his group builds tools to simulate spatial stochastic biochemical reaction networks to study complex biological systems.  
   bio:
     - >
-        Coming   
+      Hellander has as a part of his work created the software StochSS for modelling and analysing biological system. He also works with machine learning approaches and is co-founder and CSO of Scaleout, which is a platform for federated learning.    
 
 - order: 5
   name: 
     first: Jan
     last: Hasenauer
   invited: true
-  image: jh.png
+  image: jan.jpeg
   description: >
-    Jan Hasenauer is a professor for computational biomedicine and leads the Interdisciplinary Research Unit Mathematics and Life Sciences at the University of Bonn and the Research Group for Data-driven Computational Modelling at the Helmholtz Zentrum München.
+    Jan Hasenauer is a professor for computational biomedicine and leads the Interdisciplinary Research Unit Mathematics and Life Sciences at the University of Bonn and the Research Group for Data-driven Computational Modelling at the Helmholtz Zentrum München.   
   bio:
     - >
-      Coming
+      The group of Jan Hasenauer consists of eleven PhD students and seven PostDocs, and his research focuses on the development of methods for data-driven modelling of biological processes. These methods enable model-based integration of different data sets, critical evaluation of available information, comparison of different biological hypotheses and tailor-made selection of future experiments. In various national and international collaborations these methods are currently employed to address research questions in molecular biology, immunology, neurobiology and epidemiology. 

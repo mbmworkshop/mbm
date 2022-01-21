@@ -53,7 +53,10 @@
             The workshop will be held in both plenary presentation sessions for larger talks as well as in smaller sessions for e.g. poster presentations and discussions.
           </p>
           <p>
-            The exact technicalities will be made available for <span class="font-semibold">registered participants</span> closer to the date of the workshop. We aim to keep the workshop mainly in person in Linköping, but with a hybrid option for people who do not have possibility to travel there.
+            The exact technicalities will be made available for <span class="font-semibold">registered participants</span> closer to the date of the workshop. 
+          </p>
+          <p>
+            We aim to keep the workshop physically in Linköping, to promote networking. <span class="font-semibold">However, we will consider the current recommendations when we get closer to the set date.</span>
           </p>
         </section>
       </div>
