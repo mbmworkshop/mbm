@@ -20,7 +20,7 @@
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left
                       text-mbm-red-light font-semibold">
-              Hybrid Workshop
+              Physical Workshop
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
@@ -40,7 +40,7 @@
         <section class="body-text border-b lg:border-b-0 lg:border-r pb-4 lg:pb-0 lg:pr-4 border-gray-400">
           <h2 class="section-header">The Workshop</h2>
           <p>
-            We are pleased to invite you to our <span class="font-semibold">second Workshop on Modelling in Biology and Medicine (MBM 2022)</span>.
+            We are pleased to invite you to our <span class="font-semibold">third Workshop on Modelling in Biology and Medicine (MBM 2022)</span>.
           </p>
           <p>
             We aim to gather all young researchers in Sweden working on modelling of biological systems. Our ambition is to give all participating PhD students and PostDocs the opportunity to present their work through an oral presentation or a poster. Further, we wish to provide an insight on how modelling in biology and medicine is practiced in academia and industry.

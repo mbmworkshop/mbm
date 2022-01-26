@@ -38,7 +38,7 @@
       Participation will be free of charge.
     </p>
     <p class="mt-2">
-      Participation at the dinner will require a small fee.
+      Participation at the dinner will require a small fee, information about the payment is available in the registration form.
     </p>
     <form class="mt-4 flex flex-row justify-center items-center" 
           action="https://docs.google.com/forms/d/e/1FAIpQLSeFFQ27e4a0HllQHnyaMfd8Av4UFUmFKfeU0GPA0MdWEN6Cnw/viewform?usp=sf_link" 
@@ -48,13 +48,6 @@
                     hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
               value="Register here" />
     </form>
-
-    <!-- 
-      <p class="mt-2">
-      Sign up and more information about how you can take part of MBM 2022 will be announced.    
-    </p>
-    -->
-
   </section>
 </template>
 
