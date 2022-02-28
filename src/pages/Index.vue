@@ -28,7 +28,7 @@
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">May 23<sup>th</sup></span> and 
+              <span class="font-semibold">May 23<sup>rd</sup></span> and 
               <span class="font-semibold">24<sup>th</sup></span>
             </p>
           </div>

@@ -1,10 +1,11 @@
+<!-- Added class "w-full" to section element to make sure the positioning works correctly -->
+
 <template>
-  <section class="mt-4 lg:pb-4 lg:border-b lg:border-gray-400">
+  <section class="mt-4 lg:pb-4 lg:border-b lg:border-gray-400 w-full">
     <div :id="id" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h2 class="section-header">{{ $props.title }}</h2>
 
-    <!--
-    <div class="mt-4 pb-4 border-b border-gray-400">
+    <!--<div class="mt-4 pb-4 border-b border-gray-400">
       <ul class="list-decimal">
         <LinkToPresenter v-for="edge in $props.collection.edges"
                          :key="edge.node.id"
@@ -12,8 +13,7 @@
                          :title="edge.node.content.title"
                          :prefix="id" />
       </ul>
-    </div>
-    -->
+    </div>--> 
 
     <div class="lg:grid lg:grid-flow-row lg:grid-cols-2 lg:gap-x-24">
       <Presenter v-for="edge in $props.collection.edges"

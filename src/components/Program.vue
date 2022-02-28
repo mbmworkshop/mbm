@@ -1,11 +1,13 @@
+<!-- Added classes "pb-4 w-full" to section so that the separator goes across
+     the page while program is empty
+-->
+
 <template>
-  <section class="mt-4 border-b border-gray-400">
+  <section class="mt-4 border-b border-gray-400 pb-4 w-full">
     <div id="program" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h2 class="section-header">Program</h2>
 
-    <p> A program will be available closer to the event 
-      
-    </p>
+    <p> A program will be available closer to the event </p>
       
   </section>
 </template>

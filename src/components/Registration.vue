@@ -31,7 +31,7 @@
     </p>
     <ul class="mt-2 px-8 list-disc">
       <li>
-        for talks and posters on April 22th, and</li>
+        for talks and posters on April 22nd, and</li>
       <li>for observers on May 16th .</li>
     </ul>
     <p class="mt-2">
