@@ -1,0 +1,63 @@
+- order: 3
+  name: 
+    first: Gunnar
+    last: Cedersund
+  invited: true
+  image: headshot-cedersund.png
+  description: >
+    Gunnar Cedersund heads the Integrative Systems Biology group at Linköping University ([isbgroup.eu](http://isbgroup.eu)).
+  bio: 
+    - >
+        The ~15 people working in this group collaborate with a large number of clinical, experimental, and psychological research groups, to do modelling of all of the main organs in the human body: the brain, heart, fat and muscle, liver, pancreas, vasculature, etc. Together these organ models are combined into a multi-level and multi-timescale digital twin technology, which was launched at Almedalen last year, and which has since been presented at keynote presentations at conferences such as NIH, IT i vården, ModProd, etc. Cedersund has also started a new spin-off company, SUND, to help bring the digital twin technology into end-usage in pharma, healthcare, research, and in the life of ordinary people.
+    - >
+        Apart from this, Cedersund is also a concert pianist, a yoga and dance teacher, and an ironman. He is now working on bringing all of these aspects together into joint lectures/performances, where digital twins are both presented from a technological and medical point-of-view, and then dancing together with professional dancers to illustrate the music that is being played by Cedersund.
+- order: 2
+  name: 
+    first: Lars
+    last: Rönnegård
+  invited: true
+  image: lars.jpg
+  description: >
+    Lars Rönnegård is a professor in Statistics at Dalarna University and researcher at SLU, Uppsala.
+  bio:
+    - >
+        An important goal for him is to find simple statistical solutions to complex problems. A majority of his publications are in the field of statistical genetics, but he has also developed a widely used statistical package in R, hglm, and coauthored an accompanying textbook.
+    - >
+        He is a Beijer Researcher at SLU since 2019 and coordinator of research projects investigating social interactions of dairy cattle together with collaborators from SLU, RISE, Dalarna University and University of Copenhagen. A primary component of this research is the use of a real time location system to study the indoor movement and social interactions of dairy cattle. The possibility to select for increased milk yield considering effects of social interactions are investigated by developing theory on indirect genetic effects. The aim is to increase both production and welfare.
+- order: 5
+  name: 
+    first: Jeanette
+    last: Hellgren Kotaleski
+  invited: true
+  image: jeanette.png
+  description: >
+    Jeanette Hellgren Kotaleski is professor in Neuroinformatics at Dept. Computational Science and Technology (CST) at the School of Electrical Engineering and Computer Science, KTH, Sweden.
+  bio:
+    - >
+      The main focus of her research is to use computational modeling to understand the neural mechanisms underlying information processing and learning in motor systems. Of specific interest are the basal ganglia, a structure in the forebrain that is important for the selection and initiation of motor (and cognitive) actions, and which constitutes the biological substrate for reward dependent learning.
+    - >
+      The levels of investigation range from simulations of large-scale neural networks, using both biophysically detailed as well as abstract systems level models, down to kinetic models of subcellular processes (e.g. dopamine receptor induced cascades). The latter approach is important for understanding mechanisms involved in e.g. synaptic plasticity and learning.
+- order: 1
+  name: 
+    first: Jan
+    last: Hasenauer
+  invited: true
+  image: jan.jpeg
+  description: >
+    Jan Hasenauer is a professor for computational biomedicine and leads the Interdisciplinary Research Unit Mathematics and Life Sciences at the University of Bonn and the Research Group for Data-driven Computational Modelling at the Helmholtz Zentrum München.
+  bio:
+    - >
+      The group of Jan Hasenauer consists of ten PhD students and four PostDocs, and his research focuses on the development of methods for data-driven modelling of biological processes. These methods enable model-based integration of different data sets, critical evaluation of available information, comparison of different biological hypotheses and tailor-made selection of future experiments. In various national and international collaborations these methods are currently employed to address research questions in molecular biology, immunology, neurobiology and epidemiology.
+- order: 4
+  name: 
+    first: Falko
+    last: Schmidt
+  invited: true
+  image: falko.jpg
+  description: >
+    Falko Schmidt is a soon-to-graduate PhD student at the Department of Physics, University of Gothenburg. In his research he employs optical manipulation to drive novel micro- and nanomachines.
+  bio:
+    - >
+        Finding real world applications for ideas and technical solutions developed during his time as a PhD student has driven Falko for a couple of years already. After exploring different ideas and some initial set-backs he founded his own startup company, [Lucero AB](https://lucerobio.com/). Their aim is to develop automated optical manipulation solutions for single cell analysis with applications in research on longevity, viral diseases and in the pharmaceutical industry.
+    - >
+        Falko’s role at Lucero AB is in technical development with a focus on laser optics. In addition, he also enjoys giving seminars on entrepreneurship where he focuses on idea finding and validation as well as on the process of creating a startup company.
