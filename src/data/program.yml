@@ -1,19 +1,63 @@
 - day: 1
   program: 
-    - time: "TBA"
-      activity: Torbjörn Nordling 
-      talk: true
-      invited: true
-    - time: "TBA"
-      activity: Mattias König 
-      talk: true
-      invited: true
-    - time: "TBA"
+    - time: "12:30"
+      activity: Opening
+    - time: "13.00"
       activity: Maria Kjellsson 
       talk: true
       invited: true
-    # - time: "13:00"
-    #   activity: Start-up
+    - time: "14.00"
+      activity: Talks (TBA)
+    - time: "15.00"
+      activity: Break
+      break: true
+    - time: "15.30"
+      activity: Jan Hasenauer 
+      talk: true
+      invited: true
+    - time: "16.00"
+      activity: Poster session
+      highlight: true
+    - time: "17.30"
+      activity: End of day
+    - time: "18.00"
+      activity: Dinner
+      break: true
+
+- day: 2
+  program:
+    - time: "08.00" 
+      activity: Opening
+    - time: "08.15"
+      activity: Tornbjörn Norling
+      talk: true
+      invited: true
+    - time: "09.00"
+      activity: Poster session
+      highlight: true
+    - time: "10.00"
+      activity: Break
+      break: true
+    - time: "10.20"
+      activity: Matthias König
+      talk: true
+      invited: true
+    - time: "11.00"
+      activity: Talks (TBA)
+    - time: "12.00"
+      activity: Lunch break
+    - time: "13.00"
+      activity: Andreas Hellander
+      talk: true
+      invited: true
+    - time: "14.00"
+      activity: Talks (TBA)
+    - time: "15.00"
+      activity: Closing of Conferance
+
+################################# old day 1 ############################
+# - day: 1
+#   program: 
     # - time: "13:10"
     #   activity: Jan Hasenauer
     #   talk: true
@@ -50,16 +94,18 @@
     #   activity: Official program for day 1 ends
     # - time: "18:30"
     #   activity: Social activity
-- day: 2
-  program:
-    - time: "TBA"
-      activity: Andreas Hellander 
-      talk: true
-      invited: true
-    - time: "TBA"
-      activity: Jan Hasenauer 
-      talk: true
-      invited: true
+
+################################# old day 2 ############################
+# - day: 2
+#   program:
+#     - time: "TBA"
+#       activity: Andreas Hellander 
+#       talk: true
+#       invited: true
+#     - time: "TBA"
+#       activity: Jan Hasenauer 
+#       talk: true
+#       invited: true
     # - time: "08:30"
     #   activity: Gunnar Cedersund
     #   talk: true

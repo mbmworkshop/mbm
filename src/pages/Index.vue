@@ -56,19 +56,43 @@
             The exact technicalities will be made available for <span class="font-semibold">registered participants</span> closer to the date of the workshop. 
           </p>
           <p>
-            We aim to keep the workshop physically in Linköping, to promote networking. <span class="font-semibold">However, we will consider the current recommendations when we get closer to the set date.</span>
+            We will keep the workshop physically in Linköping, to promote networking. <span class="font-semibold"></span>
           </p>
         </section>
       </div>
+
+      <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
+                  lg:border-b lg:pb-4 border-gray-400 w-full">
+        <section class="body-text">
+          <h2 class="section-header">Venue</h2>
+          <p>
+            The workshop will be arranged at the University Hospital Campus in Linköping. More specificly, the north entrance, marked out in <a href="https://www.google.se/maps/@58.4022431,15.6211556,19z" target="_blank" ><u>Google maps</u></a>, one floor below the entrance at <a href="https://old.liu.se/karta?l=sv&px_type=2&px_id=512" target="_blank" ><u>Hugo Theorell</u></a>. 
+          </p>
+          <p>
+            If you come to Linköping by public transport we recomend you to trabvel with <a href="https://www.ostgotatrafiken.se/linkopings-resecentrum/us-norra-entren/?walk=true" target="_blank" ><u>Östgötatrafiken</u></a>, going with a bus from the central station "Linköpings resecentrum" to "US norra entrén". 
+          </p>
+          <p>
+            If you are using other means of transportation, it would be easiest to travel to the coordinate location 58.40230939062588, 15.621568767919038.
+          </p>
+          <p>
+            Some close by living options are <a href="https://www.nordicchoicehotels.se/hotell/sverige/linkoping/quality-hotel-ekoxen/" target="_blank" ><u>Hotel Ekoxen</u></a> and <a href="https://lvh.se/en/" target="_blank" ><u>Linköping's City Hotell</u></a>. 
+          </p>
+
+        </section>
+        
+      </div>
       
+
       <Program />
       <InvitedSpeakers />
       <Overview title="Talks" :collection="$static.talks"  />
       <Overview title="Posters" :collection="$static.posters" />
       <Registration />
+      <Sponsor />
       <Contact />      
     </div>
   </Layout>
+
 </template>
 
 
@@ -107,6 +131,7 @@ import Program from '~/components/Program.vue'
 import InvitedSpeakers from '~/components/InvitedSpeakers.vue'
 import Overview from '~/components/Overview.vue'
 import Registration from '~/components/Registration.vue'
+import Sponsor from '~/components/Sponsor.vue'
 import Contact from '~/components/Contact.vue'
 
 export default {
@@ -118,6 +143,7 @@ export default {
     InvitedSpeakers,
     Overview,
     Registration,
+    Sponsor,
     Contact
   }
 }

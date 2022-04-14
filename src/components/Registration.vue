@@ -30,16 +30,29 @@
       The <span class="font-semibold">registration deadline</span> is
     </p>
     <ul class="mt-2 px-8 list-disc">
-      <li>
-        for talks and posters on April 22nd, and</li>
+      <li>for talks and posters on April 22nd, and</li>
       <li>for observers on May 16th .</li>
+      <br />
     </ul>
     <p class="mt-2">
-      Participation will be free of charge.
+      Participation will require a fee* of 100 SEK. <br />
+      Participation at the dinner will require an additional fee of 100 SEK, payment information can be found below: <br /><br />
+
+      From within Sweden:<br />
+      Bank giro: 5050-0016<br />
+      State "17016, project 995631, MBM" as reference <br /><br />
+
+      From abroad:<br />
+      Danske Bank, P.O. Box 7523, SE-103 92 Stockholm, Sweden<br />
+      Account number 1281 01 17 713<br />
+      BIC/SWIFT: DABASESX<br />
+      IBAN: SE13 1200 0000 0128 1011 7713<br />
+      State "17016, project 995631, MBM" as reference<br /><br />
+
+      *This do not apply for MSc or undergraduate students.
     </p>
-    <p class="mt-2">
-      Participation at the dinner will require a small fee, information about the payment is available in the registration form.
-    </p>
+
+
     <form class="mt-4 flex flex-row justify-center items-center" 
           action="https://docs.google.com/forms/d/e/1FAIpQLSeFFQ27e4a0HllQHnyaMfd8Av4UFUmFKfeU0GPA0MdWEN6Cnw/viewform?usp=sf_link" 
           target="_blank">

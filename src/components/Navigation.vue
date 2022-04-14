@@ -54,6 +54,7 @@ export default {
         'Talks',
         'Posters',
         'Registration',
+        'Sponsor',
         'Contact'
       ]
     }
