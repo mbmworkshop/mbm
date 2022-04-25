@@ -72,7 +72,7 @@
             If you come to Linköping by public transport we recomend you to trabvel with <a href="https://www.ostgotatrafiken.se/linkopings-resecentrum/us-norra-entren/?walk=true" target="_blank" ><u>Östgötatrafiken</u></a>, going with a bus from the central station "Linköpings resecentrum" to "US norra entrén". 
           </p>
           <p>
-            If you are using other means of transportation, it would be easiest to travel to the coordinate location 58.40230939062588, 15.621568767919038.
+            If you are using other means of transportation, it would be easiest to travel to the coordinate location 58.40230939062588, 15.621568767919038, or see these <a href="/directionsMBMLinkoping.pdf" target="_blank"> <u>instructions</u></a>.
           </p>
           <p>
             Some close by living options are <a href="https://www.nordicchoicehotels.se/hotell/sverige/linkoping/quality-hotel-ekoxen/" target="_blank" ><u>Hotel Ekoxen</u></a> and <a href="https://lvh.se/en/" target="_blank" ><u>Linköping's City Hotell</u></a>. 
@@ -85,6 +85,7 @@
 
       <Program />
       <InvitedSpeakers />
+      <Overview title="Presentations" :collection="$static.presentations"  />
       <Overview title="Talks" :collection="$static.talks"  />
       <Overview title="Posters" :collection="$static.posters" />
       <Registration />
@@ -98,6 +99,11 @@
 
 <static-query>
 query {
+  presentations: allOthers (sortBy: "order", order: ASC, 
+    				 filter: { type: { eq: "presentation" }}) {
+		...contentFields
+  }
+
   talks: allOthers (sortBy: "order", order: ASC, 
     				 filter: { type: { eq: "talk" }}) {
 		...contentFields
