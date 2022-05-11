@@ -1,109 +1,124 @@
 - order: 1
   name: 
-    first: To be 
-    last: announced
-  affiliation: Chalmers University and University of Gothenburg
+    first: Sebastian 
+    last: Sten
+  affiliation: Drug metabolism and pharmacokinetics (DMPK), Research and Early Development, Cardiovascular, Renal and Metabolism (CVRM), BioPharmaceuticals R&D, AstraZeneca 
   type: talk
   content:
-    title: >
-      
-    authors: Peter Jagers (1), Sergei Zuyev (1)
-    affiliations: 
-      - >
-        (1) Department of Mathematical Sciences, Chalmers University of Technology and University of Gothenburg
+    title: "Case study in modern pharmaceutical drug development: how mathematical modeling can aid in unraveling systems-level insights and help guide rational drug design"
     abstract:
       - >
+        Modern drug development typically employs mathematical modeling to generate quantitative relationships between drug exposure (pharmacokinetics), the interaction between the drug and its intended target (target engagement), and finally, how this drug-target interaction affects downstream functional readouts (pharmacodynamics). These models range from simple linear regression to complex multi-variable differential equation models, with potentially many unknown or unmeasurable parameters that needs to be inferred from in vitro and in vivo data. When successful, these quantitative relationships (models) are used to design experimental studies, unravel insights regarding the biological system, and ultimately guide compound and efficacious dose selection. Here in, we present a case study of how these concepts were applied to agonists towards a kidney-enriched receptor. Suggested agonists exhibited dose-dependent elimination, exhibiting less clearance at high drug concentrations. By applying mechanistic modeling based on in vitro/in vivo data, the root-cause of the saturation was predicted to be due to fast receptor recycling. The model predictions were used to successfully design and predict new in vivo experiments, confirming the presence of receptor-driven drug clearance. Furthermore, we show that a common rationale – improved in vitro affinity translates to improved in vivo potency – is not sufficient in this case. In contrast, in-line with the model predictions, the actual in vitro drug-receptor binding kinetics (association/disassociation rate) determine the in vivo potency of these agonists. In summary, mathematical modeling in drug development plays an important role in aiding a correct translation between in vitro drug properties and in vivo pharmacokinetics/pharmacodynamics, and helps identify desirable drug properties.
+
+- order: 2
+  name: 
+    first: Gustav
+    last: Lindwall
+  affiliation: Mathematical Sciences, Chalmers Univeristy of Technology
+  type: talk
+  content:
+    title: Fast and precise inference on diffusivity in particle systems
+    abstract:
+      - > 
+        Particle systems made up of interacting agents is a popular model used in a vast array of applications, not the least in biology where the agents can represent everything from single cells to animals in a herd. Usually, the particles are assumed to undergo some type of random dynamics, and a popular way to model this is by using Brownian motion. The magnitude of random motion is often quantified using mean squared displacement, which provides a simple estimate of the diffusion coefficient. However, this method often fails when data is sparse or interactions between agents frequent.
+      - >
+        In order to adress this, we derive a conjugate relationship in the diffusion term for large interacting particle systems undergoing isotropic diffusion, giving us an efficient inference method. The method accurately accounts for emerging effects such as anomalous diffusion stemming from mechanical interactions. We apply our method to a complex model with a large number of interacting particles, and the results are contrasted with a naive mean square displacement-based approach. We find a significant improvement in performance when using the higher-order method over the naive approach. This method can be applied to any system where agents undergo Brownian motion and will lead to improved estimates of diffusion coefficients compared to existing methods.
+
+- order: 3
+  name: 
+    first: Sonja
+    last: Mathias
+  affiliation: Department of Information Technology, Uppsala Universitet
+  type: talk
+  content:
+    title: Contributions of cell behavior to column growth in embryonic cartilage
+    abstract:
+      - >
+        During early development, cartilage provides shape and stability to the embryo while serving as a blueprint for the skeleton. Correct formation of embryonic cartilage is hence essential for healthy  development. In vertebrate cranial cartilage, it has been shown that a flat and laterally extended sheet-like macroscopic geometry is linked to a regular microscopic geometry consisting of tightly packed, short, transversal clonar columns. Which mechanical  interactions and cell behaviours contribute to the generation and  maintenance of this geometry during embryogenesis remains unclear. In this talk, we apply a three-dimensional cell-based computational model to investigate mechanical principles contributing to column  formation. Our model accounts for clonal expansion, anisotropic proliferation and the geometrical arrangement of progenitor cells in space. We confirm that oriented cell divisions and repulsive mechanical interactions between cells are key drivers of column  formation. In addition, column formation benefits from increased extracellular matrix in the initial configuration and column maintenance is facilitated by sequential proliferative phases. Our model thus correctly predicts the dependence of local order on division orientation and tissue thickness. Our study presents the first cell-based simulations of cell mechanics during cranial cartilage formation and will be useful in future studies on the  formation and growth of other cartilage geometries.
+
+- order: 4
+  name: 
+    first: Oscar
+    last: Arrestam
+  affiliation: Department of Biomedical Engineering, Linköping University
+  type: talk
+  content:
+    title: Digital twin predicting diet response before and after long-term fasting
+    abstract:
+      - >
+        Today, there is great interest in diets proposing new combinations of macronutrient compositions and fasting schedules. Unfortunately, there is little consensus regarding the impact of these different diets, since available studies measure different sets of variables in different populations, thus only providing partial, non-connected insights. We lack an approach for integrating all such partial insights into a useful and interconnected big picture. Herein, we present such an integrating tool. The tool uses a novel mathematical model that describes mechanisms regulating diet-response and fasting metabolic fluxes, both for organ-organ crosstalk, and inside the liver. The tool can mechanistically explain and integrate data from several clinical studies, and correctly predict new independent data, including data from a new study. Using this model, we can predict non-measured variables, e.g. hepatic glycogen and gluconeogenesis, in response to fasting and different diets. Furthermore, we exemplify how such metabolic responses can be successfully adapted to a specific individual's sex, weight, height, as well as to the individual's historical data of metabolite dynamics. This thus enables an offline digital twin technology. 
+
+- order: 5
+  name: 
+    first: Lucas
+    last: Hedström
+  affiliation: Department of Physics, Umeå University
+  type: talk
+  content:
+    title: Modelling chromosome-wide target search
+    abstract:
+      - > 
+        Experiments suggest that proteins find DNA target sequences by diffusing along with the DNA, occasionally unbinding and rebinding to other further away sites. This process is known as facilitated diffusion, which has been described by multiple biophysical models. In those models, they treat the basepair sequence as an energy landscape, with the protein acting as a diffusing particle looking for one of the landscape's valleys.
+      - >
+        Because of the vast size of DNA, these simulations cannot be generalized to genome-wide searches. Instead, the models that deal with large-scale search omit sequence motifs and envision chromosomes as a 3D contact network that guides the protein across the chromosome. While applicable, these models cannot predict binding rates to specific motifs. Therefore, to model the chromosome-wide search of "real proteins", we need to connect the small- and large-scale.
+      - >
+        We present a model that connects search at a basepair- and chromosome-wide level to simulate search times for specific proteins looking for target motifs. At the basepair level, we use an established two-state facilitated diffusion model, and at the large scale, we build on previous work modelling the protein search as a random walk on a weighted network representing the 3D interaction of the chromosome network from Hi-C experimental data.
+      - >
+        Our method allows us to calculate the search rates for proteins in chromosome-wide search, considering factors such as the variance of the energy landscape and target placements. Preliminary results show that the search time is dependent not only on the fine-scale basepair dynamics but also on the inherent placement of target sequences on the chromosome's 3-dimensional conformation.
         
 - name:
-    first: To be announced
-    last: 
-  affiliation: 
+    first: Oscar   
+    last: Arrestam
+  affiliation: Department of Biomedical Engineering, Linköping University
   type: poster
   content:
-    title: 
-    authors: 
-    affiliations: 
-      - >
-        
+    title: Digital twin predicting diet response before and after long-term fasting
     abstract:
-      - >
+      - > 
+        Today, there is great interest in diets proposing new combinations of macronutrient compositions and fasting schedules. Unfortunately, there is little consensus regarding the impact of these different diets, since available studies measure different sets of variables in different populations, thus only providing partial, non-connected insights. We lack an approach for integrating all such partial insights into a useful and interconnected big picture. Herein, we present such an integrating tool. The tool uses a novel mathematical model that describes mechanisms regulating diet-response and fasting metabolic fluxes, both for organ-organ crosstalk, and inside the liver. The tool can mechanistically explain and integrate data from several clinical studies, and correctly predict new independent data, including data from a new study. Using this model, we can predict non-measured variables, e.g. hepatic glycogen and gluconeogenesis, in response to fasting and different diets. Furthermore, we exemplify how such metabolic responses can be successfully adapted to a specific individual's sex, weight, height, as well as to the individual's historical data of metabolite dynamics. This thus enables an offline digital twin technology. 
 
 - name:
-    first: Torbjörn
-    last: Nordling
-  affiliation: National Cheng Kung University, Umeå University
-  type: presentation
+    first: Christian   
+    last: Simonsson
+  affiliation: Department of Biomedical Engineering, Linköping University
+  type: poster
   content:
-    title: Epidemiological modelling of COVID-19 from a system identification perspective using Taiwanse data for illustration 
-    authors: Torbjörn Nordling
-    affiliations:
-      - >
-        (1) Department of Mechanical Engineering, National Cheng Kung University, Tainan, Taiwan
-      - >
-        (2) Department of Applied Physics and Electronics, Umeå University, Umeå, Sweden
+    title: A multi-scale in silico mouse model for diet induced insulin resistance
     abstract:
+      - > 
+        Insulin resistance (IR) causes compensatory insulin production, which in humans eventually progresses to beta-cell failure and type 2 diabetes (T2D). This disease progression involves multi-scale processes, ranging from intracellular signaling to organ-organ and whole-body level regulations, on timescales from minutes to years. T2D progression is commonly studied using overfed and genetically modified rodents. However, rodents do not exhibit human T2D progression, with IR-driven beta-cell failure, and available multi-scale data is too complex to fully comprehend using traditional analysis. To help resolve these issues, we here present an in silico mouse model. This is the first mathematical model that simultaneously explains multi-scale mouse IR data on all three levels – cells, organs, body – ranging from minutes to months. The model correctly predicts new independent multi-scale validation data and provides insights into non-measured processes. Finally, we present a humanoid in silico mouse exhibiting disease progression from IR to IR-driven beta-cell failure. 
+
+- name:
+    first: Benjamin   
+    last: Andersson
+  affiliation: Department of Biomedical Engineering, Linköping University
+  type: poster
+  content:
+    title: A new method for a priori practical identifiability
+    abstract:
+      - > 
+        Mathematical modeling uses differential equations to study biological processes.  One often does not know the numerical values of the parameters before measurements are taken and these measurements are used to estimate the parameter values.  However, a parameter may be impossible to estimate this way due to the nature of the equations (structurally unidentifiable) or due to the level of noise in the signal (practically unidentifiable).  Much progress has been made in recent decades on determining structural identifiability, but the problem of practical identifiability remains a challenge.  However, it is often the case that a parameter is structurally identifiable but is not practically identifiable for any realistic level of noise.  This could be because the structural identifiability relies on high order derivatives of the output signal that are hard to accurately estimate.
       - >
-        The ongoing COVID-19 pandemic has highlighted the shortcomings of epidemiological modelling for guiding policy decisions. Current models depend on unreliable population statistics and ad hoc parameters due to the lack of public data on the spread of infection in contact networks and individual disease journeys. My aim is to replace population statistics with data from individual disease journeys for fast policy support with iteratively improving accuracy in future pandemics. In this talk, I will highlight specific needs, constraints, opportunities, and results from our ongoing work. I will also compare the evolution of the pandemic in Sweden and Taiwan and forecast the end of the current community outbreak.
+        We present a new algorithm that can help determine whether a parameter is practically identifiable a priori, that is, before measurements are made, by determining whether it can be estimated from derivatives of the outputs specified by the experimenter.  Additionally, we show this method can determine if a user-specified combination of states and parameters is practically identifiable.  We present a fast version of this algorithm using random integers that succeeds with high probability, and provide rigorous justification not shown in similar algorithms in the literature.
 
+- name:
+    first: William   
+    last: Lövfors
+  affiliation: Department of Biomedical Engineering, Linköping University
+  type: poster
+  content:
+    title: A comprehensive mechanistic model of adipocyte signaling with layers of confidence
+    abstract:
+      - > 
+        Adipocyte cellular signaling, normally and in type 2 diabetes, is far from fully studied. We have earlier developed detailed dynamic mathematical models for some well-studied, and partially overlapping, signaling pathways in adipocytes. Still, these models only cover a fraction of the total cellular response. For a broader coverage of the response, large-scale phosphoproteomic data is key. There exists such data for the insulin response of adipocytes, as well as prior knowledge on possible protein-protein interactions associated with a confidence level. However, methods to combine detailed dynamic models with large-scale data, using information about the confidence of included interactions, are lacking. In our new method, we first establish a core model by connecting our partially overlapping models of adipocyte cellular signaling with focus on: 1) lipolysis and fatty acid release, 2) glucose uptake, and 3) the release of adiponectin. We use the phosphoproteome data and prior knowledge to identify phosphosites adjacent to the core model, and then try to add the adjacent phosphosites to the model. The additions of the adjacent phosphosites is tested in a parallel, pairwise approach with low computation time. We then iteratively collect the accepted additions into a layer and use the newly added layer to find new adjacent phosphosites. We find that the first 15 layers (60 added phosphosites) with the highest confidence can correctly predict independent inhibitor-data (70-90% correct), and that this ability decrease when we add layers of decreasing confidence. In total, 60 layers (3926 phosphosites) can be added to the model and still keep predictive ability. Finally, we use the comprehensive adipocyte model to simulate systems-wide alterations in adipocytes in type 2 diabetes. This new method provide a tool to create large models that keeps track of varying confidence.
 
-# - order: 1
-#   name:
-#     first: William
-#     last: Lövfors
-#   affiliation: Linköping University
-#   type: talk
-#   content:
-#     title: Towards a comprehensive and multi-level module for metabolic control of the adipose tissue
-#     authors: William Lövfors(1,2), Christian Simonsson(1,4), Cecilia Jönsson(3), Karin Stenkula(4), Peter Strålfors(3),  Elin Nyman(1), Gunnar Cedersund(1,5)
-#     affiliations:
-#       - >
-#         (1) Department of Biomedical Engineering, Linköping University, Linköping, Sweden
-#       - >
-#         (2) Department of Mathematics, Linköping University, Linköping, Sweden
-#       - > 
-#         (3) Department of Biomedical and Clinical Sciences, Linköping University, Linköping, Sweden
-#       - >
-#         (4) Lund university, Lund, Sweden
-#       - >
-#         (5) Center for Medical Image Science and Visualization (CMIV), Linköping University, Linköping, Sweden
-#     abstract:
-#       - >
-#         Type 2 diabetes is an important risk factor for myocardial infarction and stroke, which are the leading causes of death in the world. Central to these diseases is the adipose tissue. The adipose tissue is both responding to hormones like insulin and catecholamines, which regulate the metabolic function of the tissue, and is secreting its own hormones, e.g. adiponectin. However, even if much research has generated many partial insights regarding these processes, there is still a lack of consensus regarding many details. The main reason for this is the high degree of complexity and over-lapping co-regulation between the different processes. To tackle this complexity, we have collected highly resolved quantitative data, which we have analyzed using mechanistic modelling. This combination has allowed us to iteratively test and refine mechanistic hypotheses, where we use the data to both evaluate and refine the hypotheses, and to validate them using independent predictions. We have used this approach to characterize various sub-systems in the adipose tissue: insulin signaling leading to glucose uptake and inhibition of lipolysis, catecholamine stimulation of lipolysis and adiponectin secretion, both in type 2 diabetes and control. These models have so far described these processes one by one, even though there are important points of overlap. In this talk I will present both our results for the different existing models, and outline how we now are creating a combined multi-level model for the adipose tissue. This final model will be able to serve as a module in whole-body models used to aid drug development and healthcare.
-# - name:
-#     first: Hanna
-#     last: Isaksson
-#   affiliation: Umeå University
-#   type: poster
-#   content:
-#     title: Small differences in multicellular life cycles have big effects for its evolution
-#     authors: Hanna Isaksson (1), Eric Libby (1)
-#     affiliations: 
-#       - >
-#         (1) Umeå University, IceLab, Department of Mathematics and Mathematical Statistics
-#     abstract:
-#       - >
-#         All multicellular organisms evolved from unicellular ancestors, yet not all multicellular lineages evolved similar levels of complexity. The evolution of complex multicellularity involves a series of adaptations that transform simple groups of cells into large structures of differentiated cells. Experimental and theoretical studies have identified some key factors that influence the evolution of complexity such as the presence of bottlenecks in multicellular life cycles and whether development is clonal or aggregative. These factors, however, distinguish between disparate types of multicellular life cycles; yet little is known about how small variations within the same type of multicellular life cycle affect its future evolution. Here, we consider a simple multicellular life cycle of a filament that reproduces via fragmentation. We use mathematical modeling to explore how subtle variations in the fragmentation process affect the rate that beneficial mutations fix. In particular, we find that the number of daughter filaments produced during a fragmentation affects the speed and likelihood that mutations fix. One class of mutations, called altruistic mutations, that impose a cost on individual cells but improve the survival of the filament did not fix when filaments fragmented into high numbers of daughters. Our results show that the specific structure of a multicellular life cycle matters, either promoting or inhibiting adaptations that give rise to greater organismal complexity.
-
-# - name:
-#     first: Moa
-#     last: Lundkvist
-#   affiliation: Umeå University
-#   type: poster
-#   content:
-#     title: Forecasting histone methylation by Polycomb complexes with minute-scale precision
-#     authors: Mahnaz I.Shemirani (1,3), Andreas Tilevik (1), Diana Tilevik (1), Anna-Karin Pernestig (1), Helena Enroth (1,2)
-#     affiliations:
-#       - >
-#         (1) Systems Biology Research Center, University of Skövde, Skövde
-#       - >
-#         (2) Laboratory medicine, Unilabs, Skövde
-#       - >
-#         (3) Department of Laboratory Medicine, University of Gothenburg, Gothenburg
-#     abstract:
-#       - >
-#         Polycomb proteins are critical epigenetic regulators of metazoan development. They form two major kinds of complexes, Polycomb Repressive Complex 1 (PRC1) and Polycomb Repressive Complex 2 (PRC2). PRC2 can add up to three methyl groups to Lysine 27 of histone H3 (H3K27), which is necessary for its repressive function. PRC2 functions in two ways: hit-&-run, a diffusion based random methylation of the inactive genome, and by targeting to specific genes. When PRC2 targets  genes it binds to genomic elements called Polycomb Response Elements (PREs).
-#       - >
-#         We model the dynamics of epigenetic repression by PRC2 in replicating Drosophila melanogaster cells. To this effect, we represent chromatin as a string of nucleosomes, each with 2 methylation sites, which can have 0-3 methyl groups attached. Using experimental bulk values for the methylation states, measured difference in methylation rates for adding the first, second or third methylation group, and allosteric stimulation, we constrain the model to represent hit-&-run methylation. By introducing additional parameters: an increase in catalytic efficiency when PRC2 is bound to a PRE, and the probability of interaction with the PRE-bound PRC2 we further expand the model to represent targeted methylation.
-#       - >
-#         In the current state, the model recapitulates H3K27me3 profiles around known Polycomb regulated genes and sets the framework to answer questions that cannot be addressed by experiments alone. For example, how the H3K27 methylation profiles build up during fly development and the purpose of allosteric stimulation, and so on.
-
+- name:
+    first: Moa  
+    last: Lundkvist
+  affiliation: Molecular Biology, Umeå University
+  type: poster
+  content:
+    title: Forecasting histone methylation by Polycomb complexes with minute-scale precision
+    abstract:
+      - > 
+        Polycomb proteins are critical epigenetic regulators of metazoan development. They form two major kinds of complexes, Polycomb Repressive Complex 1 (PRC1) and Polycomb Repressive Complex 2 (PRC2). PRC2 can add up to three methyl groups to Lysine 27 of histone H3 (H3K27), which is necessary for its repressive function. PRC2 functions in two ways: hit-&-run, a diffusion based random methylation of the inactive genome, and by targeting to specific genes. When PRC2 targets  genes it binds to genomic elements called Polycomb Response Elements (PREs).

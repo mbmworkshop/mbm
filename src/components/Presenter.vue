@@ -5,6 +5,7 @@
     <div class="text-lg md:text-xl mb-4">
       <h3>
         <span class="font-semibold">{{ $props.name }}</span> <h3></h3>
+        <span class="text">{{ $props.affiliation }}</span>
         <span class="italic">{{ $props.title }}</span>
         
       </h3>
@@ -15,22 +16,7 @@
       <Markdown v-for="para in $props.abstract"
                 :key="para"
                 :content="para" />
-    </div>
-    
-    <!-- <div class="font-thin text-sm md:text-base">
-      <p class="mb-4">
-        <span class="font-semibold">Authors: </span>
-        {{ $props.authors }}
-      </p>
-      <p class="font-semibold">Affiliations:</p>
-      <ul class="mb-2">
-        <li v-for="affiliation in $props.affiliations"
-            :key="affiliation">
-          {{ affiliation }}
-        </li>
-      </ul>
-    </div> -->
-   
+    </div> 
   </section>
 </template>
 
@@ -40,7 +26,7 @@ import Markdown from '~/components/Markdown.vue'
 export default {
   name: 'Presenter',
   props: [
-    'name', 'title', 'authors', 'affiliations', 'abstract', 'prefix'
+    'name', 'title', 'abstract', 'prefix'
   ],
   computed: {
     id() {

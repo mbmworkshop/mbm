@@ -85,7 +85,6 @@
 
       <Program />
       <InvitedSpeakers />
-      <Overview title="Presentations" :collection="$static.presentations"  />
       <Overview title="Talks" :collection="$static.talks"  />
       <Overview title="Posters" :collection="$static.posters" />
       <Registration />
@@ -99,11 +98,6 @@
 
 <static-query>
 query {
-  presentations: allOthers (sortBy: "order", order: ASC, 
-    				 filter: { type: { eq: "presentation" }}) {
-		...contentFields
-  }
-
   talks: allOthers (sortBy: "order", order: ASC, 
     				 filter: { type: { eq: "talk" }}) {
 		...contentFields
@@ -121,10 +115,9 @@ fragment contentFields on OthersConnection {
         first
         last
       }
+      affiliation
       content {
         title
-        authors
-        affiliations
         abstract
       }
     }
