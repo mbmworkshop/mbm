@@ -26,6 +26,17 @@
 
 - order: 3
   name: 
+    first: Christian
+    last: Simonsson
+  affiliation: Department of Biomedical Engineering, Linköping University
+  type: talk
+  content:
+    title: TBA
+    abstract:
+      - >
+        
+- order: 4
+  name: 
     first: Sonja
     last: Mathias
   affiliation: Department of Information Technology, Uppsala Universitet
@@ -36,7 +47,7 @@
       - >
         During early development, cartilage provides shape and stability to the embryo while serving as a blueprint for the skeleton. Correct formation of embryonic cartilage is hence essential for healthy  development. In vertebrate cranial cartilage, it has been shown that a flat and laterally extended sheet-like macroscopic geometry is linked to a regular microscopic geometry consisting of tightly packed, short, transversal clonar columns. Which mechanical  interactions and cell behaviours contribute to the generation and  maintenance of this geometry during embryogenesis remains unclear. In this talk, we apply a three-dimensional cell-based computational model to investigate mechanical principles contributing to column  formation. Our model accounts for clonal expansion, anisotropic proliferation and the geometrical arrangement of progenitor cells in space. We confirm that oriented cell divisions and repulsive mechanical interactions between cells are key drivers of column  formation. In addition, column formation benefits from increased extracellular matrix in the initial configuration and column maintenance is facilitated by sequential proliferative phases. Our model thus correctly predicts the dependence of local order on division orientation and tissue thickness. Our study presents the first cell-based simulations of cell mechanics during cranial cartilage formation and will be useful in future studies on the  formation and growth of other cartilage geometries.
 
-- order: 4
+- order: 5
   name: 
     first: Oscar
     last: Arrestam
@@ -48,7 +59,39 @@
       - >
         Today, there is great interest in diets proposing new combinations of macronutrient compositions and fasting schedules. Unfortunately, there is little consensus regarding the impact of these different diets, since available studies measure different sets of variables in different populations, thus only providing partial, non-connected insights. We lack an approach for integrating all such partial insights into a useful and interconnected big picture. Herein, we present such an integrating tool. The tool uses a novel mathematical model that describes mechanisms regulating diet-response and fasting metabolic fluxes, both for organ-organ crosstalk, and inside the liver. The tool can mechanistically explain and integrate data from several clinical studies, and correctly predict new independent data, including data from a new study. Using this model, we can predict non-measured variables, e.g. hepatic glycogen and gluconeogenesis, in response to fasting and different diets. Furthermore, we exemplify how such metabolic responses can be successfully adapted to a specific individual's sex, weight, height, as well as to the individual's historical data of metabolite dynamics. This thus enables an offline digital twin technology. 
 
-- order: 5
+- order: 6
+  name: 
+    first: Karin
+    last: Lundengård
+  affiliation: Auckland Bioengineering Institute, University of Auckland
+  type: talk
+  content:
+    title: Physiome journal facilitates and incentivises reproducibility in models
+    abstract:
+      - >
+        Reproducibility and confirmation of results is crucial for useful science and should be one of the supporting pillars of good research. However, less than 10% of the computational physiological models published in scientific journals work when implemented by another group. Reproducibility and confirmation of results is crucial for useful science and should be incentivised. Yet, publication of it is often treated as a secondary result at best, which undermines the quality of our work. 
+      - >
+        Physiome is a journal committed to reproducibility and reusability of mathematical models of physiological processes. Physiome publications are a complement to your primary article that ensures reproducibility, reusability and discoverability of you model. Physiome curators will help authors ensure that models and simulation experiments are made available using appropriate community standards prior to acceptance for publication in Physiome. When aspects of a computational modelling study are not able to be encoded in standard formats, Physiome editors will help authors ensure their work is as open, reproducible, and reusable as possible. We will help as much as is currently possible with model curation and annotation to ensure that the modeling results claimed in the primary paper are consistent with the published model. 
+      - >
+        Every model published in Physiome is connected to a curated and permanent version of the model code with a persistent identifier. The code necessary to run the model is easily accessible by just clicking a link, to be reused as it is or as a module in a novel model. Model validation and scientific value is ensured by being connected to a primary paper published in a domain-specific journal. The Physiome Project have collaborated with Digital Science to build an open source curation system (based on the collaborative knowledge foundation software), with journal articles published open access in figshare. The format encourages modularity that facilitates combination of different models to develop the next level of systems understanding. And all the models are in one place, easy to find and accessible. Physiome is open access with a low Author Processing Charge. 
+      - >
+        Waste no more valuable time and effort on trying to implement models from papers that lack information, or having your results lost because others cannot use them. Publish your models in Physiome and contribute to making science useful in society (and less frustrating for your colleagues). 
+      - > 
+        For more information visit: [the Physiome project](https://journal.physiomeproject.org) 
+
+- order: 7
+  name: 
+    first: Sophia
+    last: Bäck
+  affiliation: Department of Health, Medicine and Caring Sciences, Linköping University
+  type: talk
+  content:
+    title: Modeling Blood Flow in Atrial Fibrillation Patients using Computational Fluid Dynamics
+    abstract:
+      - >
+        Patients with atrial fibrillation have an altered cardiac wall motion, which leads to increased stasis and risk for thrombus formation. Using time-resolved cardiac CT, the motion of the endocardial wall can be recorded throughout the cardiac cycle. The aim of this study is to use the geometry and motion of the endocardium of 20 patients with atrial fibrillation to compute the intracardiac flow field with computational fluid dynamics. We further computed the blood residence time, which represents the time the blood has spend inside the left heart.  We found that the intracardiac residence time correlates strongly with the left atrial ejection fraction and that there is a large diversity in the studied population regarding intracardiac residence time. In the future, the blood residence time could serve as a biomarker to improve the thrombus risk estimation in patients with atrial fibrillation.  
+
+- order: 8
   name: 
     first: Lucas
     last: Hedström
@@ -66,6 +109,18 @@
       - >
         Our method allows us to calculate the search rates for proteins in chromosome-wide search, considering factors such as the variance of the energy landscape and target placements. Preliminary results show that the search time is dependent not only on the fine-scale basepair dynamics but also on the inherent placement of target sequences on the chromosome's 3-dimensional conformation.
         
+- order: 9
+  name: 
+    first: Gunnar
+    last: Cedersund
+  affiliation: Department of Biomedical Engineering, Linköping University
+  type: talk
+  content:
+    title: TBA
+    abstract:
+      - >
+        
+  
 - name:
     first: Oscar   
     last: Arrestam

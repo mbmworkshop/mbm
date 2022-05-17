@@ -6,12 +6,12 @@
       activity: Maria Kjellsson 
       talk: true
       invited: true
-    - time: "14.00"
+    - time: "13.40"
       activity: Sebastian Sten
-    - time: "14.20"
+    - time: "14.00"
       activity: Gustav Lindwall
-    - time: "14.40"
-      activity: Talk (TBA)
+    - time: "14.20"
+      activity: Christiand Simonsson
     - time: "15.00"
       activity: Break
       break: true
@@ -33,7 +33,7 @@
     - time: "08.00" 
       activity: Opening
     - time: "08.15"
-      activity: Tornbjörn Norling
+      activity: Torbjörn Norling
       talk: true
       invited: true
     - time: "09.00"
@@ -47,11 +47,11 @@
       talk: true
       invited: true
     - time: "11.00"
-      activity: Talk (TBA)
-    - time: "11.20"
       activity: Sonja Mathias
-    - time: "11.40"
+    - time: "11.20"
       activity: Oscar Arrestam
+    - time: "11.40"
+      activity: Karin Lundengård
     - time: "12.00"
       activity: Lunch break
       break: true
@@ -60,10 +60,10 @@
       talk: true
       invited: true
     - time: "14.00"
-      activity: Talk (TBA)
+      activity: Sophia Bäck
     - time: "14.20"
       activity: Lucas Hedström
     - time: "14.40"
-      activity: Talk (TBA)
+      activity: Gunnar Cedersund
     - time: "15.00"
       activity: Closing of Conferance
