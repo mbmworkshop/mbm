@@ -31,9 +31,10 @@
   affiliation: Department of Biomedical Engineering, Linköping University
   type: talk
   content:
-    title: TBA
+    title: A multi-scale in silico mouse model for diet-induced insulin resistance
     abstract:
       - >
+        Insulin resistance causes compensatory insulin production, which in humans can eventually progress to beta-cell failure and type 2 diabetes (T2D). This disease progression involves multi-scale processes, ranging from intracellular signaling to organ and whole-body level regulations, on timescales from minutes to years. T2D progression is commonly studied using overfed and genetically modified rodents. However, rodents do not exhibit the typical human T2D progression, i.e. insulin resistance leading to beta-cell failure. Also, available multi-scale data from rodents is too complex to fully comprehend using traditional analysis, not based on mathematical modelling. To help resolve these issues, we here present an in silico mouse model. This is the first mathematical model that simultaneously explains multi-scale mouse insulin resistance data on all three levels – cells, organs, body – ranging from minutes to months. The model predicts new independent multi-scale simulations, which are corroborated by our own new experimental data. The thus validated model provides insights and non-trival predictions regarding complex non-measured processes. The model e.g. predicts an increase in adipose tissue glucose uptake in response to high-fat feeding, even though overall glucose uptake, and adipocyte glucose uptake, go down because of the insulin resistance. Finally, we add a beta-cell failure module to the in silico mouse model to simulate different human-like scenarios of progression towards T2D. In summary, our in silico mouse model is an extendable and interactive knowledge-base for the study of T2D, which could help simulate treatment scenarios in rodents and translate results to the human situation.
         
 - order: 4
   name: 
@@ -116,10 +117,10 @@
   affiliation: Department of Biomedical Engineering, Linköping University
   type: talk
   content:
-    title: TBA
+    title: Physiologically based digital twins for healthcare, drug development, and edutainment
     abstract:
       - >
-        
+        For the last 20+ years, we have developed physiologically based digital twins: mechanistic and personalized models of patients. A twin looks like the corresponding patient, both on the outside and on the inside. In other words, using personalized data, the twins mimic the physiology, biochemistry, body-composition, etc of a patient. The twins are built on a hybrid methodology, which combines machine learning and bioinformatics models with M4-models: multi-level, multi-timescale, mechanistic, and multi-organ models. In this talk, I will outline and illustrate how we have tested the different sub-models in this twin, integrated them into an interconnected model, personalized the models, and finally embedded them into new eHealth solutions. Because of the mechanistic M4-model at the core of the digital twins, the twins go beyond narrow AI and machine learning, which only can be used for specific purposes. In contrast, our twins can be reused and updated for a variety of applications, throughout a persons life: from education to edutainment, and from preventive healthcare to drug development, treatments, and rehabilitation.
   
 - name:
     first: Oscar   
