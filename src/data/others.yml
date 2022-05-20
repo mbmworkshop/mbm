@@ -134,17 +134,6 @@
         Today, there is great interest in diets proposing new combinations of macronutrient compositions and fasting schedules. Unfortunately, there is little consensus regarding the impact of these different diets, since available studies measure different sets of variables in different populations, thus only providing partial, non-connected insights. We lack an approach for integrating all such partial insights into a useful and interconnected big picture. Herein, we present such an integrating tool. The tool uses a novel mathematical model that describes mechanisms regulating diet-response and fasting metabolic fluxes, both for organ-organ crosstalk, and inside the liver. The tool can mechanistically explain and integrate data from several clinical studies, and correctly predict new independent data, including data from a new study. Using this model, we can predict non-measured variables, e.g. hepatic glycogen and gluconeogenesis, in response to fasting and different diets. Furthermore, we exemplify how such metabolic responses can be successfully adapted to a specific individual's sex, weight, height, as well as to the individual's historical data of metabolite dynamics. This thus enables an offline digital twin technology. 
 
 - name:
-    first: Christian   
-    last: Simonsson
-  affiliation: Department of Biomedical Engineering, Linköping University
-  type: poster
-  content:
-    title: A multi-scale in silico mouse model for diet induced insulin resistance
-    abstract:
-      - > 
-        Insulin resistance (IR) causes compensatory insulin production, which in humans eventually progresses to beta-cell failure and type 2 diabetes (T2D). This disease progression involves multi-scale processes, ranging from intracellular signaling to organ-organ and whole-body level regulations, on timescales from minutes to years. T2D progression is commonly studied using overfed and genetically modified rodents. However, rodents do not exhibit human T2D progression, with IR-driven beta-cell failure, and available multi-scale data is too complex to fully comprehend using traditional analysis. To help resolve these issues, we here present an in silico mouse model. This is the first mathematical model that simultaneously explains multi-scale mouse IR data on all three levels – cells, organs, body – ranging from minutes to months. The model correctly predicts new independent multi-scale validation data and provides insights into non-measured processes. Finally, we present a humanoid in silico mouse exhibiting disease progression from IR to IR-driven beta-cell failure. 
-
-- name:
     first: Benjamin   
     last: Andersson
   affiliation: Department of Biomedical Engineering, Linköping University

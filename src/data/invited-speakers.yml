@@ -78,7 +78,7 @@
   bio:
     - >
       Hellander has as a part of his work created the software StochSS for modelling and analysing biological system. He also works with machine learning approaches and is co-founder and CSO of Scaleout, which is a platform for federated learning.    
-  # title: A
+  title: Efforts towards more efficient, flexible and accessible tools for analysis of biochemical reaction networks in the StochSS suite of tools​
   abstract:
     - >
-      TBA
+      In this talk I will present our long-term effort towards more efficient, flexible and accessible tools for analysis of biochemical reaction networks in the StochSS suite of tools. StochSS provides software and services for development of models, simulations, and recently, machine learning based tools for model exploration and parameter inference. We will spend most time on the latter, where I will talk about a recent paper in which we leverage human-in-the loop semi-supervised learning to help a user rapidly explore a model’s behavior under great parameter uncertainty, and about our recent work on using deep learning to generate summary statistics for approximate bayesian computation.
