@@ -11,7 +11,7 @@
     - time: "14.00"
       activity: Gustav Lindwall
     - time: "14.20"
-      activity: Christiand Simonsson
+      activity: Christian Simonsson
     - time: "15.00"
       activity: Break
       break: true
@@ -33,7 +33,7 @@
     - time: "08.00" 
       activity: Opening
     - time: "08.15"
-      activity: Torbjörn Norling
+      activity: Torbjörn Nordling
       talk: true
       invited: true
     - time: "09.00"
@@ -43,9 +43,7 @@
       activity: Break
       break: true
     - time: "10.20"
-      activity: Matthias König
-      talk: true
-      invited: true
+      activity: Gunnar Cedersund
     - time: "11.00"
       activity: Sonja Mathias
     - time: "11.20"
@@ -64,6 +62,4 @@
     - time: "14.20"
       activity: Lucas Hedström
     - time: "14.40"
-      activity: Gunnar Cedersund
-    - time: "15.00"
       activity: Closing of Conferance

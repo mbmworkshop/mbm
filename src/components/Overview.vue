@@ -1,6 +1,6 @@
 
 <template>
-  <section class="mt-4 lg:pb-4 lg:border-b lg:border-gray-400 w-full">
+  <section class="mt-4">  <!-- lg:pb-4 lg:border-b lg:border-gray-400 w-full"> -->
     <div :id="id" class="h-0" style="bottom: 100px; position: relative;"></div>
     <h2 class="section-header">{{ $props.title }}</h2>
 
@@ -15,7 +15,7 @@
       </ul>
     </div> 
 
-    <div class="lg:grid lg:grid-flow-row lg:grid-cols-2 lg:gap-x-24">
+    <!-- <div class="lg:grid lg:grid-flow-row lg:grid-cols-2 lg:gap-x-24">
       <Presenter v-for="edge in $props.collection.edges"
                  :key="edge.node.id"
                  :name="edge.node.name.first + ' ' + edge.node.name.last"
@@ -23,7 +23,7 @@
                  :abstract="edge.node.content.abstract"
                  :prefix="id"
                   />
-    </div>
+    </div> -->
   </section>
 </template>
 

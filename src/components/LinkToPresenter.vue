@@ -4,9 +4,12 @@
     <span class="font-semibold">{{ $props.name }}</span>,
     <span class="text-1">{{ $props.affiliation }}</span> 
     <pre></pre>
-    <a :href="id" class="text-mbm-green hover:text-mbm-green-light">
+    <span class="text-mbm-green">
       {{ $props.title }}
-    </a>
+    </span>
+    <!-- <a :href="id" class="text-mbm-green hover:text-mbm-green-light">
+      {{ $props.title }}
+    </a> -->
   </li>
 </template>
 

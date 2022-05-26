@@ -4,7 +4,7 @@
     <div class="text-lg md:text-xl mb-4">
       <h3>
         <span class="font-semibold">{{ $props.name }}</span> <h3></h3>
-        <span class="italic">{{ $props.title }}</span>
+        <span class="italic text-mbm-green">{{ $props.title }}</span>
       </h3>
     </div>
 
