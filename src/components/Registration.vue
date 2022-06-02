@@ -22,7 +22,7 @@
       As part of the goals for the workshop we will give preference to
       speakers on PhD and PostDoc level.
     </p>
-    <p class="mt-2">
+    <!-- <p class="mt-2">
       Please note that you can edit your registration, which allows you
       to change your participation status.
     </p>
@@ -33,7 +33,7 @@
       <li>for talks and posters on May 6th, and</li>
       <li>for observers on May 16th .</li>
       <br />
-    </ul>
+    </ul> 
     <p class="mt-2">
       Participation will require a fee* of 100 SEK. <br />
       Participation at the dinner will require an additional fee of 100 SEK, payment information can be found below: <br /><br />
@@ -50,17 +50,17 @@
       State "17016, project 995631, MBM" as reference<br /><br />
 
       *This do not apply for MSc or undergraduate students.
-    </p>
+    </p> -->
 
 
-    <form class="mt-4 flex flex-row justify-center items-center" 
+    <!-- <form class="mt-4 flex flex-row justify-center items-center" 
           action="https://docs.google.com/forms/d/e/1FAIpQLSeFFQ27e4a0HllQHnyaMfd8Av4UFUmFKfeU0GPA0MdWEN6Cnw/viewform?usp=sf_link" 
           target="_blank">
       <input type="submit" 
               class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded
                     hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
               value="Register here" />
-    </form>
+    </form> -->
   </section>
 </template>
 

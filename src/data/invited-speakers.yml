@@ -52,22 +52,6 @@
     - >
 #     Drug development for therapeutic areas of progressive diseases is challenging as the natural changes in the disease over time needs to be accounted for in order to generate reasonable predictions the expected gained with a particular pharmacological intervention. Type 2 diabetes is commonly described as a progressive disease where the progression starts before the disease manifests with loss of glycemic control. In this presentation, I will describe how we have used multistate models of sometimes competing events to develop predictive models of diabetes onset as well a progression of long-term complications. 
 
-# - order: 4
-#   name: 
-#     first: Matthias
-#     last: König
-#   invited: true
-#   image: matthias.png
-#   description: >
-#     Matthias König leads the junior research group of Systems Biology and Medicine of the Liver at the Humboldt-University Berlin.
-#   bio:
-#     - >
-#       König's research focus is predictive modeling of metabolism, including projects such as personalized evaluation of liver function tests, multi-scale modeling of the liver, and databases such as the tellurium-web for reproducible simulation experiments. The research group uses both computational modeling, data science, bioinformatics, and machine learning to understand biomedical systems. Köning has also been involved in the development of SBML and SED-ML. 
-#   # title: 
-#   abstract:
-#     - >
-#       TBA
-
 - order: 4
   name: 
     first: Andreas
