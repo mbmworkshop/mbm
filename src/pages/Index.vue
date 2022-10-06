@@ -28,7 +28,7 @@
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">Spring, date TBA </span>
+              <span class="font-semibold">May, date TBA </span>
               <!-- <span class="font-semibold">May 23<sup>rd</sup></span> and 
               <span class="font-semibold">24<sup>th</sup></span> -->
             </p>
@@ -40,7 +40,7 @@
       <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
                   lg:border-b lg:pb-4 border-gray-400 w-full">
         <section class="body-text">
-          <h2 class="section-header">Public announcement</h2>
+          <h1 class="section-header">Public announcement</h1>
           <p>
             The organizing committee has started the planning for the fourth iteration of the MBM workshop. We would like for you to make a note in your calendar that MBM 2023 will take place in Linköping sometime during May 2023. The exact date and further information will follow continuously. We in the committee hope that you would like to participate and help us make the best iteration of MBM yet.
           </p>
