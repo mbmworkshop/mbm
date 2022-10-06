@@ -3,7 +3,7 @@
     <div id="registration" class="h-0 relative" style="bottom: 100px;"></div>
     <h2 class="section-header">Registration</h2>
     <p class="mt-2">
-      You can participate at MBM 2022 by
+      You can participate at MBM 2023 by
     </p>
     <ul class="mt-2 px-8 list-disc">
       <li>giving a plenary talk,</li>

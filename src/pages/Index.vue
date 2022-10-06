@@ -24,23 +24,43 @@
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">Linköping 2022 </span>
+              <span class="font-semibold">Linköping 2023 </span>
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">May 23<sup>rd</sup></span> and 
-              <span class="font-semibold">24<sup>th</sup></span>
+              <span class="font-semibold">Spring, date TBA </span>
+              <!-- <span class="font-semibold">May 23<sup>rd</sup></span> and 
+              <span class="font-semibold">24<sup>th</sup></span> -->
             </p>
           </div>
         </div>
       </header>
+
+      
+      <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
+                  lg:border-b lg:pb-4 border-gray-400 w-full">
+        <section class="body-text">
+          <h2 class="section-header">Public announcement</h2>
+          <p>
+            The organizing committee has started the planning for the fourth iteration of the MBM workshop. We would like for you to make a note in your calendar that MBM 2023 will take place in Linköping sometime during May 2023. The exact date and further information will follow continuously. We in the committee hope that you would like to participate and help us make the best iteration of MBM yet.
+          </p>
+          <p>
+            Your sincerely
+          </p>
+          <p> 
+            MBM 2023 committee
+          </p> 
+        </section>
+        
+      </div>
+      
 
       <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-2
                   lg:border-b lg:pb-4 border-gray-400">
         <section class="body-text border-b lg:border-b-0 lg:border-r pb-4 lg:pb-0 lg:pr-4 border-gray-400">
           <h2 class="section-header">The Workshop</h2>
           <p>
-            We are pleased to invite you to our <span class="font-semibold">third Workshop on Modelling in Biology and Medicine (MBM 2022)</span>.
+            We are pleased to invite you to our <span class="font-semibold">fourth Workshop on Modelling in Biology and Medicine (MBM 2023)</span>.
           </p>
           <p>
             We aim to gather all young researchers in Sweden working on modelling of biological systems. Our ambition is to give all participating PhD students and PostDocs the opportunity to present their work through an oral presentation or a poster. Further, we wish to provide an insight on how modelling in biology and medicine is practiced in academia and industry.
@@ -50,7 +70,7 @@
           <div id="format" class="h-0" style="bottom: 100px; position: relative;"></div>
           <h2 class="section-header">Format</h2>
           <p>
-            The workshop will be held in both plenary presentation sessions for larger talks as well as in smaller sessions for e.g. poster presentations and discussions.
+            The workshop will include both plenary presentation sessions for larger talks as well as smaller sessions for e.g. poster presentations and discussions.
           </p>
           <p>
             The exact technicalities will be made available for <span class="font-semibold">registered participants</span> closer to the date of the workshop. 
@@ -61,7 +81,7 @@
         </section>
       </div>
 
-      <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
+      <!-- <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
                   lg:border-b lg:pb-4 border-gray-400 w-full">
         <section class="body-text">
           <h2 class="section-header">Venue</h2>
@@ -80,16 +100,16 @@
 
         </section>
         
-      </div>
+      </div> -->
       
 
-      <Program />
+      <!-- <Program />
       <InvitedSpeakers />
       <Overview title="Talks" :collection="$static.talks"  />
       <Overview title="Posters" :collection="$static.posters" />
       <Registration />
-      <Sponsor />
-      <Contact />      
+      <Sponsor />-->
+      <Contact />       
     </div>
   </Layout>
 

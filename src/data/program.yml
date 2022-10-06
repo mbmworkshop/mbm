@@ -3,20 +3,20 @@
     - time: "12:30"
       activity: Opening
     - time: "13.00"
-      activity: Maria Kjellsson 
+      activity: a a
       talk: true
       invited: true
     - time: "13.40"
-      activity: Sebastian Sten
+      activity: b b
     - time: "14.00"
-      activity: Gustav Lindwall
+      activity: b b
     - time: "14.20"
-      activity: Christian Simonsson
+      activity: b b
     - time: "15.00"
       activity: Break
       break: true
     - time: "15.30"
-      activity: Jan Hasenauer 
+      activity: a a
       talk: true
       invited: true
     - time: "16.00"
@@ -33,7 +33,7 @@
     - time: "08.00" 
       activity: Opening
     - time: "08.15"
-      activity: Torbjörn Nordling
+      activity: a a
       talk: true
       invited: true
     - time: "09.00"
@@ -43,23 +43,23 @@
       activity: Break
       break: true
     - time: "10.20"
-      activity: Gunnar Cedersund
+      activity: b b
     - time: "11.00"
-      activity: Sonja Mathias
+      activity: 
     - time: "11.20"
-      activity: Oscar Arrestam
+      activity: b b
     - time: "11.40"
-      activity: Karin Lundengård
+      activity: 
     - time: "12.00"
       activity: Lunch break
       break: true
     - time: "13.00"
-      activity: Andreas Hellander
+      activity: a a
       talk: true
       invited: true
     - time: "14.00"
-      activity: Sophia Bäck
+      activity: b b 
     - time: "14.20"
-      activity: Lucas Hedström
+      activity: b b 
     - time: "14.40"
       activity: Closing of Conferance

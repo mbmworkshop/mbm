@@ -8,7 +8,7 @@
                     hover:no-underline hover:bg-mbm-green-dark"
               href="/#top">
             <span class="my-auto font-extrabold text-3xl tracking-tight">
-              MBM 2022
+              MBM 2023
             </span>
           </a>
         </div>
@@ -49,12 +49,12 @@ export default {
       isOpen: false,
       sections: [
         'Format',
-        'Program',
-        'Invited Speakers',
-        'Talks',
-        'Posters',
-        'Registration',
-        'Sponsor',
+        // 'Program',
+        // 'Invited Speakers',
+        // 'Talks',
+        // 'Posters',
+        // 'Registration',
+        // 'Sponsor',
         'Contact'
       ]
     }

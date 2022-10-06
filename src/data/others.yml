@@ -1,171 +1,26 @@
+##### Talks #####
+
 - order: 1
   name: 
-    first: Sebastian 
-    last: Sten
-  affiliation: Drug metabolism and pharmacokinetics (DMPK), Research and Early Development, Cardiovascular, Renal and Metabolism (CVRM), BioPharmaceuticals R&D, AstraZeneca 
+    first: b 
+    last: b
+  affiliation: b
   type: talk
-  content:
-    title: "Case study in modern pharmaceutical drug development: how mathematical modeling can aid in unraveling systems-level insights and help guide rational drug design"
+  content: 
+    title: b
     abstract:
       - >
-#
-
-- order: 2
-  name: 
-    first: Gustav
-    last: Lindwall
-  affiliation: Mathematical Sciences, Chalmers Univeristy of Technology
-  type: talk
-  content:
-    title: Fast and precise inference on diffusivity in particle systems
-    abstract:
-      # - > 
-      #   Particle systems made up of interacting agents is a popular model used in a vast array of applications, not the least in biology where the agents can represent everything from single cells to animals in a herd. Usually, the particles are assumed to undergo some type of random dynamics, and a popular way to model this is by using Brownian motion. The magnitude of random motion is often quantified using mean squared displacement, which provides a simple estimate of the diffusion coefficient. However, this method often fails when data is sparse or interactions between agents frequent.
-      # - >
-      #   In order to adress this, we derive a conjugate relationship in the diffusion term for large interacting particle systems undergoing isotropic diffusion, giving us an efficient inference method. The method accurately accounts for emerging effects such as anomalous diffusion stemming from mechanical interactions. We apply our method to a complex model with a large number of interacting particles, and the results are contrasted with a naive mean square displacement-based approach. We find a significant improvement in performance when using the higher-order method over the naive approach. This method can be applied to any system where agents undergo Brownian motion and will lead to improved estimates of diffusion coefficients compared to existing methods.
-
-- order: 3
-  name: 
-    first: Christian
-    last: Simonsson
-  affiliation: Department of Biomedical Engineering, Linköping University
-  type: talk
-  content:
-    title: A multi-scale in silico mouse model for diet-induced insulin resistance
-    abstract:
-      # - >
-      #   Insulin resistance causes compensatory insulin production, which in humans can eventually progress to beta-cell failure and type 2 diabetes (T2D). This disease progression involves multi-scale processes, ranging from intracellular signaling to organ and whole-body level regulations, on timescales from minutes to years. T2D progression is commonly studied using overfed and genetically modified rodents. However, rodents do not exhibit the typical human T2D progression, i.e. insulin resistance leading to beta-cell failure. Also, available multi-scale data from rodents is too complex to fully comprehend using traditional analysis, not based on mathematical modelling. To help resolve these issues, we here present an in silico mouse model. This is the first mathematical model that simultaneously explains multi-scale mouse insulin resistance data on all three levels – cells, organs, body – ranging from minutes to months. The model predicts new independent multi-scale simulations, which are corroborated by our own new experimental data. The thus validated model provides insights and non-trival predictions regarding complex non-measured processes. The model e.g. predicts an increase in adipose tissue glucose uptake in response to high-fat feeding, even though overall glucose uptake, and adipocyte glucose uptake, go down because of the insulin resistance. Finally, we add a beta-cell failure module to the in silico mouse model to simulate different human-like scenarios of progression towards T2D. In summary, our in silico mouse model is an extendable and interactive knowledge-base for the study of T2D, which could help simulate treatment scenarios in rodents and translate results to the human situation.
+        b
       
-- order: 4
-  name: 
-    first: Gunnar
-    last: Cedersund
-  affiliation: Department of Biomedical Engineering, Linköping University
-  type: talk
-  content:
-    title: Physiologically based digital twins for healthcare, drug development, and edutainment
-    abstract:
-      # - >
-      #   For the last 20+ years, we have developed physiologically based digital twins: mechanistic and personalized models of patients. A twin looks like the corresponding patient, both on the outside and on the inside. In other words, using personalized data, the twins mimic the physiology, biochemistry, body-composition, etc of a patient. The twins are built on a hybrid methodology, which combines machine learning and bioinformatics models with M4-models: multi-level, multi-timescale, mechanistic, and multi-organ models. In this talk, I will outline and illustrate how we have tested the different sub-models in this twin, integrated them into an interconnected model, personalized the models, and finally embedded them into new eHealth solutions. Because of the mechanistic M4-model at the core of the digital twins, the twins go beyond narrow AI and machine learning, which only can be used for specific purposes. In contrast, our twins can be reused and updated for a variety of applications, throughout a persons life: from education to edutainment, and from preventive healthcare to drug development, treatments, and rehabilitation.
-  
-- order: 5
-  name: 
-    first: Sonja
-    last: Mathias
-  affiliation: Department of Information Technology, Uppsala Universitet
-  type: talk
-  content:
-    title: Contributions of cell behavior to column growth in embryonic cartilage
-    abstract:
-      # - >
-      #   During early development, cartilage provides shape and stability to the embryo while serving as a blueprint for the skeleton. Correct formation of embryonic cartilage is hence essential for healthy  development. In vertebrate cranial cartilage, it has been shown that a flat and laterally extended sheet-like macroscopic geometry is linked to a regular microscopic geometry consisting of tightly packed, short, transversal clonar columns. Which mechanical  interactions and cell behaviours contribute to the generation and  maintenance of this geometry during embryogenesis remains unclear. In this talk, we apply a three-dimensional cell-based computational model to investigate mechanical principles contributing to column  formation. Our model accounts for clonal expansion, anisotropic proliferation and the geometrical arrangement of progenitor cells in space. We confirm that oriented cell divisions and repulsive mechanical interactions between cells are key drivers of column  formation. In addition, column formation benefits from increased extracellular matrix in the initial configuration and column maintenance is facilitated by sequential proliferative phases. Our model thus correctly predicts the dependence of local order on division orientation and tissue thickness. Our study presents the first cell-based simulations of cell mechanics during cranial cartilage formation and will be useful in future studies on the  formation and growth of other cartilage geometries.
-
-- order: 6
-  name: 
-    first: Oscar
-    last: Arrestam
-  affiliation: Department of Biomedical Engineering, Linköping University
-  type: talk
-  content:
-    title: Digital twin predicting diet response before and after long-term fasting
-    abstract:
-      # - >
-      #   Today, there is great interest in diets proposing new combinations of macronutrient compositions and fasting schedules. Unfortunately, there is little consensus regarding the impact of these different diets, since available studies measure different sets of variables in different populations, thus only providing partial, non-connected insights. We lack an approach for integrating all such partial insights into a useful and interconnected big picture. Herein, we present such an integrating tool. The tool uses a novel mathematical model that describes mechanisms regulating diet-response and fasting metabolic fluxes, both for organ-organ crosstalk, and inside the liver. The tool can mechanistically explain and integrate data from several clinical studies, and correctly predict new independent data, including data from a new study. Using this model, we can predict non-measured variables, e.g. hepatic glycogen and gluconeogenesis, in response to fasting and different diets. Furthermore, we exemplify how such metabolic responses can be successfully adapted to a specific individual's sex, weight, height, as well as to the individual's historical data of metabolite dynamics. This thus enables an offline digital twin technology. 
-
-- order: 7
-  name: 
-    first: Karin
-    last: Lundengård
-  affiliation: Auckland Bioengineering Institute, University of Auckland
-  type: talk
-  content:
-    title: Physiome journal facilitates and incentivises reproducibility in models
-    abstract:
-      # - >
-      #   Reproducibility and confirmation of results is crucial for useful science and should be one of the supporting pillars of good research. However, less than 10% of the computational physiological models published in scientific journals work when implemented by another group. Reproducibility and confirmation of results is crucial for useful science and should be incentivised. Yet, publication of it is often treated as a secondary result at best, which undermines the quality of our work. 
-      # - >
-      #   Physiome is a journal committed to reproducibility and reusability of mathematical models of physiological processes. Physiome publications are a complement to your primary article that ensures reproducibility, reusability and discoverability of you model. Physiome curators will help authors ensure that models and simulation experiments are made available using appropriate community standards prior to acceptance for publication in Physiome. When aspects of a computational modelling study are not able to be encoded in standard formats, Physiome editors will help authors ensure their work is as open, reproducible, and reusable as possible. We will help as much as is currently possible with model curation and annotation to ensure that the modeling results claimed in the primary paper are consistent with the published model. 
-      # - >
-      #   Every model published in Physiome is connected to a curated and permanent version of the model code with a persistent identifier. The code necessary to run the model is easily accessible by just clicking a link, to be reused as it is or as a module in a novel model. Model validation and scientific value is ensured by being connected to a primary paper published in a domain-specific journal. The Physiome Project have collaborated with Digital Science to build an open source curation system (based on the collaborative knowledge foundation software), with journal articles published open access in figshare. The format encourages modularity that facilitates combination of different models to develop the next level of systems understanding. And all the models are in one place, easy to find and accessible. Physiome is open access with a low Author Processing Charge. 
-      # - >
-      #   Waste no more valuable time and effort on trying to implement models from papers that lack information, or having your results lost because others cannot use them. Publish your models in Physiome and contribute to making science useful in society (and less frustrating for your colleagues). 
-      # - > 
-      #   For more information visit: [the Physiome project](https://journal.physiomeproject.org) 
-
-- order: 8
-  name: 
-    first: Sophia
-    last: Bäck
-  affiliation: Department of Health, Medicine and Caring Sciences, Linköping University
-  type: talk
-  content:
-    title: Modeling Blood Flow in Atrial Fibrillation Patients using Computational Fluid Dynamics
-    abstract:
-      # - >
-      #   Patients with atrial fibrillation have an altered cardiac wall motion, which leads to increased stasis and risk for thrombus formation. Using time-resolved cardiac CT, the motion of the endocardial wall can be recorded throughout the cardiac cycle. The aim of this study is to use the geometry and motion of the endocardium of 20 patients with atrial fibrillation to compute the intracardiac flow field with computational fluid dynamics. We further computed the blood residence time, which represents the time the blood has spend inside the left heart.  We found that the intracardiac residence time correlates strongly with the left atrial ejection fraction and that there is a large diversity in the studied population regarding intracardiac residence time. In the future, the blood residence time could serve as a biomarker to improve the thrombus risk estimation in patients with atrial fibrillation.  
-
-- order: 9
-  name: 
-    first: Lucas
-    last: Hedström
-  affiliation: Department of Physics, Umeå University
-  type: talk
-  content:
-    title: Modelling chromosome-wide target search
-    abstract:
-      # - > 
-      #   Experiments suggest that proteins find DNA target sequences by diffusing along with the DNA, occasionally unbinding and rebinding to other further away sites. This process is known as facilitated diffusion, which has been described by multiple biophysical models. In those models, they treat the basepair sequence as an energy landscape, with the protein acting as a diffusing particle looking for one of the landscape's valleys.
-      # - >
-      #   Because of the vast size of DNA, these simulations cannot be generalized to genome-wide searches. Instead, the models that deal with large-scale search omit sequence motifs and envision chromosomes as a 3D contact network that guides the protein across the chromosome. While applicable, these models cannot predict binding rates to specific motifs. Therefore, to model the chromosome-wide search of "real proteins", we need to connect the small- and large-scale.
-      # - >
-      #   We present a model that connects search at a basepair- and chromosome-wide level to simulate search times for specific proteins looking for target motifs. At the basepair level, we use an established two-state facilitated diffusion model, and at the large scale, we build on previous work modelling the protein search as a random walk on a weighted network representing the 3D interaction of the chromosome network from Hi-C experimental data.
-      # - >
-      #   Our method allows us to calculate the search rates for proteins in chromosome-wide search, considering factors such as the variance of the energy landscape and target placements. Preliminary results show that the search time is dependent not only on the fine-scale basepair dynamics but also on the inherent placement of target sequences on the chromosome's 3-dimensional conformation.
-        
-
+##### Posters #####
 - name:
-    first: Oscar   
-    last: Arrestam
-  affiliation: Department of Biomedical Engineering, Linköping University
+    first: c   
+    last: c
+  affiliation: c
   type: poster
   content:
-    title: Digital twin predicting diet response before and after long-term fasting
+    title: c
     abstract:
-      # - > 
-      #   Today, there is great interest in diets proposing new combinations of macronutrient compositions and fasting schedules. Unfortunately, there is little consensus regarding the impact of these different diets, since available studies measure different sets of variables in different populations, thus only providing partial, non-connected insights. We lack an approach for integrating all such partial insights into a useful and interconnected big picture. Herein, we present such an integrating tool. The tool uses a novel mathematical model that describes mechanisms regulating diet-response and fasting metabolic fluxes, both for organ-organ crosstalk, and inside the liver. The tool can mechanistically explain and integrate data from several clinical studies, and correctly predict new independent data, including data from a new study. Using this model, we can predict non-measured variables, e.g. hepatic glycogen and gluconeogenesis, in response to fasting and different diets. Furthermore, we exemplify how such metabolic responses can be successfully adapted to a specific individual's sex, weight, height, as well as to the individual's historical data of metabolite dynamics. This thus enables an offline digital twin technology. 
-
-- name:
-    first: Benjamin   
-    last: Andersson
-  affiliation: Department of Biomedical Engineering, Linköping University
-  type: poster
-  content:
-    title: A new method for a priori practical identifiability
-    abstract:
-      # - > 
-      #   Mathematical modeling uses differential equations to study biological processes.  One often does not know the numerical values of the parameters before measurements are taken and these measurements are used to estimate the parameter values.  However, a parameter may be impossible to estimate this way due to the nature of the equations (structurally unidentifiable) or due to the level of noise in the signal (practically unidentifiable).  Much progress has been made in recent decades on determining structural identifiability, but the problem of practical identifiability remains a challenge.  However, it is often the case that a parameter is structurally identifiable but is not practically identifiable for any realistic level of noise.  This could be because the structural identifiability relies on high order derivatives of the output signal that are hard to accurately estimate.
-      # - >
-      #   We present a new algorithm that can help determine whether a parameter is practically identifiable a priori, that is, before measurements are made, by determining whether it can be estimated from derivatives of the outputs specified by the experimenter.  Additionally, we show this method can determine if a user-specified combination of states and parameters is practically identifiable.  We present a fast version of this algorithm using random integers that succeeds with high probability, and provide rigorous justification not shown in similar algorithms in the literature.
-
-- name:
-    first: William   
-    last: Lövfors
-  affiliation: Department of Biomedical Engineering, Linköping University
-  type: poster
-  content:
-    title: A comprehensive mechanistic model of adipocyte signaling with layers of confidence
-    abstract:
-      # - > 
-      #   Adipocyte cellular signaling, normally and in type 2 diabetes, is far from fully studied. We have earlier developed detailed dynamic mathematical models for some well-studied, and partially overlapping, signaling pathways in adipocytes. Still, these models only cover a fraction of the total cellular response. For a broader coverage of the response, large-scale phosphoproteomic data is key. There exists such data for the insulin response of adipocytes, as well as prior knowledge on possible protein-protein interactions associated with a confidence level. However, methods to combine detailed dynamic models with large-scale data, using information about the confidence of included interactions, are lacking. In our new method, we first establish a core model by connecting our partially overlapping models of adipocyte cellular signaling with focus on: 1) lipolysis and fatty acid release, 2) glucose uptake, and 3) the release of adiponectin. We use the phosphoproteome data and prior knowledge to identify phosphosites adjacent to the core model, and then try to add the adjacent phosphosites to the model. The additions of the adjacent phosphosites is tested in a parallel, pairwise approach with low computation time. We then iteratively collect the accepted additions into a layer and use the newly added layer to find new adjacent phosphosites. We find that the first 15 layers (60 added phosphosites) with the highest confidence can correctly predict independent inhibitor-data (70-90% correct), and that this ability decrease when we add layers of decreasing confidence. In total, 60 layers (3926 phosphosites) can be added to the model and still keep predictive ability. Finally, we use the comprehensive adipocyte model to simulate systems-wide alterations in adipocytes in type 2 diabetes. This new method provide a tool to create large models that keeps track of varying confidence.
-
-- name:
-    first: Moa  
-    last: Lundkvist
-  affiliation: Molecular Biology, Umeå University
-  type: poster
-  content:
-    title: Forecasting histone methylation by Polycomb complexes with minute-scale precision
-    abstract:
-      - > 
-    
-#   Polycomb proteins are critical epigenetic regulators of metazoan development. They form two major kinds of complexes, Polycomb Repressive Complex 1 (PRC1) and Polycomb Repressive Complex 2 (PRC2). PRC2 can add up to three methyl groups to Lysine 27 of histone H3 (H3K27), which is necessary for its repressive function. PRC2 functions in two ways: hit-&-run, a diffusion based random methylation of the inactive genome, and by targeting to specific genes. When PRC2 targets  genes it binds to genomic elements called Polycomb Response Elements (PREs).
+     - > 
+      c
+      
