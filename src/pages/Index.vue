@@ -81,6 +81,20 @@
         </section>
       </div>
 
+      <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
+                  lg:border-b lg:pb-4 border-gray-400 w-full">
+        <section class="body-text">
+          <p align="center">
+            If you want more of MBM - the talks from last year are available on this <a href="https://youtu.be/jKtz4tqRChA"><u>link</u></a> or down below.
+          </p><br>
+          <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/jKtz4tqRChA" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            style = "display:block; margin:auto">
+          </iframe>
+        </section>
+      </div>
+
       <!-- <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
                   lg:border-b lg:pb-4 border-gray-400 w-full">
         <section class="body-text">
