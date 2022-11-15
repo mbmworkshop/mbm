@@ -28,7 +28,7 @@
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">May, date TBA </span>
+              <span class="font-semibold">May 15<sup>th</sup> to 17<sup>th</sup> </span>
               <!-- <span class="font-semibold">May 23<sup>rd</sup></span> and 
               <span class="font-semibold">24<sup>th</sup></span> -->
             </p>
