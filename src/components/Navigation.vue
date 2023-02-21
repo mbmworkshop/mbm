@@ -49,11 +49,11 @@ export default {
       isOpen: false,
       sections: [
         'Format',
-        // 'Program',
-        // 'Invited Speakers',
+        'Program',
+        'Invited Speakers',
         // 'Talks',
         // 'Posters',
-        // 'Registration',
+        'Registration',
         // 'Sponsor',
         'Contact'
       ]

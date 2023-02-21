@@ -32,26 +32,7 @@
             </p>
           </div>
         </div>
-      </header>
-
-      
-      <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
-                  lg:border-b lg:pb-4 border-gray-400 w-full">
-        <section class="body-text">
-          <h1 class="section-header">Public announcement</h1>
-          <p>
-            The organizing committee has started the planning for the fourth iteration of the MBM workshop. We would like for you to make a note in your calendar that MBM 2023 will take place in Linköping <b>15<sup>th</sup>-17<sup>th</sup></b> May 2023. More information will come continuously. We in the committee hope that you would like to participate and help us make the best iteration of MBM yet.
-          </p>
-          <p>
-            Your sincerely
-          </p>
-          <p> 
-            MBM 2023 committee
-          </p> 
-        </section>
-        
-      </div>
-      
+      </header>      
 
       <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-2
                   lg:border-b lg:pb-4 border-gray-400">
@@ -82,23 +63,9 @@
       <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
                   lg:border-b lg:pb-4 border-gray-400 w-full">
         <section class="body-text">
-          <p align="center">
-            If you want more of MBM - the talks from last year are available on this <a href="https://youtu.be/jKtz4tqRChA"><u>link</u></a> or down below.
-          </p><br>
-          <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/jKtz4tqRChA" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-            style = "display:block; margin:auto">
-          </iframe>
-        </section>
-      </div>
-
-      <!-- <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
-                  lg:border-b lg:pb-4 border-gray-400 w-full">
-        <section class="body-text">
           <h2 class="section-header">Venue</h2>
           <p>
-            The workshop will be arranged at the University Hospital Campus in Linköping. More specificly, the north entrance, marked out in <a href="https://www.google.se/maps/@58.4022431,15.6211556,19z" target="_blank" ><u>Google maps</u></a>, one floor below the entrance at <a href="https://old.liu.se/karta?l=sv&px_type=2&px_id=512" target="_blank" ><u>Hugo Theorell</u></a>. 
+            The workshop will be arranged at the University Hospital Campus in Linköping. More specificly, the north entrance, marked out in <a href="https://www.google.se/maps/@58.4022431,15.6211556,19z" target="_blank" ><u>Google maps</u></a>. 
           </p>
           <p>
             If you come to Linköping by public transport we recomend you to trabvel with <a href="https://www.ostgotatrafiken.se/linkopings-resecentrum/us-norra-entren/?walk=true" target="_blank" ><u>Östgötatrafiken</u></a>, going with a bus from the central station "Linköpings resecentrum" to "US norra entrén". 
@@ -112,15 +79,29 @@
 
         </section>
         
-      </div> -->
+      </div>
       
 
-      <!-- <Program />
+      <Program />
       <InvitedSpeakers />
-      <Overview title="Talks" :collection="$static.talks"  />
-      <Overview title="Posters" :collection="$static.posters" />
+      <!-- <Overview title="Talks" :collection="$static.talks"  /> -->
+      <!-- <Overview title="Posters" :collection="$static.posters" /> -->
       <Registration />
-      <Sponsor />-->
+      <!-- <Sponsor />-->
+
+      <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1 lg:border-b lg:pb-4 border-gray-400 w-full">
+        <section class="body-text">
+          <p align="center">
+            If you want more of MBM - the talks from last year are available on this <a href="https://youtu.be/jKtz4tqRChA"><u>link</u></a> or down below.
+          </p><br>
+          <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/jKtz4tqRChA" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            style = "display:block; margin:auto">
+          </iframe>
+        </section>
+      </div>
+
       <Contact />       
     </div>
   </Layout>

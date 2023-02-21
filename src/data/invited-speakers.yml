@@ -1,60 +1,64 @@
 - order: 1
   name: 
-    first: a
-    last: a
+    first: Fredrik
+    last: Gustafsson
   invited: true
-  image: temp.png
+  image: Fredrik_Gustafsson.jpg
   description: > 
-    - a
+    - Fredrik Gustafsson is a professor in sensor informatics at Linköping University.   
   bio:
     - >
-      - a
-  title: a
+      - Fredrik is specialised in modelling time series data, where he during the past 35 years have been involved in various methodological developments as well as practical applications, including a number of spin-off companies. In the beginning of the Covid-19 outbreak, he co-founded a research team to analyse the use of epidemiological models in literature, leading to one paper in Nature among others.
+  title: TBA
   abstract:
     - > 
-      a
+      
   
-# - order: 2
-#   name: 
-#     first: 
-#     last: 
-#   invited: true
-#   image: 
-#   description: >
-#     -
-#   bio:
-#     - >
-#       -  
-#   title: 
-#   abstract:
-#     - >
+- order: 2
+  name: 
+    first: Matthias
+    last: König
+  invited: true
+  image: Koenig_square.png
+  description: >
+    - Matthias König leads the junior research group of Systems Medicine of the Liver at the Humboldt-University Berlin. The König lab uses Systems Medicine and Systems Biology to study drug metabolism and liver function. We apply computational modeling, data science, data management, bioinformatics analysis and machine learning on biological, medical and clinical data.
+  bio:
+    - >
+      - Main research topics are (i) predictive modeling of biomedical systems with special focus on the liver; (ii) development of digital twins using physiologically based pharmacokinetic (PBPK) models, (iii) reproducible and open research, and (iv) FAIR data and workflows. 
+      - Key projects are the personalized evaluation of liver function tests, multi-scale modeling of the liver, and development of databases and workflows to support reproducible, open and FAIR research. Within our research we generate predictive digital twins of the individual human physiology. Such models can provide important insights in inter-individual differences and personal treatments, e.g., individual dosing of medication or effect of lifestyle factors on drug metabolism.
 
-# - order: 3
-#   name: 
-#     first: 
-#     last: 
-#   invited: true
-#   image: 
-#   description: >
-#     -
-#   bio: 
-#     - >
-#       -
-#   title: 
-#   abstract:
-#     - >
+  title: TBA
+  abstract: 
+    - > 
+      
 
-# - order: 4
-#   name: 
-#     first: 
-#     last: 
-#   invited: true
-#   image: 
-#   description: >
-#     -
-#   bio:
-#     - >
-#       -
-#   title: 
-#   abstract:
-#     - >
+- order: 3
+  name: 
+    first: Eszter
+    last: Lakatos
+  invited: true
+  image: favicon.png
+  description: > 
+    - Eszter is a junior PI recently recruited to Chalmers, Health Engineering Area of Advance – Department of Mathematical Sciences, during the Area of Advance calls.   
+    
+  bio: 
+    - >
+      
+  title: TBA
+  abstract:
+    - >
+
+- order: 4
+  name: 
+    first: Sebastian  
+    last: Diehl
+  invited: true
+  image: favicon.png
+  description: >
+    - Sebastian is a professor of ecology who develops mathematical models for describing and understanding the dynamics of aquatic ecosystems.
+  bio:
+    - >
+      
+  title: TBA
+  abstract:
+    - >

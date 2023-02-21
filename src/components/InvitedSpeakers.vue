@@ -17,8 +17,8 @@
       </section>
     </div>
 
-    <!-- Keynote abstracts -->
-    <section class="mt-4 pb-4 border-b border-gray-400"></section> 	<!--  border -->
+    <!-- Keynote abstracts --> <!--  border -->
+    <!--<section class="mt-4 pb-4 border-b border-gray-400"></section> 	
     <section class="mt-4 pb-4">
       <div id="Keynote talks" class="h-0" style="bottom: 100px; position: relative;"></div>
       <h2 class="section-header">Speaker presentations</h2>
@@ -34,7 +34,7 @@
           </div>
         </section>
       </div> 
-    </section>
+    </section>-->
   </section>
 </template>
 
