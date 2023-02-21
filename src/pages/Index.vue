@@ -20,7 +20,7 @@
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left
                       text-mbm-red-light font-semibold">
-              Physical Workshop
+              In-person Workshop
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
@@ -65,10 +65,10 @@
         <section class="body-text">
           <h2 class="section-header">Venue</h2>
           <p>
-            The workshop will be arranged at the University Hospital Campus in Linköping. More specificly, the north entrance, marked out in <a href="https://www.google.se/maps/@58.4022431,15.6211556,19z" target="_blank" ><u>Google maps</u></a>. 
+            The workshop will be arranged at the University Hospital Campus in Linköping. More specificly, entrance 65, marked out in <a href="https://goo.gl/maps/nMtDDS3FgAgqfmw5A" target="_blank" ><u>Google maps</u></a>. 
           </p>
           <p>
-            If you come to Linköping by public transport we recomend you to trabvel with <a href="https://www.ostgotatrafiken.se/linkopings-resecentrum/us-norra-entren/?walk=true" target="_blank" ><u>Östgötatrafiken</u></a>, going with a bus from the central station "Linköpings resecentrum" to "US norra entrén". 
+            If you come to Linköping by public transport we recomend you to travel with <a href="https://www.ostgotatrafiken.se/linkopings-resecentrum/us-norra-entren/?walk=true" target="_blank" ><u>Östgötatrafiken</u></a>, going with a bus from the central station "Linköpings resecentrum" to "US norra entrén". 
           </p>
           <p>
             If you are using other means of transportation, it would be easiest to travel to the coordinate location 58.40230939062588, 15.621568767919038, or see these <a href="/directionsMBMLinkoping.pdf" target="_blank"> <u>instructions</u></a>.
