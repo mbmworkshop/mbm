@@ -9,7 +9,7 @@
   bio:
     - >
       - Fredrik is specialised in modelling time series data, where he during the past 35 years have been involved in various methodological developments as well as practical applications, including a number of spin-off companies. In the beginning of the Covid-19 outbreak, he co-founded a research team to analyse the use of epidemiological models in literature, leading to one paper in Nature among others.
-  title: TBA
+  title: Simple versus Complex Models for Covid-19 Spread
   abstract:
     - > 
       
@@ -53,12 +53,13 @@
     first: Sebastian  
     last: Diehl
   invited: true
-  image: favicon.png
+  image: Seb_2020_small.JPG
   description: >
-    - Sebastian is a professor of ecology who develops mathematical models for describing and understanding the dynamics of aquatic ecosystems.
+    - Sebastian Diehl is professor of Ecology at Umeå University. He studies how aquatic ecosystems respond to changes in the environment and in the composition of the biological community. We explore mathematical models of our study systems to generate testable predictions, which we examine and refine in cooperation with empirical colleagues.
   bio:
-    - >
+    - > 
+    - Sebastian's current research focuses on understanding how increased water temperature and increased terrestrial inputs of organic carbon and nutrients (humic matter) affect production and food web dynamics in relatively nutrient poor, northern lakes. Both of these environmental changes have been ongoing for several decades and are projected to continue in a warming climate. These specific questions link to broader issues such as the temperature dependence of consumer-resource interactions and the regulation of the fluxes of energy and nutrients through different food chains within ecosystems.
       
-  title: TBA
+  title: Abrupt state shifts in shallow lakes along smooth environmental gradients
   abstract:
     - >
