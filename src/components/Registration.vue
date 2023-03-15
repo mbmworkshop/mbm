@@ -34,9 +34,9 @@
       <li>for observers on April 28th</li>
       <br />
     </ul> 
-    <!--<p class="mt-2">
-      Participation will require a fee* of 100 SEK. <br />
-      Participation at the dinner will require an additional fee of 100 SEK, payment information can be found below: <br /><br />
+    <p class="mt-2">
+      Participation will require a fee of 100 SEK. <br />
+      Participation at the dinner will require an additional fee of 400 SEK, payment information can be found below: <br /><br />
 
       From within Sweden:<br />
       Bank giro: 5050-0016<br />
@@ -49,8 +49,8 @@
       IBAN: SE13 1200 0000 0128 1011 7713<br />
       State "17016, project 995631, MBM" as reference<br /><br />
 
-      *This do not apply for MSc or undergraduate students.
-    </p> -->
+      <!--*This do not apply for MSc or undergraduate students.-->
+    </p>
 
     <!-- poster/talkm registration  -->
     <div  style="width:50%; margin:auto;">
@@ -59,21 +59,22 @@
               action="https://forms.gle/KoCo686JZSrvBdA89" 
               target="_blank">
           <input type="submit" 
-                  class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded
-                        hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
-                  value="    Submit a talk or poster    " />
+                class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded
+                      hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
+                value="Submit a talk or poster" />
         </form>
       </div>
 
-      <!-- participation registration -->
+      <!-- participation registration
+      action non-clickable buttin: "javascript:void(0)" -->
       <div style="display:inline-block; width:50%;text-align:center;">
         <form class="mt-4 flex flex-row justify-center items-center" 
-            action="javascript:void(0)" 
-            target="_self">
+              action="https://forms.gle/R4QChkWsk7qBaXcX7"
+              target="_blank">
           <input type="submit" 
-                  class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded
-                        hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
-                  value="Registration opening soon" />
+                class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded
+                    hover:bg-mbm-green-dark hover:text-white cursor-pointer shadow-md" 
+                value="      Register for MBM      " />
         </form>
       </div>
     </div>
