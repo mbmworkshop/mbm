@@ -25,6 +25,7 @@
   bio:
     - >
       - Main research topics are (i) predictive modeling of biomedical systems with special focus on the liver; (ii) development of digital twins using physiologically based pharmacokinetic (PBPK) models, (iii) reproducible and open research, and (iv) FAIR data and workflows. 
+    - >
       - Key projects are the personalized evaluation of liver function tests, multi-scale modeling of the liver, and development of databases and workflows to support reproducible, open and FAIR research. Within our research we generate predictive digital twins of the individual human physiology. Such models can provide important insights in inter-individual differences and personal treatments, e.g., individual dosing of medication or effect of lifestyle factors on drug metabolism.
 
   title: TBA
@@ -42,11 +43,19 @@
     - Eszter is a junior PI recently recruited to Chalmers, Health Engineering Area of Advance – Department of Mathematical Sciences, during the Area of Advance calls.   
     
   bio: 
-    - >
+    - > 
+    - In my research, I develop mathematical models and bioinformatic methods to analyse large-scale cancer sequencing datasets. With these methods I ask questions about how cancers evolve to survive in a changing environment. My two main focuses are (i) understanding the tumour-immune interaction by exploring cancer-specific neoantigens; and (ii) following the evolution of therapeutic resistance from liquid biopsies.
       
-  title: TBA
+  title: The evolutionary process balancing immune selection during tumour growth
   abstract:
-    - >
+    - > 
+      A growing tumour is an inherently stochastic evolving system: during tumour development, cancer cells randomly acquire mutations that may provide them with a beneficial phenotype. However, random genetic alterations can also give rise to neoantigens, novel cancer-specific peptides presented on the cell surface that elicit host immune responses. This process is particularly important in hyper-mutated tumours that carry an increased number of mutations. Therefore, escaping immune elimination is a crucial step of cancer development.,
+    - > 
+      In this work, we construct a stochastic branching process-based model of tumour evolution, that accounts for neoantigen acquisition and immune escape strategies. We compare simulations to exome sequencing data of colorectal cancers. Using the principle that selective pressures acting on cells influence the number of off-spring sharing the genotype, we establish the characteristic variant allele frequency (VAF) distribution expected under immune selection [1]. We show a sampling bias for immune escape; and explore how temporary ultra-high mutation rate provides an evolutionary strategy in detected hyper-mutated tumours [2].
+    - > 
+      - 1. Lakatos, E. et al. Evolutionary dynamics of neoantigens in growing tumours. Nature Genetics (2020)
+    - >  
+      - 2. Kayhanian, H. et al. A molecular on/off switch regulates adaptive hypermutability and immune escape in mismatch repair-deficient cancer. bioRxiv (2022)
 
 - order: 4
   name: 
@@ -58,7 +67,7 @@
     - Sebastian Diehl is professor of Ecology at Umeå University. He studies how aquatic ecosystems respond to changes in the environment and in the composition of the biological community. We explore mathematical models of our study systems to generate testable predictions, which we examine and refine in cooperation with empirical colleagues.
   bio:
     - > 
-    - Sebastian's current research focuses on understanding how increased water temperature and increased terrestrial inputs of organic carbon and nutrients (humic matter) affect production and food web dynamics in relatively nutrient poor, northern lakes. Both of these environmental changes have been ongoing for several decades and are projected to continue in a warming climate. These specific questions link to broader issues such as the temperature dependence of consumer-resource interactions and the regulation of the fluxes of energy and nutrients through different food chains within ecosystems.
+      - Sebastian's current research focuses on understanding how increased water temperature and increased terrestrial inputs of organic carbon and nutrients (humic matter) affect production and food web dynamics in relatively nutrient poor, northern lakes. Both of these environmental changes have been ongoing for several decades and are projected to continue in a warming climate. These specific questions link to broader issues such as the temperature dependence of consumer-resource interactions and the regulation of the fluxes of energy and nutrients through different food chains within ecosystems.
       
   title: Abrupt state shifts in shallow lakes along smooth environmental gradients
   abstract:
