@@ -35,8 +35,8 @@
       <br />
     </ul> 
     <p class="mt-2">
-      Participation will require a fee of 100 SEK. <br />
-      Participation at the dinner will require an additional fee of 400 SEK, payment information can be found below: <br /><br />
+      Participation will require a fee of 200 SEK*. <br />
+      Participation at the dinner will require an additional fee of 500 SEK, payment information can be found below: <br /><br />
 
       From within Sweden:<br />
       Bank giro: 5050-0016<br />
@@ -49,10 +49,10 @@
       IBAN: SE13 1200 0000 0128 1011 7713<br />
       State "17016, project 995631, MBM" as reference<br /><br />
 
-      <!--*This do not apply for MSc or undergraduate students.-->
+      *This do not apply for MSc or undergraduate students.
     </p>
 
-    <!-- poster/talkm registration  -->
+    <!-- poster/talk registration  -->
     <div  style="width:50%; margin:auto;">
       <div style="display:inline-block; width:50%;text-align:center;">
         <form class="mt-4 flex flex-row justify-center items-center" 
@@ -66,7 +66,7 @@
       </div>
 
       <!-- participation registration
-      action non-clickable buttin: "javascript:void(0)" -->
+      action non-clickable button: "javascript:void(0)" -->
       <div style="display:inline-block; width:50%;text-align:center;">
         <form class="mt-4 flex flex-row justify-center items-center" 
               action="https://forms.gle/R4QChkWsk7qBaXcX7"
