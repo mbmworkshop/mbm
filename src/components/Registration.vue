@@ -30,7 +30,7 @@
       The <span class="font-semibold">registration deadline</span> is
     </p>
     <ul class="mt-2 px-8 list-disc">
-      <li>for talks and posters on April 14th</li>
+      <li>for talks and posters on April 28th</li>
       <li>for observers on April 28th</li>
       <br />
     </ul> 
