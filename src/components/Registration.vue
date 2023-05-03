@@ -26,14 +26,14 @@
       Please note that you can edit your registration, which allows you
       to change your participation status.
     </p>
-    <p class="mt-2">
+    <!--<p class="mt-2">
       The <span class="font-semibold">registration deadline</span> is
     </p>
     <ul class="mt-2 px-8 list-disc">
       <li>for talks and posters on April 28th</li>
       <li>for observers on April 28th</li>
       <br />
-    </ul> 
+    </ul> -->
     <p class="mt-2">
       Participation will require a fee of 200 SEK*. <br />
       Participation at the dinner will require an additional fee of 500 SEK, payment information can be found below: <br /><br />
