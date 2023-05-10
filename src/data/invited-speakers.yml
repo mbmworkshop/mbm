@@ -90,3 +90,33 @@
   abstract:
     - > 
       The renal vasculature, acting as a resource distribution network, plays an important role in both the physiology and pathophysiology of the kidney. However, no imaging techniques allow an assessment of the structure and function of the renal vasculature due to limited spatial and temporal resolution. The functional consequences of interactions between functional units of the kidney are not understood. We provide experimental data and a new modeling approach to clarify this problem. To develop realistic computer simulations of renal function, and to develop new image-based diagnostic methods based on artificial intelligence, it is necessary to have a realistic full-scale model of the renal vasculature. Our results show a close agreement between the reconstructed vasculature and existing anatomical data obtained from a rat kidney with respect to morphometric and hemodynamic parameters.
+
+- order: 5
+  name: 
+    first: Panel
+    last: debate
+  invited: true
+  image: favicon.png
+  description: > 
+    - How is it to, as an experimentalist, work with modellers?
+  bio:
+    - >
+      We have invited three experimentalists who all have collaborated with modellers in different projects: 
+    - >
+      Kajsa Kanebratt, PhD, Associate Principal Scientist, ADME, AstraZeneca BioPharmaceuticals R&D | Research and Early Development CVRM.
+    - >
+      Cecilia Jönsson, Principal Research Engineer, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Cell biology.
+    - >
+      Maria Engström, Professor, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Neuroimaging
+
+  title: How is it to collaborate with modellers?
+  abstract:
+    - > 
+      We have invited three experimentalists who all have collaborated with modellers in different projects: 
+    - >
+      Kajsa Kanebratt, PhD, Associate Principal Scientist, ADME, AstraZeneca BioPharmaceuticals R&D | Research and Early Development CVRM.
+    - >
+      Cecilia Jönsson, Principal Research Engineer, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Cell biology.
+    - >
+      Maria Engström, Professor, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Neuroimaging
+

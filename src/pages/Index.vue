@@ -84,10 +84,9 @@
 
       <Program />
       <InvitedSpeakers />
-      <!-- <Overview title="Talks" :collection="$static.talks"  /> -->
-      <!-- <Overview title="Posters" :collection="$static.posters" /> -->
+      <Overview title="Talks" :collection="$static.talks"  />
+      <Overview title="Posters" :collection="$static.posters" />
       <Registration />
-      <!-- <Sponsor />-->
 
       <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1 lg:border-b lg:pb-4 border-gray-400 w-full">
         <section class="body-text">
@@ -102,6 +101,7 @@
         </section>
       </div>
 
+      <Sponsor />
       <Contact />       
     </div>
   </Layout>
