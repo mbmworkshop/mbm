@@ -51,10 +51,10 @@ export default {
         'Format',
         'Program',
         'Invited Speakers',
-        // 'Talks',
-        // 'Posters',
+        'Talks',
+        'Posters',
         'Registration',
-        // 'Sponsor',
+        'Sponsor',
         'Contact'
       ]
     }

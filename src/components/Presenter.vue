@@ -7,10 +7,8 @@
         <span class="font-semibold">{{ $props.name }}</span> <h3></h3>
         <span class="text">{{ $props.affiliation }}</span>
         <span class="italic">{{ $props.title }}</span>
-        
       </h3>
     </div>
-    
     
     <div class="body-text speaker-description mb-8">
       <Markdown v-for="para in $props.abstract"
