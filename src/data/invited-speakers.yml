@@ -1,122 +1,60 @@
 - order: 1
   name: 
-    first: Matthias
-    last: König
-  invited: true
-  image: Koenig_square.png
-  description: >
-    - Matthias König leads the junior research group of Systems Medicine of the Liver at the Humboldt-University Berlin. The König lab uses Systems Medicine and Systems Biology to study drug metabolism and liver function. We apply computational modeling, data science, data management, bioinformatics analysis and machine learning on biological, medical and clinical data.
-  bio:
-    - >
-      - Main research topics are (i) predictive modeling of biomedical systems with special focus on the liver; (ii) development of digital twins using physiologically based pharmacokinetic (PBPK) models, (iii) reproducible and open research, and (iv) FAIR data and workflows. 
-    - >
-      - Key projects are the personalized evaluation of liver function tests, multi-scale modeling of the liver, and development of databases and workflows to support reproducible, open and FAIR research. Within our research we generate predictive digital twins of the individual human physiology. Such models can provide important insights in inter-individual differences and personal treatments, e.g., individual dosing of medication or effect of lifestyle factors on drug metabolism.
-
-  title: Digital twins for metabolic phenotyping and liver function evaluation
-  abstract: 
-    - > 
-      Physiologically-based pharmacokinetic (PBPK) models are powerful tools for studying drug metabolism and its effect on the human body. Here, we present our work on applying PBPK models as digital twins for metabolic phenotyping and liver function evaluation [1-6]. To develop and validate our models, we established the first open pharmacokinetics database, PK-DB, which contains curated data from over 600 clinical studies. Our models can be individualized and stratified, allowing us to simulate the effect of lifestyle factors and co-administration on drug metabolism.
-    - >
-      We have applied our models to various clinical questions, such as simulating individual outcomes after hepatectomy using an indocyanine green model and studying the effect of CYP2D6 gene variants using a model of dextromethorphan coupled with drug-gene interactions. These models are constructed hierarchically, describing metabolism and other biological processes of organs such as liver and kidney coupled to whole-body physiology. All models and data are available for reuse in a reproducible manner encoded in the Systems Biology Markup Language (SBML).
-    - >
-      Here we will give an overview of PBPK models and how SBML can facilitate model development, coupling and reuse.
-    - >
-      1. PK-DB: pharmacokinetics database for individualized and stratified computational modeling. Grzegorzewski J, Brandhorst J, Green K, Eleftheriadou D, Duport Y, Barthorscht F, Köller A, Ke DYJ, De Angelis S, König M. Nucleic Acids Res. 2021 Jan 8;49(D1):D1358-D1364. doi:10.1093/nar/gkaa990. pmid:33151297
-    - >
-      2.	Pharmacokinetics of caffeine: A systematic analysis of reported data for application in metabolic phenotyping and liver function testing. Jan Grzegorzewski, Florian Bartsch, Adrian Köller, and Matthias König. Frontiers in Pharmacology 2022, Vol12. doi:10.3389/fphar.2021.752826. pmid:35280254
-    - >
-      3.	Prediction of survival after hepatectomy using a physiologically based pharmacokinetic model of indocyanine green liver function tests. Adrian Köller, Jan Grzegorzewski, Michael Tautenhahn, Matthias König. Front. Physiol., 22 November 2021. doi:10.3389/fphys.2021.730418. pmid:34880771
-    - >
-      4.	Physiologically based modeling of the effect of physiological and anthropometric variability on indocyanine green based liver function tests. Adrian Köller, Jan Grzegorzewski and Matthias König. Front Physiol. 2021 Nov 22;12:757293. doi:10.3389/fphys.2021.757293. pmid:34880776
-    - >
-      5.	Physiologically based pharmacokinetic (PBPK) modeling of the role of CYP2D6 polymorphism for metabolic phenotyping with dextromethorphan. Grzegorzewski, J., Brandhorst, J., König, M. Front Pharmacol. 2022 Oct 24;13:1029073. doi:10.3389/fphar.2022.1029073. pmid:36353484
-    - >
-      6.	A physiologically based pharmacokinetic model for CYP2E1 phenotyping via chlorzoxazone. J. Küttner, J. Grzegorzewski, HM. Tautenhahn, M. König. bioRxiv 2023.04.12.536571 (preprint). doi:10.1101/2023.04.12.536571
-      
-
-- order: 2
-  name: 
-    first: Eszter
-    last: Lakatos
+    first: a
+    last: a
   invited: true
   image: favicon.png
   description: > 
-    - Eszter is a junior PI recently recruited to Chalmers, Health Engineering Area of Advance – Department of Mathematical Sciences, during the Area of Advance calls.   
-    
-  bio: 
-    - > 
-    - In my research, I develop mathematical models and bioinformatic methods to analyse large-scale cancer sequencing datasets. With these methods I ask questions about how cancers evolve to survive in a changing environment. My two main focuses are (i) understanding the tumour-immune interaction by exploring cancer-specific neoantigens; and (ii) following the evolution of therapeutic resistance from liquid biopsies.
-      
-  title: The evolutionary process balancing immune selection during tumour growth
-  abstract:
-    - > 
-      A growing tumour is an inherently stochastic evolving system: during tumour development, cancer cells randomly acquire mutations that may provide them with a beneficial phenotype. However, random genetic alterations can also give rise to neoantigens, novel cancer-specific peptides presented on the cell surface that elicit host immune responses. This process is particularly important in hyper-mutated tumours that carry an increased number of mutations. Therefore, escaping immune elimination is a crucial step of cancer development.,
-    - > 
-      In this work, we construct a stochastic branching process-based model of tumour evolution, that accounts for neoantigen acquisition and immune escape strategies. We compare simulations to exome sequencing data of colorectal cancers. Using the principle that selective pressures acting on cells influence the number of off-spring sharing the genotype, we establish the characteristic variant allele frequency (VAF) distribution expected under immune selection [1]. We show a sampling bias for immune escape; and explore how temporary ultra-high mutation rate provides an evolutionary strategy in detected hyper-mutated tumours [2].
-    - > 
-      - 1. Lakatos, E. et al. Evolutionary dynamics of neoantigens in growing tumours. Nature Genetics (2020)
-    - >  
-      - 2. Kayhanian, H. et al. A molecular on/off switch regulates adaptive hypermutability and immune escape in mismatch repair-deficient cancer. bioRxiv (2022)
-
-- order: 3
-  name: 
-    first: Sebastian  
-    last: Diehl
-  invited: true
-  image: Seb_2020_small.JPG
-  description: >
-    - Sebastian Diehl is professor of Ecology at Umeå University. He studies how aquatic ecosystems respond to changes in the environment and in the composition of the biological community. We explore mathematical models of our study systems to generate testable predictions, which we examine and refine in cooperation with empirical colleagues.
-  bio:
-    - > 
-      - Sebastian's current research focuses on understanding how increased water temperature and increased terrestrial inputs of organic carbon and nutrients (humic matter) affect production and food web dynamics in relatively nutrient poor, northern lakes. Both of these environmental changes have been ongoing for several decades and are projected to continue in a warming climate. These specific questions link to broader issues such as the temperature dependence of consumer-resource interactions and the regulation of the fluxes of energy and nutrients through different food chains within ecosystems.
-      
-  title: Abrupt state shifts in shallow lakes along smooth environmental gradients
-  abstract:
-    - >
-      Aquatic primary producers face a fundamental environmental tradeoff: solar radiation needed for photosynthesis is highest at the water surface, whereas mineral nutrients needed for growth are most abundant at the bottom of the water column. This creates a spatial competitive asymmetry between bottom-living algae, which can intercept nutrients regenerated in the sediment, and free-floating planktonic algae, which can intercept light and shade out the bottom. This asymmetry generates positive feedbacks and the possibility of alternative stable states where, depending on initial conditions, either planktonic or bottom-living algae could come to dominance. I present a model of light and nutrient dependent algal growth and explore how environmental factors such as nutrient supply, water column depth and the concentration of light absorbing humic substances affect the outcome of resource competition between planktonic and bottom-living algae. I compare model predictions to empirical observations and discuss conditions under which abrupt shifts in dominance of the two competitors might occur along smooth environmental gradients.
-
-- order: 4
-  name: 
-    first: Olga
-    last: Sosnovtseva
-  invited: true
-  image: olga.jpg
-  description: > 
-    - Olga Sosnovtseva leads the group of Biophysics and Biosimulation within Physiology of Circulation, Kidney and Lung Section at the Department of Biomedical Sciences, University of Copenhagen.
+    - a
   bio:
     - >
-      - Olga's research is focused on understanding the complex interplay between renal autoregulatory mechanisms and causes of their pathological changes related to hypertension and diabetes. We use integrated approach: combination of novel experimental techniques, advanced machine learning computational algorithms, and modeling on macroscopic and microscopic levels. We aim to map topological and dynamical features of renal autoregulation within the framework of translational studies.
-  title: Hacking renal arterial network
+      - a
+  title: a
   abstract:
     - > 
-      The renal vasculature, acting as a resource distribution network, plays an important role in both the physiology and pathophysiology of the kidney. However, no imaging techniques allow an assessment of the structure and function of the renal vasculature due to limited spatial and temporal resolution. The functional consequences of interactions between functional units of the kidney are not understood. We provide experimental data and a new modeling approach to clarify this problem. To develop realistic computer simulations of renal function, and to develop new image-based diagnostic methods based on artificial intelligence, it is necessary to have a realistic full-scale model of the renal vasculature. Our results show a close agreement between the reconstructed vasculature and existing anatomical data obtained from a rat kidney with respect to morphometric and hemodynamic parameters.
+      a
+  
+# - order: 2
+#   name: 
+#     first: 
+#     last: 
+#   invited: true
+#   image: 
+#   description: >
+#     -
+#   bio:
+#     - >
+#       -  
+#   title: 
+#   abstract:
+#     - >
 
-- order: 5
-  name: 
-    first: Panel
-    last: debate
-  invited: true
-  image: favicon.png
-  description: > 
-    - How is it to, as an experimentalist, work with modellers?
-  bio:
-    - >
-      We have invited three experimentalists who all have collaborated with modellers in different projects: 
-    - >
-      Kajsa Kanebratt, PhD, Associate Principal Scientist, ADME, AstraZeneca BioPharmaceuticals R&D | Research and Early Development CVRM.
-    - >
-      Cecilia Jönsson, Principal Research Engineer, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Cell biology.
-    - >
-      Maria Engström, Professor, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Neuroimaging
+# - order: 3
+#   name: 
+#     first: 
+#     last: 
+#   invited: true
+#   image: 
+#   description: >
+#     -
+#   bio: 
+#     - >
+#       -
+#   title: 
+#   abstract:
+#     - >
 
-  title: How is it to collaborate with modellers?
-  abstract:
-    - > 
-      We have invited three experimentalists who all have collaborated with modellers in different projects: 
-    - >
-      Kajsa Kanebratt, PhD, Associate Principal Scientist, ADME, AstraZeneca BioPharmaceuticals R&D | Research and Early Development CVRM.
-    - >
-      Cecilia Jönsson, Principal Research Engineer, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Cell biology.
-    - >
-      Maria Engström, Professor, Department of Health, Medicine, and Caring Sciences (HMV), Linköping University. Neuroimaging
-
+# - order: 4
+#   name: 
+#     first: 
+#     last: 
+#   invited: true
+#   image: 
+#   description: >
+#     -
+#   bio:
+#     - >
+#       -
+#   title: 
+#   abstract:
+#     - >

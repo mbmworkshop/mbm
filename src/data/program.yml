@@ -3,29 +3,20 @@
     - time: "13:30"
       activity: Opening
     - time: "13.45"
-      activity: Matthias König
+      activity: a a
       talk: true
       invited: true
     - time: "14.30"
       activity: Break
       break: true
     - time: "14.40"
-      activity: Carl-Joar Karlsson
+      activity: a  a
       talk: true
     - time: "15.00"
       activity: Coffee
       break: true
     - time: "15.40"
-      activity: Julia Åkesson
-      talk: true
-    - time: "16.00"
-      activity: William Lövfors
-      talk: true
-    - time: "16.20"
-      activity: Henrik Podéus
-      talk: true
-    - time: "16.40"
-      activity: Kajsa Tunedal
+      activity: a a 
       talk: true
     - time: "17:00"
       activity: End of day 1
@@ -38,14 +29,14 @@
     - time: "09:20" 
       activity: Opening
     - time: "09.30"
-      activity: Sebastian Diehl
+      activity: a a
       talk: true
       invited: true
     - time: "10.15"
       activity: Coffee
       break: true
     - time: "10.45"
-      activity: Oscar Arrestam
+      activity: a a
       talk: true
     - time: "11.05"
       activity: Poster session
@@ -56,25 +47,9 @@
     - time: "13.15"
       activity: Panel debate - How is it to collaborate with modellers?
       talk: true
-    - time: "14.00"
-      activity: Sophia Bäck
-      talk: true 
-    - time: "14.20"
-      activity: Valentin Kindesjö
-      talk: true 
     - time: "14.40"
       activity: Coffee
       break: true
-    - time: "15:15"
-      activity: Olga Sosnovtseva
-      talk: true
-      invited: true
-    - time: "16.00"
-      activity: Elin Nyman
-      talk: true 
-    - time: "16.20"
-      activity: Sebastian Persson
-      talk: true
     - time: "16:40"
       activity: End of day 2
     - time: "18:00"
@@ -86,20 +61,11 @@
     - time: "09:20" 
       activity: Opening
     - time: "09.30"
-      activity: Eszter Lakatos
+      activity: a a
       talk: true
       invited: true
     - time: "10.15"
       activity: Coffee
       break: true
-    - time: "10.45"
-      activity: Natalia Tomczyk Lövfors
-      talk: true 
-    - time: "11.05"
-      activity: David Martínez-Enguita
-      talk: true 
     - time: "11:30"
       activity: End of day 3
-    - time: "12.00"
-      activity: Optional lunch
-      break: true
