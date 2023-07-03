@@ -2,7 +2,7 @@
 <template>
   <section class="mt-4 border-b border-gray-400 pb-4 w-full">
     <div id="program" class="h-0" style="bottom: 100px; position: relative;"></div>
-    <h2 class="section-header">Preliminary program</h2>
+    <h2 class="section-header">Program</h2>
     <div class="flex flex-col lg:flex-row pt-2 pb-4">
       <div v-for="edge in $static.program.edges" :key="edge.node.id"
             class="px-4 w-full lg:w-1/2 flex flex-col">

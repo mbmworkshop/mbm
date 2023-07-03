@@ -56,7 +56,7 @@
     <div  style="width:50%; margin:auto;">
       <div style="display:inline-block; width:50%;text-align:center;">
         <form class="mt-4 flex flex-row justify-center items-center" 
-              action="https://forms.gle/KoCo686JZSrvBdA89" 
+              action="https://" 
               target="_blank">
           <input type="submit" 
                 class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded
@@ -69,7 +69,7 @@
       action non-clickable button: "javascript:void(0)" -->
       <div style="display:inline-block; width:50%;text-align:center;">
         <form class="mt-4 flex flex-row justify-center items-center" 
-              action="https://forms.gle/R4QChkWsk7qBaXcX7"
+              action="https://"
               target="_blank">
           <input type="submit" 
                 class="bg-mbm-green text-gray-100 font-semibold py-2 px-6 rounded

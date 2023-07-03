@@ -24,11 +24,11 @@
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">Linköping 2023 </span>
+              <span class="font-semibold">Linköping </span>
             </p>
             <p class="xs:text-xl sm:text-2xl lg:text-3xl
                       text-center lg:text-left">
-              <span class="font-semibold">May 15<sup>th</sup> to 17<sup>th</sup> </span>
+              <span class="font-semibold">TBA </span>
             </p>
           </div>
         </div>
@@ -38,9 +38,9 @@
                   lg:border-b lg:pb-4 border-gray-400">
         <section class="body-text border-b lg:border-b-0 lg:border-r pb-4 lg:pb-0 lg:pr-4 border-gray-400">
           <h2 class="section-header">The Workshop</h2>
-          <p>
-            We are pleased to invite you to our <span class="font-semibold">fourth Workshop on Modelling in Biology and Medicine (MBM 2023)</span>.
-          </p>
+          <!-- <p>
+            We are pleased to invite you to our <span class="font-semibold">fourth Workshop on Modelling in Biology and Medicine </span>.
+          </p> -->
           <p>
             We aim to gather all young researchers in Sweden working on modelling of biological systems. Our ambition is to give all participating PhD students and PostDocs the opportunity to present their work through an oral presentation or a poster. Further, we wish to provide an insight on how modelling in biology and medicine is practiced in academia and industry.
           </p>
@@ -51,24 +51,24 @@
           <p>
             The workshop will include both plenary presentation sessions for larger talks as well as smaller sessions for e.g. poster presentations and discussions.
           </p>
-          <p>
+          <!-- <p>
             The exact technicalities will be made available for <span class="font-semibold">registered participants</span> closer to the date of the workshop. 
-          </p>
+          </p> -->
           <p>
             We will keep the workshop physically in Linköping, to promote networking. <span class="font-semibold"></span>
           </p>
         </section>
       </div>
 
-      <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
+      <!-- <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1
                   lg:border-b lg:pb-4 border-gray-400 w-full">
         <section class="body-text">
           <h2 class="section-header">Venue</h2>
           <p>
-            The workshop will be arranged at the University Hospital Campus in Linköping. More specificly, entrance 65, marked out in <a href="https://goo.gl/maps/nMtDDS3FgAgqfmw5A" target="_blank" ><u>Google maps</u></a>. 
+            The workshop will be arranged at the University Hospital Campus in Linköping. More specifically, entrance 65, marked out in <a href="https://goo.gl/maps/nMtDDS3FgAgqfmw5A" target="_blank" ><u>Google maps</u></a>. 
           </p>
           <p>
-            If you come to Linköping by public transport we recomend you to travel with <a href="https://www.ostgotatrafiken.se/linkopings-resecentrum/us-norra-entren/?walk=true" target="_blank" ><u>Östgötatrafiken</u></a>, going with a bus from the central station "Linköpings resecentrum" to "US norra entrén". 
+            If you come to Linköping by public transport we recommend you to travel with <a href="https://www.ostgotatrafiken.se/linkopings-resecentrum/us-norra-entren/?walk=true" target="_blank" ><u>Östgötatrafiken</u></a>, going with a bus from the central station "Linköpings resecentrum" to "US norra entrén". 
           </p>
           <p>
             If you are using other means of transportation, it would be easiest to travel to the coordinate location 58.40230939062588, 15.621568767919038, or see these <a href="/directionsMBMLinkoping.pdf" target="_blank"> <u>instructions</u></a>.
@@ -79,19 +79,19 @@
 
         </section>
         
-      </div>
+      </div> -->
       
 
-      <Program />
+      <!-- <Program />
       <InvitedSpeakers />
       <Overview title="Talks" :collection="$static.talks"  />
       <Overview title="Posters" :collection="$static.posters" />
-      <Registration />
+      <Registration /> -->
 
       <div class="mt-4 lg:grid lg:grid-flow-row lg:grid-rows-1 lg:grid-cols-1 lg:border-b lg:pb-4 border-gray-400 w-full">
         <section class="body-text">
           <p align="center">
-            If you want more of MBM - the talks from last year are available on this <a href="https://youtu.be/jKtz4tqRChA"><u>link</u></a> or down below.
+            If you want more of MBM - the talks from 2022 are available on this <a href="https://youtu.be/jKtz4tqRChA"><u>link</u></a> or down below.
           </p><br>
           <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/jKtz4tqRChA" title="YouTube video player" frameborder="0" 
@@ -101,7 +101,7 @@
         </section>
       </div>
 
-      <Sponsor />
+      <!-- <Sponsor /> -->
       <Contact />       
     </div>
   </Layout>
