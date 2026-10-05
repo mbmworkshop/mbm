@@ -12,23 +12,16 @@ makes the development of a static website possible.
 ## Setup
 
 To get up and running, clone the repository and run (recommended)
-```
-yarn
-```
-or
-```
+
+```sh
 npm install
 ```
 
 In addition, you will want to install the gridsome CLI with
-```
-yarn global add @gridsome/cli
-```
-or
-```
+
+```sh
 npm install --global @gridsome/cli
 ```
-depending on the preferred package manager.
 
 ## Workflow
 
@@ -38,3 +31,21 @@ The project workflow can be controlled using `npm run` scripts
 - `build` to build the website locally to the `dist` folder
 - `deploy` to publish the built website (`build` is run automatically and
    does not have to be run before)
+
+## GitHub Pages
+
+The site is hosted at `https://mbmworkshop.github.io/mbm/`. In
+`gridsome.config.js`, `siteUrl` specifies the origin
+(`https://mbmworkshop.github.io`) and `pathPrefix: '/mbm'` specifies the
+repository path. Both are needed.
+
+## Caveats
+
+With newer Node.js versions, this project's Webpack 4 dependency may fail
+with `ERR_OSSL_EVP_UNSUPPORTED`. On macOS/Linux, use the compatibility option
+for the build or deployment:
+
+```sh
+NODE_OPTIONS=--openssl-legacy-provider npm run build
+NODE_OPTIONS=--openssl-legacy-provider npm run deploy
+```
