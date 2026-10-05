@@ -6,7 +6,7 @@
           <a class="inline-flex items-center px-4 h-12 lg:h-16
                     focus:outline-none focus:underline text-gray-100 hover:text-white
                     hover:no-underline hover:bg-mbm-green-dark"
-              href="/#top">
+              href="#top">
             <span class="my-auto font-extrabold text-3xl tracking-tight">
               MBM 2023
             </span>
@@ -28,7 +28,7 @@
       </div>
       <div :class="isOpen ? 'block' : 'hidden'" class="lg:flex">
         <a v-for="section in sections" :key="section"
-           :href="'/#' + section.replace(' ', '-').toLowerCase()"
+           :href="'#' + section.replace(' ', '-').toLowerCase()"
            class="block text-lg text-gray-100 px-8 lg:px-4 py-2 lg:inline-flex lg:mt-0
                   lg:py-0 lg:items-center lg:h-16
                   focus:outline-none focus:underline
